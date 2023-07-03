@@ -1,9 +1,9 @@
 # Fdb version 3
-["bibtex Thesis"] 1688392450 "Thesis.aux" "Thesis.bbl" "Thesis" 1688397912
+["bibtex Thesis"] 1688392450 "Thesis.aux" "Thesis.bbl" "Thesis" 1688401922
   (generated)
   "Thesis.bbl"
   "Thesis.blg"
-["pdflatex"] 1688397910 "/Users/rafaelpastor/Library/CloudStorage/OneDrive-UniversidadedeLisboa/MEFT/spin0-np-constants/MScThesis/Thesis.tex" "Output/Thesis.pdf" "Thesis" 1688397912
+["pdflatex"] 1688401920 "/Users/rafaelpastor/Library/CloudStorage/OneDrive-UniversidadedeLisboa/MEFT/spin0-np-constants/MScThesis/Thesis.tex" "Output/Thesis.pdf" "Thesis" 1688401922
   "/Users/rafaelpastor/Library/CloudStorage/OneDrive-UniversidadedeLisboa/MEFT/spin0-np-constants/MScThesis/Thesis.tex" 1677235004 11564 f3497ba9fc5c237d83102b4cfd270518 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -16,6 +16,7 @@
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm" 1246382020 908 2921f8a10601f252058503cc6570e581 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm" 1246382020 940 228d6584342e91276bf566bcf9716b83 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/fourier-alt-bold.tfm" 1136768653 224 4ac72e62f85410d4b37560babc0905f9 ""
+  "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/fourier-alt-ita.tfm" 1136768653 216 e27f2b163ac276d8da5e6537416cdf40 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/fourier-alt.tfm" 1136768653 220 26d85b63a783b1f1fab5622acbd07990 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/fourier-bb.tfm" 1575236847 588 30b875a179a99eec0f6f0a2540c942c1 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/fourier-mcl.tfm" 1136768653 620 19c124db3cfab09e2a270e93c0b94c1c ""
@@ -30,6 +31,7 @@
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futr8r.tfm" 1136768653 1624 538d715a58a983dc183e18316ca72926 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futr8t.tfm" 1136768653 16984 6d4d92d3efaef5cab6a470d5d5548d56 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futri8r.tfm" 1136768653 1844 05bfde78a3831349c6fcf7f272c13d65 ""
+  "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futri8t.tfm" 1136768653 16416 afc29352777063eec9d207ab744c06f5 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futsy.tfm" 1136768653 2072 49145300fcadcc756b7349fc6e6c8913 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm" 1229303445 688 37338d6ab346c2f1466b29e195316aa4 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/rsfs/rsfs5.tfm" 1229303445 684 3a51bd4fd9600428d5264cf25f04bb9a ""
@@ -48,6 +50,7 @@
   "/usr/local/texlive/2022/texmf-dist/fonts/vf/public/fourier/futb8t.vf" 1136768653 2168 d2ac693e07cd79dbc2b914caee3e8df0 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/vf/public/fourier/futmii.vf" 1136768653 1332 62b87bc157157fd0616b8398929f8399 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/vf/public/fourier/futr8t.vf" 1136768653 2168 e13210e675696694c4e23c8405ebd134 ""
+  "/usr/local/texlive/2022/texmf-dist/fonts/vf/public/fourier/futri8t.vf" 1136768653 2168 a3de0d7b0ec248b9d25f46a83dfdb4d8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/vf/public/fourier/futsy.vf" 1136768653 1244 1f4b25246745a5efc1d2ad7087b5a9e9 ""
   "/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/local/texlive/2022/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1575674566 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
@@ -171,14 +174,14 @@
   "Modules/Nomenclature.tex" 1682606724 2381 205c9ce85eb7ee25f67d77a211eb4a39 ""
   "Modules/Preamble.tex" 1688397662 23510 ebe60c5827765559acca97897664ddf3 ""
   "Modules/Resumo.tex" 1682606724 973 836d500fdff5d5f98a236308e0ac206e ""
-  "Output/Thesis.aux" 1688397912 3592 9a6c7c3736eb01ac4190883180a33d93 "pdflatex"
+  "Output/Thesis.aux" 1688401922 3592 9a6c7c3736eb01ac4190883180a33d93 "pdflatex"
   "Output/Thesis.gls" 0 -1 0 ""
-  "Output/Thesis.lof" 1688397912 90 1258fa74a74880edec024276afdeb416 "pdflatex"
-  "Output/Thesis.lot" 1688397912 90 1258fa74a74880edec024276afdeb416 "pdflatex"
+  "Output/Thesis.lof" 1688401922 90 1258fa74a74880edec024276afdeb416 "pdflatex"
+  "Output/Thesis.lot" 1688401922 90 1258fa74a74880edec024276afdeb416 "pdflatex"
   "Output/Thesis.nls" 0 -1 0 ""
-  "Output/Thesis.out" 1688397912 2114 b842c16e6115b437018f507a1753ac0b "pdflatex"
-  "Output/Thesis.toc" 1688397912 1078 75af3eb43151de36f2bb304d92cee0cc "pdflatex"
-  "Sections/1_Introduction.tex" 1688397910 5397 a59f6f1e60d16ecbf8cadc8febccb1f1 ""
+  "Output/Thesis.out" 1688401922 2114 b842c16e6115b437018f507a1753ac0b "pdflatex"
+  "Output/Thesis.toc" 1688401922 1078 75af3eb43151de36f2bb304d92cee0cc "pdflatex"
+  "Sections/1_Introduction.tex" 1688401920 6870 c3d3b2b2f22913e89d26cd979d57139f ""
   "Thesis.bbl" 1688378132 275 de5ffaf5b665b622658d80bed97ba2a5 "bibtex Thesis"
   "Thesis.gls" 0 -1 0 ""
   "Thesis.nls" 0 -1 0 ""
