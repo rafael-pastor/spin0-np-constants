@@ -9,9 +9,9 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Motivation}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Global structure of spacetimes}{2}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Newman-Penrose Constants}{4}{section.1.3}%
-\contentsline {chapter}{Bibliography}{5}{section*.11}%
-\contentsline {chapter}{\numberline {A}Vector calculus}{7}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Vector identities}{7}{section.A.1}%
-\contentsline {chapter}{\numberline {B}Technical Datasheets}{9}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Some Datasheet}{9}{section.B.1}%
+\contentsline {section}{\numberline {1.3}Newman-Penrose Constants}{5}{section.1.3}%
+\contentsline {chapter}{Bibliography}{7}{section*.11}%
+\contentsline {chapter}{\numberline {A}Vector calculus}{9}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Vector identities}{9}{section.A.1}%
+\contentsline {chapter}{\numberline {B}Technical Datasheets}{11}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Some Datasheet}{11}{section.B.1}%

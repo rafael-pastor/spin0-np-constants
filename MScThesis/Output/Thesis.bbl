@@ -1,0 +1,46 @@
+\begin{thebibliography}{6}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Hawking et~al.(2016)Hawking, Perry, and Strominger]{HawMalStr16}
+S.~W. Hawking, M.~J. Perry, and A.~Strominger.
+\newblock {Soft Hair on Black Holes}.
+\newblock \emph{Phys. Rev. Lett.}, 116\penalty0 (23):\penalty0 231301, 2016.
+\newblock \doi{10.1103/PhysRevLett.116.231301}.
+
+\bibitem[Dain and Valiente-Kroon(2002)]{DaiVal02}
+S.~Dain and J.~A. Valiente-Kroon.
+\newblock {Conserved quantities in a black hole collision}.
+\newblock \emph{Class. Quant. Grav.}, 19:\penalty0 811--816, 2002.
+\newblock \doi{10.1088/0264-9381/19/4/312}.
+
+\bibitem[Valiente-Kroon(2016)]{Val16}
+J.-A. Valiente-Kroon.
+\newblock \emph{Conformal Methods in General Relativity}.
+\newblock Cambridge University Press, Cambridge, 2016.
+
+\bibitem[Newman and Penrose(1968)]{NewPen68}
+E.~T. Newman and R.~Penrose.
+\newblock {New conservation laws for zero rest-mass fields in asymptotically
+  flat space-time}.
+\newblock \emph{Proc. Roy. Soc. Lond. A}, 305:\penalty0 175--204, 1968.
+\newblock \doi{10.1098/rspa.1968.0112}.
+
+\bibitem[Backdahl(2010)]{Bac10}
+T.~Backdahl.
+\newblock {Relating the Newman-Penrose constants to the Geroch-Hansen multipole
+  moments}.
+\newblock \emph{J. Phys. Conf. Ser.}, 229:\penalty0 012016, 2010.
+\newblock \doi{10.1088/1742-6596/229/1/012016}.
+
+\bibitem[Bai et~al.(2007)Bai, Zhou-jian, Gong, Shang, Wu, and
+  Lau]{BaiZhoGonXueXiaoLau07}
+S.~Bai, C.~Zhou-jian, X.-f. Gong, Y.~Shang, X.-n. Wu, and Y.~K. Lau.
+\newblock {Light Cone Structure near Null Infinity of the Kerr Metric}.
+\newblock \emph{Phys. Rev. D}, 75:\penalty0 044003, 2007.
+\newblock \doi{10.1103/PhysRevD.75.044003}.
+
+\end{thebibliography}

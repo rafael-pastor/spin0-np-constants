@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.14)  4 JUL 2023 12:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.14)  5 JUL 2023 18:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -868,44 +868,31 @@ No file Thesis.gls.
 (./Sections/1_Introduction.tex
 Chapter 1.
 
-Package natbib Warning: Citation `HawMalStr16' on page 1 undefined on input line 20.
-
-
-Package natbib Warning: Citation `HawMalStr16' on page 1 undefined on input line 22.
-
-
-Package natbib Warning: Citation `DaiVal02' on page 1 undefined on input line 26.
-
-
 Underfull \vbox (badness 1960) has occurred while \output is active []
 
  [1
 
 
 
-]
-
-Package natbib Warning: Citation `Val16' on page 2 undefined on input line 35.
-
-[2]
-<Penrose diagram.pdf, id=203, 260.975pt x 451.6875pt>
+] [2]
+<Penrose diagram.pdf, id=210, 260.975pt x 451.6875pt>
 File: Penrose diagram.pdf Graphic file (type pdf)
 <use Penrose diagram.pdf>
 Package pdftex.def Info: Penrose diagram.pdf  used on input line 87.
 (pdftex.def)             Requested size: 136.57462pt x 236.38133pt.
- [3]) [4
+ [3]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.181 \cleardoublepage
-                       <./Penrose diagram.pdf>] (./Thesis.bbl
+l.120 
+       <./Penrose diagram.pdf>]) [5] [6
 
-Package natbib Warning: Empty `thebibliography' environment on input line 8.
+] (Output/Thesis.bbl) [7
 
-) [5
-
-
-] [6
+] [8
 
 ] (./Modules/Appendix_A.tex
 Appendix A.
@@ -915,37 +902,33 @@ LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <7.6> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 28.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <6> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 28.
-) [7
-
-] [8
-
-] (./Modules/Appendix_B.tex
-Appendix B.
 ) [9
 
 ] [10
 
-]
+] (./Modules/Appendix_B.tex
+Appendix B.
+) [11
 
-Package natbib Warning: There were undefined citations.
+] [12
 
-(Output/Thesis.aux)
+] (Output/Thesis.aux)
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
 (rerunfilecheck)             Checksum: B842C16E6115B437018F507A1753AC0B;2114.
  ) 
 Here is how much of TeX's memory you used:
- 16233 strings out of 478268
- 259914 string characters out of 5846347
- 615138 words of memory out of 5000000
- 34000 multiletter control sequences out of 15000+600000
- 574382 words of font info for 123 fonts, out of 8000000 for 9000
+ 16272 strings out of 478268
+ 260494 string characters out of 5846347
+ 615531 words of memory out of 5000000
+ 34027 multiletter control sequences out of 15000+600000
+ 574809 words of font info for 125 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 115i,10n,109p,1406b,355s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-bb.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-ml.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on Output/Thesis.pdf (28 pages, 323043 bytes).
+ 115i,10n,109p,1397b,355s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-bb.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-mcl.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-ml.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on Output/Thesis.pdf (30 pages, 336905 bytes).
 PDF statistics:
- 333 PDF objects out of 1000 (max. 8388607)
- 257 compressed objects within 3 object streams
- 56 named destinations out of 1000 (max. 500000)
+ 366 PDF objects out of 1000 (max. 8388607)
+ 286 compressed objects within 3 object streams
+ 66 named destinations out of 1000 (max. 500000)
  139 words of extra memory for PDF output out of 10000 (max. 10000000)
 
