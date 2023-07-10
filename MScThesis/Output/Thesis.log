@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.14)  7 JUL 2023 15:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.14)  10 JUL 2023 15:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -766,7 +766,7 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ) (./Modules/FrontCover.tex
 Package pdftex.def Info: Option `bb' equivalent to `viewport' with the pdftex driver on input line 15.
-<Figures/Logos/IST_A_CMYK_POS.pdf, id=68, 845.0471pt x 597.51233pt>
+<Figures/Logos/IST_A_CMYK_POS.pdf, id=76, 845.0471pt x 597.51233pt>
 File: Figures/Logos/IST_A_CMYK_POS.pdf Graphic file (type pdf)
 <use Figures/Logos/IST_A_CMYK_POS.pdf>
 Package pdftex.def Info: Figures/Logos/IST_A_CMYK_POS.pdf  used on input line 15.
@@ -875,65 +875,113 @@ Underfull \vbox (badness 1960) has occurred while \output is active []
 
 
 ] [2]
-<Penrose diagram.pdf, id=210, 260.975pt x 451.6875pt>
+<Penrose diagram.pdf, id=220, 260.975pt x 451.6875pt>
 File: Penrose diagram.pdf Graphic file (type pdf)
 <use Penrose diagram.pdf>
 Package pdftex.def Info: Penrose diagram.pdf  used on input line 87.
 (pdftex.def)             Requested size: 136.57462pt x 236.38133pt.
- [3])
+ [3]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [4
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.181 \cleardoublepage
-                       <./Penrose diagram.pdf>]
+l.133 
+       <./Penrose diagram.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5] [6] (Output/Thesis.bbl
+ [5] [6]
+Chapter 2.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 134.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 134.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 134.
+
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 22.88956pt on input line 134.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 15.89755pt on input line 134.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 22.88956pt on input line 134.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 15.89755pt on input line 134.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 13.24796pt on input line 142.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 7.35999pt on input line 142.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 13.24796pt on input line 142.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 7.35999pt on input line 142.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 142.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 142.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 142.
+
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 147.
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <7.6> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 147.
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <6> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 147.
+[7
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8]) [9] [10
+
+] (Output/Thesis.bbl
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 56.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-) [7
+) [11
 
-
-]) [8] (./Modules/Appendix_A.tex
+]) [12] (./Modules/Appendix_A.tex
 Appendix A.
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 28.
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <7.6> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 28.
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <6> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 28.
-) [9
+) [13
 
 
-] [10
+] [14
 
 ] (./Modules/Appendix_B.tex
 Appendix B.
-) [11
+) [15
 
-] [12
+] [16
 
 ] (Output/Thesis.aux)
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: B842C16E6115B437018F507A1753AC0B;2114.
+(rerunfilecheck)             Checksum: 10B5E678C17BE41726E063A9621D8277;2621.
  ) 
 Here is how much of TeX's memory you used:
- 16328 strings out of 478268
- 261702 string characters out of 5846347
- 616929 words of memory out of 5000000
- 34070 multiletter control sequences out of 15000+600000
- 575122 words of font info for 126 fonts, out of 8000000 for 9000
+ 16425 strings out of 478268
+ 263091 string characters out of 5846347
+ 617943 words of memory out of 5000000
+ 34131 multiletter control sequences out of 15000+600000
+ 607683 words of font info for 178 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 115i,10n,109p,1397b,485s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-bb.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-mcl.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-ml.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on Output/Thesis.pdf (30 pages, 367487 bytes).
+ 115i,10n,109p,1397b,483s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-bb.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-mcl.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-ml.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-mlitb.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/adobe/utopia/putbi8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on Output/Thesis.pdf (34 pages, 392561 bytes).
 PDF statistics:
- 404 PDF objects out of 1000 (max. 8388607)
- 321 compressed objects within 4 object streams
- 75 named destinations out of 1000 (max. 500000)
- 139 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 464 PDF objects out of 1000 (max. 8388607)
+ 373 compressed objects within 4 object streams
+ 96 named destinations out of 1000 (max. 500000)
+ 155 words of extra memory for PDF output out of 10000 (max. 10000000)
 

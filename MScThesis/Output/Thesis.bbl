@@ -1,4 +1,4 @@
-\begin{thebibliography}{15}
+\begin{thebibliography}{18}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -96,6 +96,21 @@ E.~{Newman} and R.~{Penrose}.
 \newblock \emph{Journal of Mathematical Physics}, 3\penalty0 (3):\penalty0
   566--578, may 1962.
 \newblock \doi{10.1063/1.1724257}.
+
+\bibitem[Penrose(1963)]{Pen63}
+R.~Penrose.
+\newblock Asymptotic properties of fields and spacetimes.
+\newblock \emph{Phys. Rev. Lett.}, 10:\penalty0 66--68, 1963.
+
+\bibitem[Frauendiener(2004)]{Fra04}
+J.~Frauendiener.
+\newblock Conformal infinity.
+\newblock \emph{Living Rev. Relativity}, 7\penalty0 (1), 2004.
+
+\bibitem[Friedrich(2002)]{Fri02}
+H.~Friedrich.
+\newblock {C}onformal {E}instein evolution.
+\newblock \emph{Lect. Notes Phys.}, 604:\penalty0 1--50, 2002.
 
 \bibitem[Duarte et~al.(2022)Duarte, Feng, Gasperin, and
   Hilditch]{DuaFenGasHil22}

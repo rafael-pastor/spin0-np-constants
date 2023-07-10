@@ -30,7 +30,7 @@ In summary, general relativity revolutionizes our comprehension of gravity by de
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Global structure of spacetimes}
-\label{section:overview}
+\label{section:Global structure of spacetimes}
 
 Roger Penrose brought to the field of general relativity the notion of conformal transformation, which made a significant impact in the geometric understanding of infinity. This was crucial for the development of theory of asymptotics, which arises a question of whether a smooth conformal extension which attaches a boundary - conformal boundary represents points at infinity - to the spacetime is shared by a larger class of spacetimes. This question leads to the notion of \textit{asymptotic simplicity} \cite{Val16}. In the context of asymptotic simplicity, spatial infinity (denoted as $i^0$) represents the region at an infinite distance from the central object or system under consideration. It provides a framework to analyze the properties of spacetime far away from the gravitational source. Similarly, null infinity (denoted as $\mathscr{I}$) represents the region at an infinite "time" in the future or past. It corresponds to the points reached by light rays that have traveled an infinite distance from their source. This simplicity allows for the application of mathematical techniques and tools to study the behavior of physical fields, gravitational waves, and the conservation laws in these simplified regimes.
 Asymptotic simplicity is a concept in general relativity that refers to the behavior of spacetime at infinity. It characterizes the way spacetime and its geometry approach a simple and well-defined structure as we move to spatial infinity or null infinity.
@@ -105,11 +105,11 @@ $$ -1 \le \tau \le 1 $$
 with $\rho$ > 0. Therefore, light travels towards infinity to the places where $\tau = \pm 1$ in the conformal extension. So, in this representation,
 $$ \mathscr{I}^+ \equiv \{ \tau = 1 \}, \enspace \mathscr{I}^- \equiv \{ \tau = -1 \}$$ 
 The sets where future and past null-infinities touch spatial infinity are named the critical sets and are given by,
-$$ \mathcal{I}^+ = \{ \tau = 1, \enspace \rho = 0\}, \enspace \mathcal{I}^- = \{ \tau = -1, \enspace \rho = 0\}$$
+$$ {I}^+ = \{ \tau = 1, \enspace \rho = 0\}, \enspace {I}^- = \{ \tau = -1, \enspace \rho = 0\}$$
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Newman-Penrose Constants}
-\label{section:objectives}
+\label{section:Newman-Penrose Constants}
 The Newman-Penrose constants, originally introduced in \cite{NewPen68}, are quantities defined on null-infinity that obey conservation laws for asymptotically flat gravitational fields. In flat spacetime, there exists an infinite number of conservation laws for each spin value. For example, in ordinary Electromagnetic (EM) theory with a spin-1 field, the total charge is conserved. In the linearized gravitational theory, which involves a spin-2 field, the total mass, linear momentum, and angular momentum are also conserved. In our case, we are interested in studying spin-0 fields, which correspond to solutions of the wave equation.
 \\
 The NP constants form an infinite hierarchy of conserved quantities for linear equations, including the spin-1, spin-2, and spin-0 fields. Newman and Penrose demonstrated that these constants can be expressed as the product of the square of the dipole moment and the difference between the monopole and the quadrupole moments, as shown in \cite{DaiVal02}. However, in the full non-linear gravitational theory, the conservation of mass and momentum no longer holds, leading to ten distinct conserved quantities.
@@ -130,3 +130,70 @@ The peeling Theorem, documented in [\cite{Sac61}, \cite{BonBurMet62}, \cite{NewP
 \\
 Hence, the Peeling Theorem, by decomposing the Weyl tensor into NP scalars, and the Newman-Penrose constants, by quantifying and conserving the asymptotic charges at null infinity, are interconnected concepts that deepen our understanding of the gravitational radiation and its properties in asymptotically flat spacetimes.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Cylinder at $i^0$}
+\label{chapter:cylinder}
+
+In Penrose's conformal approach \cite{Pen63}, the investigation of the gravitational field's decay and the asymptotic structure of spacetime is conducted not with respect to the physical spacetime $(\tilde{\mathcal{M}}, \tilde{\boldsymbol{g}})$ that satisfies the Einstein field equations $\tilde{R}_{a b}=0$. Instead, it is examined in terms of conformally related spacetime $(\mathcal{M}, \boldsymbol{g})$, referred to as the unphysical spacetime, where $\boldsymbol{g}=\Omega^2 \tilde{\boldsymbol{g}}$. The conformal factor $\Omega$ plays a crucial role as a boundary defining function. Specifically, it defines the set of points $\mathscr{I}$ in the unphysical manifold where $\Omega = 0$ while ensuring that $d\Omega \neq 0$.
+\\
+Within the conformal structure of asymptotically flat spacetimes, a distinguished point is spatial infinity $i^0$, characterized by $\Omega = 0$ and $d\Omega = 0$. Extensive discussions on the conformal approach and the conformal Einstein field equations can be found in [\cite{Val16}, \cite{Fra04}, \cite{Fri02}]. This comprehensive exploration delves into the nuances of the conformal methodology and its implications for understanding the asymptotic behavior and structure of spacetime.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{The $i^0$ - cylinder representation in Minkowski  spacetime}
+\label{the $i^0$ cylinder}
+
+Consider the spherical polar coordinates denoted by $(\tilde{t}, \tilde{\rho}, \vartheta^A)$ with $A = 1, 2$, where $\vartheta^A$ represents a set of coordinates on $\mathbb{S}^2$. In this coordinate system, the metric of \textit{physical} Minkowski spacetime is given by $\tilde{\eta}$
+\begin{equation}\label{eq:physicalMikmetric}
+\tilde{\boldsymbol{\eta}}=-\mathbf{d} \tilde{t} \otimes \mathbf{d} \tilde{t}+\mathbf{d} \tilde{\rho} \otimes \mathbf{d} \tilde{\rho}+\tilde{\rho}^2 \boldsymbol{\sigma}.
+\end{equation}
+In the specific range, $\tilde{t} \in (-\infty, \infty)$, $\tilde{\rho} \in [0, \infty)$, where $\sigma$ denotes the standard metric on $\mathbb{S}^2$, we introduce \textit{unphysical} spherical polar coordinates $(t, \rho, \vartheta^A)$ as an intermediate step towards obtaining the desired conformal representation
+\begin{equation}\label{eq:unphysicalCoords}
+t=\frac{\tilde{t}}{\tilde{\rho}^2-\tilde{t}^2}, \quad \rho=\frac{\tilde{\rho}}{\tilde{\rho}^2-\tilde{t}^2}.
+\end{equation}
+By expressing the physical Minkowski metric $\tilde{\eta}$ in terms of the unphysical spherical polar coordinates $(t, \rho, \vartheta^A)$, one can easily recognize the \textit{inversion} conformal representation of the Minkowski spacetime $(\mathbb{R}^4, \eta)$, where:
+\begin{equation}\label{eq:metricRelation}
+  \boldsymbol{\eta} = \Xi^2 \boldsymbol{\tilde{\eta}},
+\end{equation}
+with
+\begin{equation}\label{eq:Unphysicalspacetimemetric}
+  \boldsymbol{\eta}=-\mathbf{d} t \otimes \mathbf{d} t+\mathbf{d} \rho \otimes \mathbf{d} \rho+\rho^2 \boldsymbol{\sigma}, \quad \Xi=\rho^2-t^2
+\end{equation}
+In this conformal representation, where $t \in (-\infty, \infty)$, $\rho \in [0, \infty)$, the spatial infinity and the origin undergo an interchange. This implies that $i^0$ is represented by the point $(t = 0, \rho = 0)$ in $(\mathbb{R}^4, \eta)$. Introducing the coordinates $(\tau, \rho, \vartheta^A)$, where $t = \rho \tau$, and considering the conformal metric $\boldsymbol{g} = \rho^{-2} \boldsymbol{\eta}$, we obtain:
+\begin{equation}\label{eq:unphysicalmetricMink}
+\boldsymbol{g}=-\mathbf{d} \tau \otimes \mathbf{d} \tau+\frac{\left(1-\tau^2\right)}{\rho^2} \mathbf{d} \rho \otimes \mathbf{d} \rho-\frac{\tau}{\rho} \mathbf{d} \rho \otimes \mathbf{d} \tau-\frac{\tau}{\rho} \mathbf{d} \tau \otimes \mathbf{d} \rho+\boldsymbol{\sigma}
+\end{equation}
+In this context the \textit{unphyical metric $\boldsymbol{g}$} is related to the physical metric through the following relationship:
+\begin{equation}\label{eq:gandtheta}
+\boldsymbol{g}=\Theta^2 \tilde{\boldsymbol{\eta}}, \quad \text { where } \quad \Theta:=\frac{\Xi}{\rho}=\rho\left(1-\tau^2\right).
+\end{equation}
+The unphysical metric $\boldsymbol{g}$, also known as the $i^0$ - cylinder metric, is associated with the coordinates $(\tau, \rho, \vartheta^A)$, which are commonly referred to as the $F$ - coordinates system.
+The F-coordinate system can be related to the physical polar coordinates through the following relation:
+\begin{align}\label{Ftophys}
+\tau = \frac{\tilde{t}}{\tilde{\rho}}, \qquad \rho = \frac{\tilde{\rho}}{\tilde{\rho}^2-\tilde{t}^2},
+\end{align}
+the inverse transformation is given by
+\begin{align}\label{phytoF}
+\tilde{t} = \frac{\tau}{\rho (1-\tau^2)}, \qquad \tilde{\rho}=\frac{1}{\rho (1-\tau^2)}.
+\end{align}
+Upon unwrapping the definitions, the conformal factor $\Theta$ in $F$-coordinatesystem and physical coordinates can be expressed as follows:
+\begin{align}
+\Theta = \rho (1-\tau^2) = \frac{1}{\tilde{\rho}}
+\end{align}
+The inverse transformation in \eqref{phytoF} can be written as
+\begin{align}
+\tilde{t}=\frac{\tau}{\Theta}, \qquad \tilde{\rho}= \frac{1}{\Theta}.
+\end{align}
+Furthermore, it is worth noting that the physical retarded and advanced times, denoted as $\tilde{u}:=\tilde{t}- \tilde{\rho}$ and 
+\\$ \tilde{v}:= \tilde{t}+ \tilde{\rho}$, respectively, can be related to the unphysical advanced and retarded times as follows:
+\begin{align}\label{eq:UnphysPhysAdvRet}
+v:=t-\rho=-\rho(1-\tau)=\tilde{v}^{-1}, \qquad u:=t+\rho=\rho(1+\tau)=-\tilde{u}^{-1}.
+\end{align}
+In this conformal representation of the Minkowski spacetime, future and past null infinity can be identified at the following locations:
+\begin{align}
+\mathscr{I}^{+} \equiv \{ p \in \mathcal{M} \; \rvert\; \tau(p) =1\}, \qquad \mathscr{I}^{-} \equiv \{ p \in \mathcal{M} \; \rvert \;\tau(p) =-1\}.
+\end{align}
+The term $i^0$ - cylinder derives from the observation that spatial infinity is mapped to an extended set $I \approx \mathbb{R}\times \mathbb{S}^2$.
+\begin{align*}
+I \equiv \{ p \in \mathcal{M} \; \rvert \;\; |\tau(p)|<1, \;\rho(p)=0\}, \qquad I^{0} \equiv \{ p \in \mathcal{M}\; \rvert \;\tau(p)=0, \; \rho(p)=0\},
+\end{align*}
+where the regions spatial and null infinity meet were already defined in section 1.2.

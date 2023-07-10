@@ -22,45 +22,45 @@ while executing---line 2629 of file abbrvunsrtnat.bst
 Too many commas in name 1 of "Bondi, H., Burg, M. G. J. v. d., Metzner, A. W. K." for entry BonBurMet62
 while executing---line 2629 of file abbrvunsrtnat.bst
 Warning--empty journal in DuaFenGasHil22
-You've used 15 entries,
+You've used 18 entries,
             2481 wiz_defined-function locations,
-            675 strings with 6861 characters,
-and the built_in function-call counts, 5541 in all, are:
-= -- 485
-> -- 245
-< -- 11
-+ -- 100
-- -- 70
-* -- 433
-:= -- 906
-add.period$ -- 59
-call.type$ -- 15
-change.case$ -- 28
-chr.to.int$ -- 15
-cite$ -- 16
-duplicate$ -- 282
-empty$ -- 514
-format.name$ -- 95
-if$ -- 1169
+            695 strings with 7097 characters,
+and the built_in function-call counts, 6435 in all, are:
+= -- 565
+> -- 266
+< -- 14
++ -- 112
+- -- 76
+* -- 485
+:= -- 1049
+add.period$ -- 68
+call.type$ -- 18
+change.case$ -- 34
+chr.to.int$ -- 18
+cite$ -- 19
+duplicate$ -- 338
+empty$ -- 612
+format.name$ -- 104
+if$ -- 1364
 int.to.chr$ -- 1
-int.to.str$ -- 16
-missing$ -- 17
-newline$ -- 97
-num.names$ -- 45
-pop$ -- 102
+int.to.str$ -- 19
+missing$ -- 20
+newline$ -- 112
+num.names$ -- 54
+pop$ -- 123
 preamble$ -- 1
-purify$ -- 15
+purify$ -- 18
 quote$ -- 0
-skip$ -- 163
+skip$ -- 197
 stack$ -- 0
-substring$ -- 234
-swap$ -- 35
+substring$ -- 267
+swap$ -- 41
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 99
+type$ -- 120
 warning$ -- 1
-while$ -- 43
+while$ -- 51
 width$ -- 0
-write$ -- 228
+write$ -- 267
 (There were 9 error messages)
