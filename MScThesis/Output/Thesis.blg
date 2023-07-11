@@ -3,6 +3,8 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Thesis.aux
 The style file: abbrvunsrtnat.bst
 Database file #1: Thesis.bib
+Warning--string name "jmp" is undefined
+--line 925 of file Thesis.bib
 Too many commas in name 1 of "Bondi, H., Burg, M. G. J. v. d., Metzner, A. W. K." for entry BonBurMet62
 while executing---line 2465 of file abbrvunsrtnat.bst
 Too many commas in name 1 of "Bondi, H., Burg, M. G. J. v. d., Metzner, A. W. K." for entry BonBurMet62
@@ -21,46 +23,47 @@ Too many commas in name 1 of "Bondi, H., Burg, M. G. J. v. d., Metzner, A. W. K.
 while executing---line 2629 of file abbrvunsrtnat.bst
 Too many commas in name 1 of "Bondi, H., Burg, M. G. J. v. d., Metzner, A. W. K." for entry BonBurMet62
 while executing---line 2629 of file abbrvunsrtnat.bst
+Warning--empty journal in FriKan00
 Warning--empty journal in DuaFenGasHil22
-You've used 18 entries,
+You've used 21 entries,
             2481 wiz_defined-function locations,
-            695 strings with 7097 characters,
-and the built_in function-call counts, 6435 in all, are:
-= -- 565
-> -- 266
-< -- 14
-+ -- 112
-- -- 76
-* -- 485
-:= -- 1049
-add.period$ -- 68
-call.type$ -- 18
-change.case$ -- 34
-chr.to.int$ -- 18
-cite$ -- 19
-duplicate$ -- 338
-empty$ -- 612
-format.name$ -- 104
-if$ -- 1364
+            721 strings with 7653 characters,
+and the built_in function-call counts, 7565 in all, are:
+= -- 667
+> -- 311
+< -- 17
++ -- 130
+- -- 88
+* -- 575
+:= -- 1226
+add.period$ -- 80
+call.type$ -- 21
+change.case$ -- 40
+chr.to.int$ -- 21
+cite$ -- 23
+duplicate$ -- 395
+empty$ -- 720
+format.name$ -- 125
+if$ -- 1607
 int.to.chr$ -- 1
-int.to.str$ -- 19
-missing$ -- 20
-newline$ -- 112
-num.names$ -- 54
-pop$ -- 123
+int.to.str$ -- 22
+missing$ -- 23
+newline$ -- 130
+num.names$ -- 63
+pop$ -- 143
 preamble$ -- 1
-purify$ -- 18
+purify$ -- 21
 quote$ -- 0
-skip$ -- 197
+skip$ -- 232
 stack$ -- 0
-substring$ -- 267
-swap$ -- 41
+substring$ -- 321
+swap$ -- 47
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 120
-warning$ -- 1
-while$ -- 51
+type$ -- 141
+warning$ -- 2
+while$ -- 60
 width$ -- 0
-write$ -- 267
+write$ -- 311
 (There were 9 error messages)

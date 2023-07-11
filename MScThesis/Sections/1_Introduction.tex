@@ -196,4 +196,50 @@ The term $i^0$ - cylinder derives from the observation that spatial infinity is 
 \begin{align*}
 I \equiv \{ p \in \mathcal{M} \; \rvert \;\; |\tau(p)|<1, \;\rho(p)=0\}, \qquad I^{0} \equiv \{ p \in \mathcal{M}\; \rvert \;\tau(p)=0, \; \rho(p)=0\},
 \end{align*}
-where the regions spatial and null infinity meet were already defined in section 1.2.
+where the regions spatial and null infinity meet were already defined in section 1.2.\\
+To facilitate the upcoming discussion, we introduce the following adapted $\boldsymbol{g}$ - null frame:
+\begin{equation}\label{eq:Fframe}
+\boldsymbol{e}=(1+\tau) \boldsymbol{\partial}_\tau-\rho \boldsymbol{\partial}_\rho, \quad \underline{\boldsymbol{e}}=(1-\tau) \boldsymbol{\partial}_\tau+\rho \boldsymbol{\partial}_\rho, \quad \boldsymbol{e}_{\boldsymbol{A}} \quad \text { with } \quad \boldsymbol{A}=\{\uparrow, \downarrow\},
+\end{equation}
+here, the $\boldsymbol{e}_{\boldsymbol{A}}$ repesents a complex null frame on $\mathbb{S}^2$, accompanied by the associated coframe $\boldsymbol{\omega}^{\boldsymbol{A}}$, enabling us to express the standard metric on $\mathbb{S}^2$ as follows:
+\begin{align}
+\bm\sigma=2(\bm\omega^{\uparrow}\otimes \bm\omega^{\downarrow}+\bm\omega^{\downarrow}\otimes \bm\omega^{\uparrow}).
+\end{align}
+\begin{remark}
+  To ensure clarity and avoid confusion, we designate the NP - frames hinged at $\mathscr{I}^{\pm}$ as indicated by the symbols $\pm$. Consequently, the elements of the frame on $\mathbb{S}^2$ are labelled with the symbols $\uparrow \downarrow$.
+\end{remark}
+
+To differentiate it from other frames, we refer to the tetrad $\{\boldsymbol{e}, \underline{\boldsymbol{e}}, \boldsymbol{e}_{\boldsymbol{A}}\}$ as the $F$ - frame. Notably, in terms of the $F$ - frame, the unphysical metric $\boldsymbol{g}$ can be represented as follows:
+\begin{equation}\label{eq:UnphysicalMetricNullTetrad}
+  g_{a b}=e_{(a} \underline{e}_{b)}-\omega_{(a}^{\uparrow} \omega_{b)}^{\downarrow}
+\end{equation}
+the tetrad normalization condition can be expressed as $e_a \underline{e}^a=-\omega^{\uparrow}_ae_{\downarrow}^a=-2$, ensuring that all other contractions vanish. Similarly, the $\tilde{\boldsymbol{\eta}}$ - null frame, denoted as $\{L, \; \underline{L},\; \tilde{\boldsymbol{e}}_{\boldsymbol{A}}\}$, is defined as follows:
+\begin{equation}
+  L=\boldsymbol{\partial}_{\tilde{t}}+\boldsymbol{\partial}_{\tilde{\rho}}, \quad \underline{L}=\boldsymbol{\partial}_{\tilde{t}}-\boldsymbol{\partial}_{\tilde{\rho}}, \quad \tilde{\boldsymbol{e}}_{\boldsymbol{A}}=\tilde{\rho}^{-1} \boldsymbol{e}_{\boldsymbol{A}}
+\end{equation}
+the physical null - frame, consisting of vectors $L$, $\underline{L}$, will be denoted as the physical null - frame. It is important to note that all quantities associated with the physical spacetime will be marked with a tilde over the symbol. For instance, quantities like $\tilde{\phi}$ represent physical fields, while $\phi$ corresponds to unphysical fields that have been conformally rescaled.
+
+\medskip
+The NP-frame, another unphysical frame, holds significance in defining the NP constants. The relationship between the F-frame and the NP-frame in Minkowski spacetime was derived and discussed in \cite{GasKro16d}, with further insights available in \cite{ValAli22}. By leveraging the findings in \cite{GasKro16d} along with the expressions presented in this section, we can establish the following proposition, which elucidates the connection between these three frames:
+ 
+
+\begin{proposition}\label{Prop:NPtoFgauge}
+  The NP-frame, which is hinged at $\mathscr{I}^{\pm}$, the F-frame, and the standard physical frame for the Minkowski spacetime are interconnected through the following relationship:
+\begin{align*}
+  \text{\emph{NP hinged at} $\mathscr{I}^{+}$}:& \quad\boldsymbol{e}^{+} = 4(\Lambda_{+})^{2} \boldsymbol{e} = \Theta^{-2} L, && \underline{\boldsymbol{e}}^{+}=
+  \tfrac{1}{4}(\Lambda_{+})^{-2}\underline{\boldsymbol{e}} = \underline{L}, && \boldsymbol{e}_{\boldsymbol{A}}^{+}= \boldsymbol{e}_{\boldsymbol{A}}= \Theta^{-1}\tilde{\boldsymbol{e}}_{\boldsymbol{A}}\\ \text{\emph{NP hinged at} $\mathscr{I}^{-}$}:& \quad\boldsymbol{e}^{-} =
+  \tfrac{1}{4}(\Lambda_{-})^{-2} \boldsymbol{e} = L, && \underline{\boldsymbol{e}}^{-}= 4(\Lambda_{-})^{2}\underline{\boldsymbol{e}} = \Theta^{-2} \underline{L}, && \boldsymbol{e}_{\boldsymbol{A}}^{-}= \boldsymbol{e}_{\boldsymbol{A}}= \Theta^{-1}\tilde{\boldsymbol{e}}_{\boldsymbol{A}}.
+\end{align*}
+The conformal factor $\Theta$ and boost parameter $\kappa$ can be expressed in F-coordinates and physical coordinates as follows:
+\begin{align}\label{eq:CF-thetaAndBoostParameter}
+  \Theta := \rho (1-\tau^2) = \frac{1}{\tilde{\rho}}, \qquad \varkappa := \frac{1+\tau}{1-\tau} = -\frac{\tilde{v}}{\tilde{u}}.
+\end{align}
+The Lorentz transformation that connects the NP and F-frames can be expressed in terms of the following quantities:
+\begin{align}\label{eq:LorentzTransf}
+  (\Lambda_{+})^{2}:= \Theta^{-1}\varkappa^{-1}= \rho^{-1}(1+\tau)^{-2}, && (\Lambda_{-})^{2}:= \Theta^{-1}\varkappa= \rho^{-1}(1-\tau)^{-2}.
+\end{align}
+\end{proposition}
+\begin{remark}
+  It should be noted that the NP-frame is not a null tetrad for the physical metric $\tilde{\boldsymbol{\eta}}$, but rather with respect to a conformally related metric $\boldsymbol{g'}=\vartheta^2\tilde{\boldsymbol{\eta}}$, where $\vartheta$ represents a conformal factor. In the case of the Minkowski spacetime, it turns out that this conformally related metric $\boldsymbol{g'}$ coincides with the $i^0$-cylinder representation $\boldsymbol{g}$. Specifically, in general, we have $\boldsymbol{g'} = \kappa^2\boldsymbol{g}$, where  $\kappa=1$ for the specific case of the Minkowski spacetime.
+  Formal asymptotic expansions for the conformal transformation $\kappa$ and the Lorentz transformation that relates the NP and F-frames have been computed for time-symmetric initial data in asymptotically flat spacetimes, as described in \cite{FriKan00}.
+\end{remark}

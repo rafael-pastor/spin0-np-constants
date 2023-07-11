@@ -1,4 +1,4 @@
-\begin{thebibliography}{18}
+\begin{thebibliography}{21}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -111,6 +111,28 @@ J.~Frauendiener.
 H.~Friedrich.
 \newblock {C}onformal {E}instein evolution.
 \newblock \emph{Lect. Notes Phys.}, 604:\penalty0 1--50, 2002.
+
+\bibitem[Gasperin and Kroon(2020)]{GasKro16d}
+E.~Gasperin and J.~A.~V. Kroon.
+\newblock {Zero rest-mass fields and the Newman-Penrose constants on flat
+  space}.
+\newblock \emph{J. Math. Phys.}, 61\penalty0 (12):\penalty0 122503, 2020.
+\newblock \doi{10.1063/5.0034784}.
+
+\bibitem[Mohamed and Kroon(2022)]{ValAli22}
+M.~M.~A. Mohamed and J.~A.~V. Kroon.
+\newblock Asymptotic charges for spin-1 and spin-2 fields at the critical sets
+  of null infinity.
+\newblock \emph{Journal of Mathematical Physics}, 63\penalty0 (5):\penalty0
+  052502, may 2022.
+\newblock \doi{10.1063/5.0081834}.
+\newblock URL \url{https://doi.org/10.1063%2F5.0081834}.
+
+\bibitem[Friedrich and K\'{a}nn\'{a}r(2000)]{FriKan00}
+H.~Friedrich and J.~K\'{a}nn\'{a}r.
+\newblock Bondi-type systems near space-like infinity and the calculation of
+  the {N}{P}-constants.
+\newblock 41:\penalty0 2195, 2000.
 
 \bibitem[Duarte et~al.(2022)Duarte, Feng, Gasperin, and
   Hilditch]{DuaFenGasHil22}
