@@ -1343,6 +1343,10 @@ INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/fourier-mlitb.
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/fourier-mlb.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futb8r.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futbi8r.tfm
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/vf/public/fourier/futsy.vf
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/fourier-ms.tfm
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/fourier-mcl.tfm
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futb8t.tfm
 INPUT Output/Thesis.bbl
 INPUT Output/Thesis.bbl
 INPUT Output/Thesis.bbl
@@ -1378,6 +1382,7 @@ INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-ml.p
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-mlitb.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/adobe/utopia/putbi8a.pfb

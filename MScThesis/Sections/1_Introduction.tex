@@ -243,3 +243,117 @@ The Lorentz transformation that connects the NP and F-frames can be expressed in
   It should be noted that the NP-frame is not a null tetrad for the physical metric $\tilde{\boldsymbol{\eta}}$, but rather with respect to a conformally related metric $\boldsymbol{g'}=\vartheta^2\tilde{\boldsymbol{\eta}}$, where $\vartheta$ represents a conformal factor. In the case of the Minkowski spacetime, it turns out that this conformally related metric $\boldsymbol{g'}$ coincides with the $i^0$-cylinder representation $\boldsymbol{g}$. Specifically, in general, we have $\boldsymbol{g'} = \kappa^2\boldsymbol{g}$, where  $\kappa=1$ for the specific case of the Minkowski spacetime.
   Formal asymptotic expansions for the conformal transformation $\kappa$ and the Lorentz transformation that relates the NP and F-frames have been computed for time-symmetric initial data in asymptotically flat spacetimes, as described in \cite{FriKan00}.
 \end{remark}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Linear model equations}
+\label{sec:LinearModelEquations}
+Though the CEFEs have made significant strides in the mathematical study of spacetimes and numerical evolutions, their use in solving physical issues has been surprisingly sparse. This is clear from the fact that there is currently no literature on the use of linear perturbation theory to study the CEFEs (and perhaps as a result of this). To characterize gravitational radiation using conventional (linear) metrics, such an analysis is required.\\
+The Bianchi identities, which offer a collection of evolution and constraint equations for the Weyl curvature, form the basis of the CEFEs. The spin-2 equation in a fixed backdrop spacetime, which is analogous to linearizing the Weyl sector of the CEFEs in spinorial form, is one approach to the linearized issue. The linearized metric formulations of the Einstein field equations seem considerably different from the elegant spin-2 solution $\nabla_{A^{\prime}}{ }^A \phi_{A B C D}=0$, which is also highly distinct. The CEFEs' non-linear wave-like formulation was first developed for the vacuum situation in \cite{Pae14}, and it has since been expanded to include the case of trace-free matter in \cite{CarHurKro19}, \cite{FenGas23}.\\
+H. Friedrich's conformal Einstein field equations are fundamentally based on equations for the Weyl tensor derived from the Bianchi identities. These formulations represent a distinct departure from purely metric formulations like the ADM, Z4, and generalized harmonic gauge formulations. According to Penrose's perspective on linearized gravity, specifically in the context of vacuum and around flat spacetime, the gravitational field is represented by a spin-2 field that satisfies the following equations:
+\begin{equation}\label{eq:Spin2Eq}
+  \tilde{\nabla}^{A A^{\prime}} \tilde{\phi}_{A B C D}=0,
+\end{equation}
+in this context, $\tilde{\phi}_{A B C D}$ denotes a totally symmetric spinor field, which serves as the linear counterpart of the Weyl spinor.
+This equation provides an excellent linear model for the Bianchi sector of the conformal Einstein field equations. A similar observation applies to Maxwell's equations in flat spacetime, which can be described in terms of the spin-1 equation
+\begin{equation}\label{eq:Spin1Eq}
+  \tilde{\nabla}^{A A^{\prime}} \tilde{\phi}_{A B}=0,
+\end{equation}
+in this equation, $\tilde{\phi}_{A B}$ represents a symmetric spinor known as the Maxwell spinor, which encodes the electromagnetic field \cite{GasPin23}.\\
+In \cite{NewPen68}, the NP constants were originally defined within the linear framework for spin-1 and spin-2 fields, as well as within the nonlinear setting for the Einstein field equations formulated in the Newman-Penrose formalism.
+While the spin-2 field is often employed in curvature-oriented formulations, wave equations are better suited for metric formulations. In the case of linearized gravity, for instance, the standard formulation, as described in [\cite{Mag07a}, \cite{Wal84a}], typically follows an approach that resembles the hyperbolic reduction of the Einstein field equations in harmonic gauge. In this formulation, the final expression takes the form of a wave equation for the metric components.\\
+Scalar fields that satisfy these wave equations can be referred to as spin-0 fields. In this section, we will express the physical wave equation in flat spacetime as a wave equation for an unphysical field propagating in the i0-cylinder background. A method to solve the resulting equation, following a similar approach to that used for spin-1 and spin-2 fields in [\cite{Val07}, \cite{GasKro16d}], has been outlined in [\cite{MinMacKro22}], \cite{GasPin23}.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Spin-0 fields close to $i^0$ and $\mathscr{I}$}
+\label{sec:Spin0FieldsCloseToI0AndI}
+
+Recall that for two conformally related manifolds - which do not necessarily have to be the $i^0$ cylinder and Minkowski spacetime - $(\tilde{M},\tilde{\boldsymbol{g}})$ and $(M,\boldsymbol{g})$, the D'Alembertian operator
+transforms under conformal transformations as follows \cite{DuaFenGasHil22}:
+\begin{equation}\label{eq:waveConfTr}
+	\square \phi-\frac{1}{6} \phi R=\Omega^{-3}\left(\tilde{\square} \tilde{\phi}-\frac{1}{6} \tilde{\phi} \tilde{R}\right),
+\end{equation}
+where $\tilde{\square}=\tilde{g}^{ab}\tilde{\nabla}_a\tilde{\nabla}_b$ and $\square=g^{ab}\nabla_a\nabla_b$ with $\nabla$ and $\tilde{\nabla}$, ~$R$ and~$\tilde{R}$,
+denoting the Levi-Civita connections and Ricci scalars of ~$\boldsymbol{g}$ and~$\tilde{\boldsymbol{g}}$, respectively.  Let $\tilde{\phi}$ be a scalar propagating in
+flat spacetime $(\mathbb{R}^4, \tilde{\boldsymbol{\eta}})$ according to:
+\begin{equation}\label{eq:wave-eq}
+	\tilde{\Box} \tilde{\phi} = 0.
+\end{equation}
+By applying the conformal transformation formula for the wave equation, given in equation \eqref{eq:waveConfTr}, to the wave equation in \eqref{eq:wave-eq} on the physical Minkowski spacetime $(\tilde{M} , \tilde{\boldsymbol{\eta}})$ and selecting the target conformal extension - the unphysical spacetime - $(M, \boldsymbol{g})$ to be Friedrich's cylinder at spatial infinity, we can obtain the following equation:
+\begin{equation}\label{eq:wave-unphysical}
+	\square \phi = 0.
+\end{equation}
+Thus, \eqref{eq:wave-unphysical} is just the wave equation for the unphysical field propagating on the $i^0$ cylinder background.
+\pagebreak
+\begin{remark}
+  In the $i^0$-cylinder representation of Minkowski spacetime expressed in physical coordinates, the conformal factor is given by $\Theta=\tilde{\rho}^{-1}$. As a result, the unphysical (conformal) field $\phi=\Theta^{-1}\tilde{\phi}$ can be directly identified as the \emph{radiation field} $\tilde{\rho}\tilde{\phi}$ due to the factor of $\tilde{\rho}$ present.
+\end{remark}
+
+\noindent In $F$-coordinates, equation \eqref{eq:wave-eq} can be explicitly written as:
+
+\begin{equation}\label{eq:UnphysicalWaveExplicit}
+  \left(\tau^2-1\right) \partial_\tau^2 \phi-2 \rho \tau \partial_\tau \partial_\rho \phi+\rho^2 \partial_\rho^2 \phi+2 \tau \partial_\tau \phi+\Delta_{\mathbb{S}^2} \phi=0,
+\end{equation}
+here, $\Delta _{\mathbb{S}^{2}{}}{}$ represents the Laplace operator on $\mathbb{S}^2$. Following the methodology employed in the analysis of spin-1, spin-2, and spin-0 fields in [\cite{ValAli22}, \cite{MinMacKro22}], respectively, we adopt the following Ansatz:
+\begin{equation}\label{eq:ansatz}
+	\phi = \sum_{p = 0}^{\infty}\sum_{l = 0}^{p}\sum_{m = -l}^{m = l}\frac{1}{p!}a_{p;l,m}(\tau)\rho^{p}Y_{lm}.
+\end{equation}
+In terms of initial data, this entails examining analytic initial data in the vicinity of $i^0$, which can be expressed in the following form:
+\begin{equation}\label{eq:ID_field}
+  \phi|_{\mathcal{S}} =
+  \sum_{p=0}^{\infty}
+  \sum_{\ell=0}^{p}\sum_{m=-\ell}^{m=\ell}\frac{1}{p!}a_{p;\ell,m}(0)Y_{\ell
+    m}\rho^p, \qquad \dot{\phi}|_{\mathcal{S}} =
+  \sum_{p=0}^{\infty}\sum_{\ell=0}^{p}\sum_{m=-\ell}^{m=\ell}
+  \frac{1}{p!}\dot{a}_{p;\ell,m}(0)Y_{\ell
+    m}\rho^p,
+\end{equation}
+here, the over-dot represents a derivative with respect to $\partial_\tau$. A calculation, as detailed in \cite{MinMacKro22}, reveals that solving the wave equation \eqref{eq:UnphysicalWaveExplicit} simplifies to solving the following ordinary differential equation (ODE) for every $p$, $\ell$, and $m$:
+
+\begin{equation}\label{eq:ODE_wave_JacobiPoly}
+  (1-\tau^2)\ddot{a}_{p;\ell,m} +
+    2\tau(p-1)\dot{a}_{p,\ell,m}+(\ell+p)(\ell-p+1){a}_{p;\ell,m}=0.
+\end{equation}
+
+\noindent The solution to this ODE can be expressed as follows
+
+\begin{lemma} (wave equation in the $i^0$-cylinder
+  background~ \cite{MinMacKro22})\label{Lemma:Sol_Jacobi_and_Logs}. The solution to equation \eqref{eq:ODE_wave_JacobiPoly} is given
+  by:
+	\begin{enumerate}
+	\item For $p\geq 1$ and $0\leq \ell \leq p-1$
+	 \begin{align}\label{eq:Sol_jac_poly}
+    a(\tau)_{p;\ell,m} =A_{p,\ell,m}
+		  \bigg(\frac{1-\tau}{2}\bigg)^{p}
+                  P_{\ell}^{(p,-p)}(\tau) + B_{p,\ell,m}
+                  \bigg(\frac{1+\tau}{2}\bigg)^{p}P_{\ell}^{(-p,p)}(\tau)
+	 \end{align}
+	
+	\item For $p\geq 0$ and $\ell=p$:
+     \begin{align}\label{eq:Sol_highestharmonic}
+      {a}_{p;p,m}(\tau) =
+      \bigg(\frac{1-\tau}{2}\bigg)^{p}\bigg(\frac{1+\tau}{2}\bigg)^{p}\Bigg(C_{p,p,m}
+      +D_{p,p,m}\int_{0}^{\tau} \frac{ds}{(1-s^2)^{p+1}}\Bigg)
+     \end{align}
+	where $A_{p,\ell,m}$, $B_{p,\ell,m}$, $C_{p,p,m}$ and
+        $D_{p,p,m}$ are constants that can be written in terms of
+        $a_{p;\ell,m}(0)$ and $\dot{a}_{p;\ell,m}(0)$ and
+        $P_{\gamma}^{\alpha, \beta}(\tau)$ are the Jacobi polynomials.
+    \end{enumerate}
+\end{lemma}
+
+\pagebreak
+
+One intriguing characteristic shared by the study of evolution equations using the i0-cylinder framework is the emergence of logarithmic terms at null infinity in the solution. This becomes evident when examining the hypergeometric function featured in Equation \eqref{eq:Sol_highestharmonic} for various values of p. For instance, for p = 0 and p = 1, the following expressions arise:
+\begin{align}
+  {a}_{0;0,0}(\tau) & = C_{000} + \tfrac{1}{2} D_{000} (\log(1 + \tau
+  )- \log(1 - \tau ))\\ {a}_{1;1,m}(\tau) & = \tfrac{1}{4} (1 - \tau )
+  (1 + \tau ) (C_{11m} + \tfrac{1}{4} D_{11m} ( \log(1 + \tau ) -
+  \log(1 - \tau ) + 2\tau(1-\tau^2)))
+\end{align}
+These logarithmic terms have implications for the linear version of the associated Peeling property, as discussed in \cite{Val07,MinMacKro22}. In the full non-linear case, additional obstacles to the smoothness of null infinity arise, as explored in \cite{Val04}. In the gravitational scenario, conditions can be imposed on the initial data to prevent the emergence of these logarithmic terms in the evolution, as described in \cite{Fri98a}. For the spin-0 case, the corresponding condition can be expressed as follows:
+
+\begin{remark}\label{Remark:logfreeRemark}(Regularity condition~\cite{MinMacKro22}).
+  \emph{Lemma \ref{Lemma:Sol_Jacobi_and_Logs}} implies that expanding the integral in \eqref{eq:Sol_highestharmonic} results in logarithmic terms, hence
+  $D_{p,p,m} = 0$ is called the regularity condition. The solutions for
+  $a(\tau)$ are polynomic in $\tau$, except for $l = p$ where one needs
+  to impose the regularity condition to only have polynomic
+  solutions. \cite{MinMacKro22}.
+\end{remark}

@@ -1,4 +1,4 @@
-\begin{thebibliography}{21}
+\begin{thebibliography}{31}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -134,10 +134,76 @@ H.~Friedrich and J.~K\'{a}nn\'{a}r.
   the {N}{P}-constants.
 \newblock 41:\penalty0 2195, 2000.
 
+\bibitem[Paetz(2014)]{Pae14}
+T.-T. Paetz.
+\newblock Conformally covariant systems of wave equations and their equivalence
+  to einstein's field equations, 2014.
+
+\bibitem[Carranza et~al.(2019)Carranza, Hursit, and Kroon]{CarHurKro19}
+D.~A. Carranza, A.~E. Hursit, and J.~A.~V. Kroon.
+\newblock Conformal wave equations for the einstein-tracefree matter system.
+\newblock \emph{General Relativity and Gravitation}, 51\penalty0 (7), jul 2019.
+\newblock \doi{10.1007/s10714-019-2567-5}.
+\newblock URL \url{https://doi.org/10.1007%2Fs10714-019-2567-5}.
+
+\bibitem[Feng and Gasperin(2023)]{FenGas23}
+J.~Feng and E.~Gasperin.
+\newblock Linearised conformal einstein field equations, 2023.
+
+\bibitem[Gasperin and Pinto(2023)]{GasPin23}
+E.~Gasperin and R.~Pinto.
+\newblock Spin-0 fields and the np-constants close to spatial infinity in
+  minkowski spacetime, 2023.
+
+\bibitem[Maggiore(2007)]{Mag07a}
+M.~Maggiore.
+\newblock \emph{Gravitational Waves. Vol. 1: Theory and Experiments}.
+\newblock Oxford University Press, Oxford, 2007.
+\newblock ISBN ISBN-13: 978-0-19-857074-5.
+
+\bibitem[Wald(1984)]{Wal84a}
+R.~M. Wald.
+\newblock \emph{General Relativity}.
+\newblock University of Chicago Press, Chicago, 1984.
+\newblock ISBN 0-226-87032-4 (hardcover), 0-226-87033-2 (paperback).
+
+\bibitem[Kroon(2007)]{Val07}
+J.~A.~V. Kroon.
+\newblock Asymptotic properties of the development of conformally flat data
+  near spatial infinity.
+\newblock \emph{Classical and Quantum Gravity}, 24\penalty0 (11):\penalty0
+  3037--3053, may 2007.
+\newblock \doi{10.1088/0264-9381/24/11/016}.
+\newblock URL \url{https://doi.org/10.1088%2F0264-9381%2F24%2F11%2F016}.
+
+\bibitem[Minucci et~al.(2022)Minucci, Panosso~Macedo, and Kroon]{MinMacKro22}
+M.~Minucci, R.~Panosso~Macedo, and J.~A.~V. Kroon.
+\newblock {The Maxwell-scalar field system near spatial infinity}.
+\newblock \emph{J. Math. Phys.}, 63\penalty0 (8):\penalty0 082501, 2022.
+\newblock \doi{10.1063/5.0104602}.
+
 \bibitem[Duarte et~al.(2022)Duarte, Feng, Gasperin, and
   Hilditch]{DuaFenGasHil22}
 M.~Duarte, J.~Feng, E.~Gasperin, and D.~Hilditch.
 \newblock {The good-bad-ugly system near spatial infinity on flat spacetime}.
 \newblock 9 2022.
+
+\bibitem[Kroon(2004)]{Val04}
+J.~A.~V. Kroon.
+\newblock A new class of obstructions to the smoothness of null infinity.
+\newblock \emph{Communications in Mathematical Physics}, 244\penalty0
+  (1):\penalty0 133--156, jan 2004.
+\newblock \doi{10.1007/s00220-003-0967-5}.
+\newblock URL \url{https://doi.org/10.1007%2Fs00220-003-0967-5}.
+
+\bibitem[Friedrich(1998)]{Fri98a}
+H.~Friedrich.
+\newblock Gravitational fields near space-like and null infinity.
+\newblock \emph{Journal of Geometry and Physics}, 24\penalty0 (2):\penalty0 83
+  -- 163, 1998.
+\newblock ISSN 0393-0440.
+\newblock \doi{https://doi.org/10.1016/S0393-0440(97)82168-7}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0393044097821687}.
 
 \end{thebibliography}
