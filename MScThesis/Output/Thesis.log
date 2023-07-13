@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.14)  13 JUL 2023 16:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.14)  13 JUL 2023 17:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1105,16 +1105,13 @@ Appendix B.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.43996pt have occurred.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 029E56CB9A7BAEC94EE82A85F84267AC;3592.
  ) 
 Here is how much of TeX's memory you used:
  16644 strings out of 478268
  266277 string characters out of 5846347
- 627474 words of memory out of 5000000
+ 627524 words of memory out of 5000000
  34275 multiletter control sequences out of 15000+600000
  653528 words of font info for 208 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
