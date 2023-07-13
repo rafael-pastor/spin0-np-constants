@@ -14,8 +14,10 @@
 \contentsline {section}{\numberline {2.1}The $i^0$ - cylinder representation in Minkowski spacetime}{7}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Linear model equations}{10}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Spin-0 fields close to $i^0$ and $\mathscr {I}$}{11}{section.2.3}%
-\contentsline {chapter}{Bibliography}{15}{section*.11}%
-\contentsline {chapter}{\numberline {A}Vector calculus}{19}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Vector identities}{19}{section.A.1}%
-\contentsline {chapter}{\numberline {B}Technical Datasheets}{21}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Some Datasheet}{21}{section.B.1}%
+\contentsline {chapter}{\numberline {3}The NP-constants for the spin-0 fields close to $i^0$ \& $\mathscr {I}$}{14}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Conservation Laws}{14}{section.3.1}%
+\contentsline {chapter}{Bibliography}{17}{section*.11}%
+\contentsline {chapter}{\numberline {A}Vector calculus}{21}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Vector identities}{21}{section.A.1}%
+\contentsline {chapter}{\numberline {B}Technical Datasheets}{23}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Some Datasheet}{23}{section.B.1}%

@@ -357,3 +357,95 @@ These logarithmic terms have implications for the linear version of the associat
   to impose the regularity condition to only have polynomic
   solutions. \cite{MinMacKro22}.
 \end{remark}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{The NP-constants for the spin-0 fields close to $i^0$ \& $\mathscr{I}$}
+\label{chapter:NPConstants}
+
+
+The Newman-Penrose (NP) constants, introduced by Newman and Penrose \cite{NewPen68}, are computed by evaluating 2-surface integrals at null infinity of certain derivatives of the field. These constants, as the name suggests, are conserved quantities, meaning that their values remain constant regardless of the choice of the cut of null infinity on which they are computed. In their original work \cite{NewPen68}, it was demonstrated that for the spin-1 field (Maxwell field) and spin-2 field (linearized Weyl tensor) in Minkowski spacetime, there exists an infinite hierarchy of conserved quantities. However, in the full non-linear theory involving the Weyl tensor, only 10 quantities remain conserved. In both the linear (spin-1 and spin-2) and non-linear (gravitational) cases, the NP constants emerge from a set of asymptotic conservation laws. For the spin-0 field in flat spacetime, refer to \cite{Keh21_a}. One has
+\begin{equation}\label{eq:cons_laws}
+  {\underline{{L}}}({\tilde{\rho}}^{-2\ell}L(e^{+})^{\ell+1}\phi_{\ell m})=0, \qquad({\tilde{\rho}}^{-2\ell}L(e^{-})^{\ell+1}\phi_{\ell m})=0
+\end{equation}
+here, $\phi_{\ell m}= \int_{\mathbb{S}^2} \phi  Y_{\ell m}  d\sigma$ represents the integral of $\phi$ multiplied by the spherical harmonics $Y_{\ell m}$ over the surface $\mathbb{S}^2$, where $d\sigma$ denotes the area element on $\mathbb{S}^2$. A derivation of a slightly more generalized version of these identities can be shown in the following section.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Conservation Laws}
+\label{sec:conservationlaws}
+
+The conservation laws \eqref{eq:cons_laws} have been generalized to a Schwarzschild background in \cite{Keh21_a}, and thus the flat space version follows immediately from these results. However, for the sake of clarity and self-contained discussion, we will derive the conservation laws in flat space here.
+
+\begin{proposition}\label{prop:main_commutation}
+  Let $\tilde{\phi}$ be a solution to $\tilde{\square}\tilde{\phi}=0.$ Let $\phi = \tilde{\rho}\tilde{\phi}$ then $\phi$ satisfies
+  \begin{equation}\label{eq:main_commutation}
+     \underline{L} L (\boldsymbol{e}^{+})^n \phi = -\frac{2n}{\tilde{\rho}}L (\boldsymbol{e}^{+})^n
+     \phi + \frac{1}{\tilde{\rho}^2}(n(n+1) + \Delta_{\mathbb{S}^2})(\boldsymbol{e}^+)^n \phi.
+  \end{equation}
+\end{proposition}
+\pagebreak
+\begin{proof}
+  This identity can be proven through an induction process. In terms of $\underline{L}$, $L$, and $\phi$, the equation $\tilde{\square}\tilde{\phi}=0$ can be expressed as follows:
+
+\begin{align}\label{eq:uLLphiToSource}
+  \underline{L} L \phi = \frac{1}{\tilde{\rho}^2}(\Delta_{\mathbb{S}^2} \phi)
+\end{align}
+Equation \eqref{eq:uLLphiToSource} corresponds to the case $n=0$ of expression \eqref{eq:main_commutation} and serves as the basis for the induction. Assuming that expression \eqref{eq:main_commutation} holds true for $n=N$, let's proceed with the induction step by calculating $\underline{L} L (\boldsymbol{e}^+)^{n+1} \phi$ as follows:
+
+% change the vertical spacing between lines of the align environment
+\setlength{\jot}{10pt}
+
+
+\begin{align}\label{eq:inductionstep_commutation}
+  & \underline{L} L\left(e^{+}\right)^{N+1} \phi=\underline{L} L\left\{\left(e^{+}\right)\left[\left(e^{+}\right)^{N} \phi\right]\right\}=L\left[\underline{L}\left[\left(p^{2} L\right)\left(e^{+}\right)^{N} \phi\right]\right]= \nonumber\\ 
+  & =L\left[\underline{L}\left(\rho^{2} L\left(e^{+}\right)^{N} \phi\right)\right]=L\left[\tilde{\rho}^{2} \underline{L} L\left(e^{+}\right)^{N} \phi-2 \tilde{\rho} L\left(e^{+}\right)^{N} \phi\right]= \nonumber \\
+  & =L\left[-2 N \tilde{p} L\left(e^{+}\right)^{N} \phi+(N(N+1)+\Delta)\left(e^{+}\right)^{N} \phi-2 \tilde{p} L\left(e^{+}\right)^{N} \phi\right]= \nonumber \\
+  & =-2 N \tilde{p} L L\left(e^{+}\right)^{N} \phi-2 N L\left(e^{+}\right)^{N} \phi+L\left[\left(N(N+1)\right)\left(e^{+}\right)^{N} \phi\right]+L\left(\Delta\left(e^{+}\right)^{N} \phi\right) -2 \tilde{p} L L\left(e^{+}\right)^{N} \phi-2 L\left(e^{+}\right)^{N} \phi= \nonumber \\
+  & =-2 N\tilde{\rho} L L\left(e^{+}\right)^{N} \phi-2 N L\left(e^{+}\right)^{N} \phi+(N(N+1)) L\left(e^{+}\right)^{N} \phi +\left(e^{+}\right)^{N} \phi L(N(N+1))+\Delta L\left(e^{+}\right)^{N} \phi-2 \tilde{\rho} L L\left(e^{+}\right)^{N} \phi-2 L\left(e^{+}\right)^{N} \phi= \nonumber \\
+  & =-2 N\tilde{\rho} L L\left(e^{+}\right)^{N} \phi-2 N L\left(e^{+}\right)^{N} \phi+N^{2} L\left(e^{+}\right)^{N} \phi+N L\left(e^{+}\right)^{N} \phi+\Delta L\left(e^{+}\right)^{N} \phi -2 \tilde{p} L L\left(e^{+}\right)^{N} \phi-2 L\left(e^{+}\right)^{N} \phi = \nonumber \\
+  & =-2 N\tilde{\rho} \tilde{p} L L\left(e^{+}\right)^{N} \phi-N L\left(e^{+}\right)^{N} \phi+N^{2} L\left(e^{+}\right)^{N} \phi +\Delta L\left(e^{+}\right)^{N} \phi-2 \tilde{\rho} L L\left(e^{+}\right)^{N} \phi-2 L\left(e^{+}\right)^{N} \phi.
+\end{align}
+The RHS of \eqref{eq:main_commutation} with $n = N+1$ can be broken down into individual components and computed individually,
+\begin{align}\label{eq:RHS1}
+  -\frac{2(N+1)}{\tilde{\rho}}L\left(e^{+}\right)^{N+1} \phi =-2 N \tilde{\rho} L L\left(e^{+}\right)^{N} \phi-4 N L\left(e^{+}\right)^{N} \phi-2\tilde{\rho}  L L\left(e^{+}\right)^{N} \phi-4 L\left(e^{+}\right)^{N} \phi
+\end{align}
+\begin{align}\label{eq:RHS2}
+  \frac{1}{\tilde{\rho}^2}((N+1)(N+2) + \Delta_{\mathbb{S}^2})(\boldsymbol{e}^+)^{N+1} \phi = N^{2} L\left(e^{+}\right)^{N} \phi+3 N L\left(e^{+}\right)^{N} \phi+2 L\left(e^{+}\right)^{N} \phi+\Delta L\left(e^{+}\right)^{N} \phi
+\end{align}
+Adding \eqref{eq:RHS1} and \eqref{eq:RHS2} together, we obtain
+\begin{align}\label{eq:RHS1plusRHS2}
+  -2 N \tilde{\rho} L L\left(e^{+}\right)^{N} \phi+N^{2} L\left(e^{+}\right)^{N} \phi-N L\left(e^{+}\right)^{N} \phi-2 L\left(e^{+}\right)^{N} \phi - 2 \tilde{\rho} L L\left(e^{+}\right)^{N} \phi+\Delta L\left(e^{+}\right)^{N} \phi
+\end{align}
+Noticing that \eqref{eq:RHS1plusRHS2} is the same as expression \eqref{eq:main_commutation} with $n = N + 1$ finishes the proof.
+\end{proof}
+Furthermore, it is important to note that since this calculation is performed in flat spacetime, we have made trivial commutations involving $\underline{L}$, $L$, and $\Delta_{\mathbb{S}^2}$.
+Using Proposition \ref{prop:main_commutation} for $\ell=n$ and rearranging gives the following:
+\pagebreak
+\begin{corollary}\label{coro:main_commutation}
+  Let $\tilde{\phi}$ be a solution to
+  $\tilde{\square}\tilde{\phi}=0$ and let $\phi =
+  \tilde{\rho}\tilde{\phi}$. Then
+  \begin{align}\label{eq:coromain_commutation}
+  \underline{L} (\tilde{\rho}^{-2\ell} L (\boldsymbol{e}^{+})^{\ell}\phi_{\ell m}) = 0
+  \end{align}
+  where $\phi_{\ell m}= \int_{\mathbb{S}^2} \phi \; Y_{\ell m} \;
+  d\sigma$ with $d\sigma$ denoting the area element in
+  $\mathbb{S}^2$.
+\end{corollary}
+\begin{proof}
+  Using \eqref{eq:main_commutation} with $n = N$ and substituting $\phi=\sum_{\ell, m} \phi_{\ell M}(\tau, \rho) Y_{l m}$ into the same expression leads to,
+  \begin{equation}\label{eq:coromain_commutation_proof}
+    \underline{L} L\left(e^{+}\right)^{N}\left(\sum_{l, m} \phi_{l n} Y_{l m}\right)=-\frac{2 N}{\tilde{p}} L\left(e^{+}\right)^{N}\left(\sum_{l, m} \phi_{l m} Y_{l m}\right)+\frac{1}{\tilde{\rho}^{2}}(N(N+1)+\Delta)\left(e^{+}\right)^{N}\left(\sum_{l, M} \phi_{l n} Y_{l m}\right)
+  \end{equation}
+  Applying the \textit{Liebniz} rule when the $L$ operator acts on $\phi_{\ell m}$ and $Y_{\ell m}$, gives the following:
+  \begin{equation}\label{eq:liebnizrule}
+    L\left(\phi_{l m} Y_{l m}\right):=\phi_{l m} L Y_{l m}+Y_{l m} L \phi_{l m}
+  \end{equation}
+  The operator $L$ acting on $Y_{\ell m}$ gives $0$ since $Y_{\ell m} = Y_{\ell m}(\theta, \varphi)$ depends only on angular derivatives. Therefore, \eqref{eq:liebnizrule} becomes
+  \begin{equation}\label{eq:liebnizrule2}
+    L\left(\phi_{l m} Y_{l m}\right)=Y_{l m} L (\phi_{l m})
+  \end{equation}
+  Using \eqref{eq:liebnizrule2} and $N = \ell$ we can rewrite \eqref{eq:coromain_commutation_proof} as,
+  \begin{equation}\label{eq:coromain_commutation_proof2}
+    \sum_{l, m} Y_{l m}\left[L L\left(e^{+}\right)^{l} \phi_{l m}+\frac{2^{l}}{\tilde{\rho}} L\left(e^{+}\right) \phi_{l m}\right]=\frac{1}{\tilde{\rho}^{2}}\left{(l(l+1))\left(e^{+}\right)\left[\sum_{l, m} \phi_{l m} Y_{l m}\right] +\left[\sum_{l_{1} m} \phi_{l m} \Delta Y_{l m}\right]\left(e^{+}\right)^{l}\right}
+  \end{equation}
+\end{proof}
+  
