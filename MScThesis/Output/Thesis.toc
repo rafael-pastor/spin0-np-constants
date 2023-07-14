@@ -16,8 +16,10 @@
 \contentsline {section}{\numberline {2.3}Spin-0 fields close to $i^0$ and $\mathscr {I}$}{11}{section.2.3}%
 \contentsline {chapter}{\numberline {3}The NP-constants for the spin-0 fields close to $i^0$ \& $\mathscr {I}$}{14}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Conservation Laws}{14}{section.3.1}%
-\contentsline {chapter}{Bibliography}{17}{section*.11}%
-\contentsline {chapter}{\numberline {A}Vector calculus}{21}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Vector identities}{21}{section.A.1}%
-\contentsline {chapter}{\numberline {B}Technical Datasheets}{23}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Some Datasheet}{23}{section.B.1}%
+\contentsline {section}{\numberline {3.2}Definition of NP constants}{17}{section.3.2}%
+\contentsline {section}{\numberline {3.3}The classical NP constants}{17}{section.3.3}%
+\contentsline {chapter}{Bibliography}{19}{section*.11}%
+\contentsline {chapter}{\numberline {A}Vector calculus}{23}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Vector identities}{23}{section.A.1}%
+\contentsline {chapter}{\numberline {B}Technical Datasheets}{25}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Some Datasheet}{25}{section.B.1}%

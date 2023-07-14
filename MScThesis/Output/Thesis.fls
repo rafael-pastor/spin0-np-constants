@@ -1349,6 +1349,10 @@ INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/fourier-mcl.tf
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futb8t.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futb8t.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futb8t.tfm
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/vf/public/fourier/futmii.vf
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/fourier-mlit.tfm
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/fourier-ml.tfm
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futri8r.tfm
 INPUT Output/Thesis.bbl
 INPUT Output/Thesis.bbl
 INPUT Output/Thesis.bbl

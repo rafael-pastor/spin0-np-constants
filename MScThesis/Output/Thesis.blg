@@ -5,6 +5,9 @@ The style file: abbrvunsrtnat.bst
 Database file #1: Thesis.bib
 Warning--string name "jmp" is undefined
 --line 899 of file Thesis.bib
+Warning--I didn't find a database entry for "GasVal20"
+Warning--I didn't find a database entry for "Val98"
+Warning--I didn't find a database entry for "Val99a"
 Too many commas in name 1 of "Bondi, H., Burg, M. G. J. v. d., Metzner, A. W. K." for entry BonBurMet62
 while executing---line 2465 of file abbrvunsrtnat.bst
 Too many commas in name 1 of "Bondi, H., Burg, M. G. J. v. d., Metzner, A. W. K." for entry BonBurMet62
@@ -26,45 +29,45 @@ while executing---line 2629 of file abbrvunsrtnat.bst
 Warning--empty journal in FriKan00
 Warning--empty journal in DuaFenGasHil22
 Warning--empty journal in Keh21_a
-You've used 32 entries,
+You've used 33 entries,
             2481 wiz_defined-function locations,
-            798 strings with 9487 characters,
-and the built_in function-call counts, 11118 in all, are:
-= -- 987
-> -- 432
-< -- 26
-+ -- 186
-- -- 122
-* -- 817
-:= -- 1790
-add.period$ -- 122
-call.type$ -- 32
-change.case$ -- 60
-chr.to.int$ -- 32
-cite$ -- 35
-duplicate$ -- 587
-empty$ -- 1081
-format.name$ -- 174
-if$ -- 2372
+            811 strings with 9710 characters,
+and the built_in function-call counts, 11502 in all, are:
+= -- 1022
+> -- 447
+< -- 27
++ -- 192
+- -- 126
+* -- 848
+:= -- 1850
+add.period$ -- 126
+call.type$ -- 33
+change.case$ -- 62
+chr.to.int$ -- 33
+cite$ -- 36
+duplicate$ -- 606
+empty$ -- 1118
+format.name$ -- 181
+if$ -- 2455
 int.to.chr$ -- 1
-int.to.str$ -- 33
-missing$ -- 33
-newline$ -- 194
-num.names$ -- 96
-pop$ -- 238
+int.to.str$ -- 34
+missing$ -- 34
+newline$ -- 200
+num.names$ -- 99
+pop$ -- 244
 preamble$ -- 1
-purify$ -- 32
+purify$ -- 33
 quote$ -- 0
-skip$ -- 351
+skip$ -- 363
 stack$ -- 0
-substring$ -- 441
-swap$ -- 72
+substring$ -- 461
+swap$ -- 74
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 212
+type$ -- 219
 warning$ -- 3
-while$ -- 88
+while$ -- 91
 width$ -- 0
-write$ -- 467
+write$ -- 482
 (There were 9 error messages)

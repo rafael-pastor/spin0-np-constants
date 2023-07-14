@@ -364,7 +364,7 @@ These logarithmic terms have implications for the linear version of the associat
 
 The Newman-Penrose (NP) constants, introduced by Newman and Penrose \cite{NewPen68}, are computed by evaluating 2-surface integrals at null infinity of certain derivatives of the field. These constants, as the name suggests, are conserved quantities, meaning that their values remain constant regardless of the choice of the cut of null infinity on which they are computed. In their original work \cite{NewPen68}, it was demonstrated that for the spin-1 field (Maxwell field) and spin-2 field (linearized Weyl tensor) in Minkowski spacetime, there exists an infinite hierarchy of conserved quantities. However, in the full non-linear theory involving the Weyl tensor, only 10 quantities remain conserved. In both the linear (spin-1 and spin-2) and non-linear (gravitational) cases, the NP constants emerge from a set of asymptotic conservation laws. For the spin-0 field in flat spacetime, refer to \cite{Keh21_a}. One has
 \begin{equation}\label{eq:cons_laws}
-  {\underline{{L}}}({\tilde{\rho}}^{-2\ell}L(e^{+})^{\ell+1}\phi_{\ell m})=0, \qquad({\tilde{\rho}}^{-2\ell}L(e^{-})^{\ell+1}\phi_{\ell m})=0
+  {\underline{{L}}}({\tilde{\rho}}^{-2\ell}L(e^{+})^{\ell+1}\phi_{\ell m})=0, \qquad({\tilde{\rho}}^{-2\ell}\underline{L}(e^{-})^{\ell+1}\phi_{\ell m})=0
 \end{equation}
 here, $\phi_{\ell m}= \int_{\mathbb{S}^2} \phi  Y_{\ell m}  d\sigma$ represents the integral of $\phi$ multiplied by the spherical harmonics $Y_{\ell m}$ over the surface $\mathbb{S}^2$, where $d\sigma$ denotes the area element on $\mathbb{S}^2$. A derivation of a slightly more generalized version of these identities can be shown in the following section.
 
@@ -399,9 +399,10 @@ Equation \eqref{eq:uLLphiToSource} corresponds to the case $n=0$ of expression \
   & =L\left[\underline{L}\left(\rho^{2} L\left(e^{+}\right)^{N} \phi\right)\right]=L\left[\tilde{\rho}^{2} \underline{L} L\left(e^{+}\right)^{N} \phi-2 \tilde{\rho} L\left(e^{+}\right)^{N} \phi\right]= \nonumber \\
   & =L\left[-2 N \tilde{p} L\left(e^{+}\right)^{N} \phi+(N(N+1)+\Delta)\left(e^{+}\right)^{N} \phi-2 \tilde{p} L\left(e^{+}\right)^{N} \phi\right]= \nonumber \\
   & =-2 N \tilde{p} L L\left(e^{+}\right)^{N} \phi-2 N L\left(e^{+}\right)^{N} \phi+L\left[\left(N(N+1)\right)\left(e^{+}\right)^{N} \phi\right]+L\left(\Delta\left(e^{+}\right)^{N} \phi\right) -2 \tilde{p} L L\left(e^{+}\right)^{N} \phi-2 L\left(e^{+}\right)^{N} \phi= \nonumber \\
-  & =-2 N\tilde{\rho} L L\left(e^{+}\right)^{N} \phi-2 N L\left(e^{+}\right)^{N} \phi+(N(N+1)) L\left(e^{+}\right)^{N} \phi +\left(e^{+}\right)^{N} \phi L(N(N+1))+\Delta L\left(e^{+}\right)^{N} \phi-2 \tilde{\rho} L L\left(e^{+}\right)^{N} \phi-2 L\left(e^{+}\right)^{N} \phi= \nonumber \\
+  & =-2 N\tilde{\rho} L L\left(e^{+}\right)^{N} \phi-2 N L\left(e^{+}\right)^{N} \phi+(N(N+1)) L\left(e^{+}\right)^{N} \phi + \nonumber \\
+  & + \left(e^{+}\right)^{N} \phi L(N(N+1))+\Delta L\left(e^{+}\right)^{N} \phi-2 \tilde{\rho} L L\left(e^{+}\right)^{N} \phi-2 L\left(e^{+}\right)^{N} \phi= \nonumber \\
   & =-2 N\tilde{\rho} L L\left(e^{+}\right)^{N} \phi-2 N L\left(e^{+}\right)^{N} \phi+N^{2} L\left(e^{+}\right)^{N} \phi+N L\left(e^{+}\right)^{N} \phi+\Delta L\left(e^{+}\right)^{N} \phi -2 \tilde{p} L L\left(e^{+}\right)^{N} \phi-2 L\left(e^{+}\right)^{N} \phi = \nonumber \\
-  & =-2 N\tilde{\rho} \tilde{p} L L\left(e^{+}\right)^{N} \phi-N L\left(e^{+}\right)^{N} \phi+N^{2} L\left(e^{+}\right)^{N} \phi +\Delta L\left(e^{+}\right)^{N} \phi-2 \tilde{\rho} L L\left(e^{+}\right)^{N} \phi-2 L\left(e^{+}\right)^{N} \phi.
+  & =-2 N\tilde{\rho} L L\left(e^{+}\right)^{N} \phi-N L\left(e^{+}\right)^{N} \phi+N^{2} L\left(e^{+}\right)^{N} \phi +\Delta L\left(e^{+}\right)^{N} \phi-2 \tilde{\rho} L L\left(e^{+}\right)^{N} \phi-2 L\left(e^{+}\right)^{N} \phi.
 \end{align}
 The RHS of \eqref{eq:main_commutation} with $n = N+1$ can be broken down into individual components and computed individually,
 \begin{align}\label{eq:RHS1}
@@ -445,7 +446,102 @@ Using Proposition \ref{prop:main_commutation} for $\ell=n$ and rearranging gives
   \end{equation}
   Using \eqref{eq:liebnizrule2} and $N = \ell$ we can rewrite \eqref{eq:coromain_commutation_proof} as,
   \begin{equation}\label{eq:coromain_commutation_proof2}
-    \sum_{l, m} Y_{l m}\left[L L\left(e^{+}\right)^{l} \phi_{l m}+\frac{2^{l}}{\tilde{\rho}} L\left(e^{+}\right) \phi_{l m}\right]=\frac{1}{\tilde{\rho}^{2}}\left{(l(l+1))\left(e^{+}\right)\left[\sum_{l, m} \phi_{l m} Y_{l m}\right] +\left[\sum_{l_{1} m} \phi_{l m} \Delta Y_{l m}\right]\left(e^{+}\right)^{l}\right}
+    \sum_{l, m} Y_{l m}\left[\underline{L} L\left(e^{+}\right)^{l} \phi_{l m}+\frac{2l}{\tilde{\rho}} L\left(e^{+}\right)^{l} \phi_{l m}\right]=\frac{1}{\tilde{\rho}^{2}}\left[(l(l+1))\left(e^{+}\right)^{l}\left(\sum_{l, m} \phi_{l m} Y_{l m}\right) +\left(\sum_{l_{1} m} \phi_{l m} \Delta Y_{l m}\right)\left(e^{+}\right)^{l}\right]
   \end{equation}
+  Using the fac that $\sum_{l_{1} m} \Delta \phi_{l m} Y_{l m}=0$ and $\sum_{l, m} \phi_{l m} Y_{l m}=-l(l+1) \sum_{l, m} \phi_{l m}$ \eqref{eq:coromain_commutation_proof2} becomes,
+  \begin{align}\label{eq:coromain_commutation_proof3}
+    & \sum_{l, m} Y_{l m}\left(\underline{L} L\left(e^{+}\right)^{l} \phi_{l m}+\frac{2 l}{\tilde{p}} L\left(e^{+}\right)^{l} \phi_{l m}\right)=0 \Leftrightarrow \nonumber \\
+    & \Leftrightarrow \underline{L} L\left(e^{+}\right)^{l} \phi_{l m}+\frac{2 l}{\tilde{\rho}} L\left(e^{+}\right)^{l} \phi_{l m}=0 \quad \Leftrightarrow \nonumber \\
+    & \Leftrightarrow \underline{L}\left(\tilde{\rho}^{-2 l} L\left(e^{+}\right)^{l} \phi_{l m}\right)=0
+  \end{align}
+  We can see that \eqref{eq:coromain_commutation_proof3} is the same as \eqref{eq:coromain_commutation}, which completes the proof.   
 \end{proof}
-  
+Then, with the necessary adjustments, the time-reversed versions of \ref{prop:main_commutation} and \ref{coro:main_commutation} can be expressed as:
+\begin{proposition}\label{prop:main_commutation_minus}
+  Let $\tilde{\phi}$ be a solution to
+  $\tilde{\square}\tilde{\phi}=0$.  Let $\phi =
+  \tilde{\rho}\tilde{\phi}$ then $\phi$ satisfies
+ \begin{align}\label{eq:main_commutation_minus}
+   L \underline{L} (\boldsymbol{\underline{e}}^{-})^n \phi = -\frac{2n}{\tilde{\rho}}\underline{L}
+   (\boldsymbol{\underline{e}}^{-})^n \phi + \frac{1}{\tilde{\rho}^2}(n(n+1) +
+   \Delta_{\mathbb{S}^2})(\boldsymbol{\underline{e}}^{-})^n \phi.
+ \end{align}
+\end{proposition}
+\begin{corollary}\label{coro:main_commutation_minus}
+  Let $\tilde{\phi}$ be a solution to
+  $\tilde{\square}\tilde{\phi}=0$ and let $\phi =
+  \tilde{\rho}\tilde{\phi}$. Then
+  \begin{align}\label{eq:coromain_commutation_minus}
+  L (\tilde{\rho}^{-2\ell} \underline{L} (\boldsymbol{\underline{e}}^{-})^{\ell}\phi_{\ell m}) = 0
+  \end{align}
+  where $\phi_{\ell m}= \int_{\mathbb{S}^2} \phi \; Y_{\ell m} \;
+  d\sigma$ with $d\sigma$ denoting the area element in $\mathbb{S}^2$.
+\end{corollary}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Definition of NP constants}
+\label{sec:NP_constants}
+
+Equations \eqref{eq:cons_laws} provide an infinite hierarchy of exact conservation laws. Additionally, one can introduce the $f(\tilde{\rho})$-modified NP constants, as described in \cite{GajKehLeo22}, in the following manner: 
+\begin{align}\label{eq:DefModifiedNP}
+  {}^{f}\mathcal{N}^{+}_{\ell,m}:= f(\tilde{\rho})L (\boldsymbol{e}^{+})^{\ell}\phi_{\ell m} \Big|_{\mathcal{C}^{+}}, \\ 
+  {}^{f}\mathcal{N}^{-}_{\ell,m}:= f(\tilde{\rho})\underline{L} (\boldsymbol{\underline{e}}^{-})^{\ell}\phi_{\ell m}\Big|_{\mathcal{C}^{-}},
+\end{align}
+here, $\mathcal{C^{\pm}} \approx \mathbb{S}^2$ represents a cut of $\mathscr{I}^{\pm}$. In the specific case of $f(\tilde{\rho})=\tilde{\rho}^2$, these quantities are referred to as the "classical NP-constants" and are denoted as $\mathcal{N}^{\pm}_{\ell,m}$. They can be succinctly expressed as follows:
+\begin{align}\label{eq:classicalNP}
+  \mathcal{N}^{+}_{\ell,m}:= (\boldsymbol{e}^{+})^{\ell+1}\phi_{\ell m}\Big|_{\mathcal{C}^{+}},\\ 
+  \mathcal{N}^{-}_{\ell,m}:= (\boldsymbol{\underline{e}}^{-})^{\ell+1}\phi_{\ell m} \Big|_{\mathcal{C}^{-}}.
+\end{align}
+In the notation for ${}^{f}\mathcal{N}^{+}_{\ell,m}$ presented below, it will be implicitly assumed that $m$ takes values from $-\ell$ to $\ell$.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{The classical NP constants}
+\label{sec:classicalNP}
+
+In this section, we focus on computing the classical NP constants, which are determined by the initial data expressed through the constant parameters discussed in Lemma \ref{Lemma:Sol_Jacobi_and_Logs}. To aid our comprehension, we begin by calculating a few initial NP constants before proceeding to the general case. Specifically, we delve into computing the classical NP constants at $\mathscr{I}^{+}$ for $\ell=0$ and $\ell=1$. This analysis is facilitated by expression \eqref{eq:ansatz}, which yields the following insights:
+\begin{align}\label{eq:exp_phi_lm}
+  \phi_{\ell m}= \sum_{p=\ell}^{\infty}\frac{1}{p!}a_{p;\ell,m}(\tau)\rho^{p}.
+\end{align}
+Therefore, when considering $\ell=0$, the computation of $\boldsymbol{e}^{+}(\phi_{00})$ is sufficient. By utilizing Proposition \ref{Prop:NPtoFgauge} and equation \eqref{eq:Fframe}, we obtain the following:
+\begin{align}\label{eq:bmeplus1philmraw}
+   & \boldsymbol{e}^{+}(\phi_{\ell m})= 4(\Lambda_{+})^{2}\sum_{p=0}^{\infty}\frac{1}{p!}\boldsymbol{e}(a_{p;\ell,m}(\tau)\rho^{p}) = \Lambda^{2} \sum_{p=0}^{\infty} \left[(1+\tau) \partial_{\tau}-p \partial_{\rho}\right]\left(a_{p ; \ell, m}(\tau) \rho^{p}\right)= \nonumber \\
+   & =\Lambda^{2} \sum_{p=0}^{\infty} \left[(1+\tau) \dot{a}_{p_; l, m} \rho^{p}-\rho a_{p ; l, m} \cdot p \rho^{p-1}\right] = 4 \rho^{-1}(1+\tau)^{-2}\sum_{p=0}^{\infty} \frac{1}{p!}\rho^p((1+\tau)\dot{a}_{p;\ell,m}-p a_{p;\ell,m}).
+\end{align}
+With
+\begin{align}\label{eq:defQ0}
+  Q^{0}_{p;\ell,m}(\tau):=(1+\tau)\dot{a}_{p;\ell,m}-p a_{p;\ell,m},
+\end{align}
+With this definition in place, we can express $\boldsymbol{e}^{+}(\phi_{\ell m})$ as follows:
+\begin{align}\label{eq:bmeplus1philm}
+  \boldsymbol{e}^{+}(\phi_{\ell m}) = 4 (\Lambda_{+})^{2}\sum_{p=0}^{\infty} \frac{1}{p!}\rho^{p}Q^{0}_{p,\ell,m}(\tau).
+\end{align}
+To compute the $\ell=0$ NP constant at $\mathscr{I}^{+}$, it is necessary to evaluate $\boldsymbol{e}^{+}(\phi_{00})$ at a specific cut $\mathcal{C}^{+}$ of $\mathscr{I}^{+}$. By utilizing equation \eqref{eq:bmeplus1philm} and referring to Lemma \ref{Lemma:Sol_Jacobi_and_Logs}, we obtain the following expression:
+\begin{align}
+  \mathcal{N}^{+}_{0,0}= \lim_{\substack{\rho \to \rho_{\star} \\ \tau \to 1}}  \boldsymbol{e}^{+}(\phi_{00}) = \sum_{p=0}^{\infty} \frac{1}{p!}\rho^{p-1}_{\star}Q^{0}_{p,0,0}|_{\mathscr{I}^{+}}.
+\end{align}
+here, $\rho_{\star}$ represents a constant that parametrizes the cut $\mathcal{C}^{+}$, and $Q^{0}_{p,\ell,m}|_{\mathscr{I}^{+}}$ denotes the value of $Q^{0}_{p,\ell,m}$ at $\mathscr{I}^{+}$, specifically at $\rho=1$. Notably, when $\rho_{\star}=0$, it corresponds to selecting $\mathcal{C}^{+}$ as $\mathcal{I}^{+}$.
+A direct calculation using Lemma \ref{Lemma:Sol_Jacobi_and_Logs} shows the following:
+\begin{align}\label{eq:Q0lm}
+  & Q_{P ;, l m}^{0}(\tau)=(1+\tau) \dot{a}_{p ; l, m}(\tau)-p_{p ; l, m}(\tau) \Rightarrow Q_{0;0,0}^{0}(\tau)=2 \dot{a}_{0;0,0}(\tau)-0 \cdot a_{0;0,0} =2 \dot{a}_{0;0,0}(\tau)=\frac{D_{000}}{1-\tau}, \\
+  & Q_{1;0,0}^{0}(\tau)=2 \dot{a}_{1;0,0}(1)-1 \cdot a_{1;0,0}(1)=-A_{100}.
+\end{align}
+Therefore, it is important to note that if the regularity condition of Remark \ref{Remark:logfreeRemark} is not satisfied, the classical NP constants will not be well-defined, regardless of the chosen cut for evaluation. Thus, in order to compute the classical $\ell=0$ NP constant, the regularity condition must be imposed. However, once the regularity condition is satisfied, the value of the classical $\ell=0$ NP constant becomes independent of the specific cut chosen for evaluation. This can be seen through the following analysis:
+\begin{remark}\label{rem:l0}
+  A direct calculation
+using Lemma \ref{Lemma:Sol_Jacobi_and_Logs}
+gives
+ \begin{subequations}\label{eq:rem:l0}
+ \begin{align}
+   Q^{0}_{0;0,0}&=D_{000}(1-\tau)^{-1},\label{rem:l0:eq1} \\
+   Q^{0}_{p;0,0}&=-2^{1-p}pA_{p,0,m}(1-\tau)^{p-1} \qquad \text{ for}\qquad p\neq 0.
+   \label{rem:l0:eq2}
+ \end{align}
+\end{subequations}
+\end{remark}
+Thus, based on the insights provided by Remark \ref{rem:l0} and assuming the regularity condition is fulfilled, we can conclude that:
+\begin{align}
+  &\mathcal{N}^{+}_{0,0}= \sum_{p=0}^{\infty} \frac{1}{p!}\rho^{p-1}_{\star}Q^{0}_{p,0,0}|_{\mathscr{I}^{+}} = \sum_{p=0}^{\infty} \frac{1}{p !}(1+\tau)^{-2} \rho^{p-1} Q_{p; 0,0}^{0}(\tau) = \sum_{p=0}^{\infty} \frac{1}{p !} 2^{-2} \rho^{p-1} Q_{p; 0,0}^{0}(1) \nonumber \\
+  & \left[\frac{2^{-2}}{0 !} \rho^{-1} A_{0;0,0}(1)+\frac{2^{-2}}{\rho !} \rho^{0} A_{1;0,0}^{0}(1)+\sum_{p=2}^{\infty} \frac{2^{-2}}{p !} \rho^{p-1} A_{p;0,0}^{0}(\tau)\right] = -A_{100}.
+\end{align}
+
+It is expected that the regularity condition must be imposed to ensure well-defined classical NP constants, as a similar observation holds for the spin-1 and spin-2 cases in \cite{GasVal20} (see also \cite{Val98, Val99a}). Additionally, Remark \ref{rem:l0} demonstrates that only the term with $p=1$ contributes to the calculation. This aligns with the "constancy" of the NP constants, indicating that their value does not depend on the chosen cut \cite{NewPen68}. In other words, if we assume that the NP constants are well-defined, the specific form of the expressions in Remark \ref{rem:l0} is not necessary to determine the contribution of the initial data parameters from Lemma \ref{Lemma:Sol_Jacobi_and_Logs} to $\mathcal{N}^{+}_{0,0}$. As long as only the parameter $A_{p;\ell,m}$ (and not $B_{p;\ell,m}$) appears in Equation \ref{rem:l0:eq2}, the value of $\mathcal{N}^{+}_{0,0}$ can be determined.
+
+
