@@ -5,9 +5,6 @@ The style file: abbrvunsrtnat.bst
 Database file #1: Thesis.bib
 Warning--string name "jmp" is undefined
 --line 899 of file Thesis.bib
-Warning--I didn't find a database entry for "GasVal20"
-Warning--I didn't find a database entry for "Val98"
-Warning--I didn't find a database entry for "Val99a"
 Too many commas in name 1 of "Bondi, H., Burg, M. G. J. v. d., Metzner, A. W. K." for entry BonBurMet62
 while executing---line 2465 of file abbrvunsrtnat.bst
 Too many commas in name 1 of "Bondi, H., Burg, M. G. J. v. d., Metzner, A. W. K." for entry BonBurMet62
@@ -29,45 +26,45 @@ while executing---line 2629 of file abbrvunsrtnat.bst
 Warning--empty journal in FriKan00
 Warning--empty journal in DuaFenGasHil22
 Warning--empty journal in Keh21_a
-You've used 33 entries,
+You've used 36 entries,
             2481 wiz_defined-function locations,
-            811 strings with 9710 characters,
-and the built_in function-call counts, 11502 in all, are:
-= -- 1022
-> -- 447
-< -- 27
-+ -- 192
-- -- 126
-* -- 848
-:= -- 1850
-add.period$ -- 126
-call.type$ -- 33
-change.case$ -- 62
-chr.to.int$ -- 33
-cite$ -- 36
-duplicate$ -- 606
-empty$ -- 1118
-format.name$ -- 181
-if$ -- 2455
+            824 strings with 10102 characters,
+and the built_in function-call counts, 12684 in all, are:
+= -- 1141
+> -- 476
+< -- 30
++ -- 206
+- -- 134
+* -- 945
+:= -- 2032
+add.period$ -- 140
+call.type$ -- 36
+change.case$ -- 68
+chr.to.int$ -- 36
+cite$ -- 39
+duplicate$ -- 663
+empty$ -- 1235
+format.name$ -- 194
+if$ -- 2708
 int.to.chr$ -- 1
-int.to.str$ -- 34
-missing$ -- 34
-newline$ -- 200
-num.names$ -- 99
-pop$ -- 244
+int.to.str$ -- 37
+missing$ -- 37
+newline$ -- 220
+num.names$ -- 108
+pop$ -- 260
 preamble$ -- 1
-purify$ -- 33
+purify$ -- 36
 quote$ -- 0
-skip$ -- 363
+skip$ -- 395
 stack$ -- 0
-substring$ -- 461
-swap$ -- 74
+substring$ -- 547
+swap$ -- 82
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 219
+type$ -- 240
 warning$ -- 3
-while$ -- 91
+while$ -- 102
 width$ -- 0
-write$ -- 482
+write$ -- 531
 (There were 9 error messages)

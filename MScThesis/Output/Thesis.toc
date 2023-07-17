@@ -9,7 +9,7 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Motivation}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Global structure of spacetimes}{2}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Newman-Penrose Constants}{5}{section.1.3}%
+\contentsline {section}{\numberline {1.3}Newman-Penrose constants}{5}{section.1.3}%
 \contentsline {chapter}{\numberline {2}Cylinder at $i^0$}{7}{chapter.2}%
 \contentsline {section}{\numberline {2.1}The $i^0$ - cylinder representation in Minkowski spacetime}{7}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Linear model equations}{10}{section.2.2}%

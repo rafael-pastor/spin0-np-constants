@@ -1,4 +1,4 @@
-\begin{thebibliography}{33}
+\begin{thebibliography}{36}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -218,5 +218,29 @@ D.~Gajic and L.~M.~A. Kehrberger.
   and late-time tails}.
 \newblock \emph{Class. Quant. Grav.}, 39\penalty0 (19):\penalty0 195006, 2022.
 \newblock \doi{10.1088/1361-6382/ac8863}.
+
+\bibitem[Gasperin and Valiente~Kroon(2020)]{GasVal20}
+E.~Gasperin and J.~A.~V. Valiente~Kroon.
+\newblock {Zero rest-mass fields and the Newman-Penrose constants on flat
+  space}.
+\newblock \emph{J. Math. Phys.}, 61\penalty0 (12):\penalty0 122503, 2020.
+\newblock \doi{10.1063/5.0034784}.
+
+\bibitem[Kroon(1998)]{Val98}
+J.~A.~V. Kroon.
+\newblock Conserved quantities for polyhomogeneous spacetimes.
+\newblock \emph{Classical and Quantum Gravity}, 15\penalty0 (8):\penalty0
+  2479--2491, aug 1998.
+\newblock \doi{10.1088/0264-9381/15/8/023}.
+\newblock URL \url{https://doi.org/10.1088%2F0264-9381%2F15%2F8%2F023}.
+
+\bibitem[Valiente-Kroon(1999)]{Val99a}
+J.~A. Valiente-Kroon.
+\newblock Logarithmic newman-penrose constants for arbitrary polyhomogeneous
+  spacetimes.
+\newblock \emph{Classical and Quantum Gravity}, 16\penalty0 (5):\penalty0
+  1653--1665, jan 1999.
+\newblock \doi{10.1088/0264-9381/16/5/314}.
+\newblock URL \url{https://doi.org/10.1088%2F0264-9381%2F16%2F5%2F314}.
 
 \end{thebibliography}
