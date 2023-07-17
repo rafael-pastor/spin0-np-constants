@@ -542,5 +542,52 @@ Thus, based on the insights provided by Remark \ref{rem:l0} and assuming the reg
   & \left[\frac{2^{-2}}{0 !} \rho^{-1} A_{0;0,0}\cdot(1)+\frac{2^{-2}}{\rho !} \rho^{0} A_{1;0,0} \cdot(1)+\sum_{p=2}^{\infty} \frac{2^{-2}}{p !} \rho^{p-1} A_{p;0,0}\cdot(\tau)\right] = -A_{100}.
 \end{align}
 
-It is expected that the regularity condition must be imposed to ensure well-defined classical NP constants, as a similar observation holds for the spin-1 and spin-2 cases in \cite{GasVal20} (see also \cite{Val98, Val99a}). Additionally, Remark \ref{rem:l0} demonstrates that only the term with $p=1$ contributes to the calculation. This aligns with the "constancy" of the NP constants, indicating that their value does not depend on the chosen cut \cite{NewPen68}. In other words, if we assume that the NP constants are well-defined, the specific form of the expressions in Remark \ref{rem:l0} is not necessary to determine the contribution of the initial data parameters from Lemma \ref{Lemma:Sol_Jacobi_and_Logs} to $\mathcal{N}^{+}_{0,0}$. As long as only the parameter $A_{p;\ell,m}$ (and not $B_{p;\ell,m}$) appears in Equation \ref{rem:l0:eq2}, the value of $\mathcal{N}^{+}_{0,0}$ can be determined.
+It is expected that the regularity condition must be imposed to ensure well-defined classical NP constants, as a similar observation holds for the spin-1 and spin-2 cases in \cite{GasVal20} (see also \cite{Val98, Val99a}). Additionally, Remark \ref{rem:l0} demonstrates that only the term with $p=1$ contributes to the calculation. This aligns with the "constancy" of the NP constants, indicating that their value does not depend on the chosen cut \cite{NewPen68}. In other words, if we assume that the NP constants are well-defined, the specific form of the expressions in Remark \ref{rem:l0} is not necessary to determine the contribution of the initial data parameters from Lemma \ref{Lemma:Sol_Jacobi_and_Logs} to $\mathcal{N}^{+}_{0,0}$. As long as only the parameter $A_{p;\ell,m}$ (and not $B_{p;\ell,m}$) appears in Equation \ref{rem:l0:eq2}, the value of $\mathcal{N}^{+}_{0,0}$ can be determined. 
+\pagebreak
 
+To calculate the $\ell = 1$ NP constants, we must evaluate $(\boldsymbol{e}^{+})^{2}(\phi_{1m})$. By utilizing Proposition 1 and building upon the previous calculation, we obtain:
+\begin{align}\label{eq:bmeplus2philmraw}
+  (\boldsymbol{e}^{+})^2(\phi_{\ell m})= 4^2(\Lambda_{+})^{2}\boldsymbol{e} \Big((\Lambda_{+}{})^2 \sum_{p=\ell}^{\infty}\frac{1}{p!}\rho^{p}Q^{0}_{p,\ell,m}(\tau)\Big).
+\end{align}
+Performing an explicit calculation with equations \eqref{eq:Fframe} and \eqref{eq:LorentzTransf}, we find:
+\begin{align}\label{eq:defQ1}
+  & \boldsymbol{e}\left(\Lambda_{+}^{2}\right)=[(1+\tau) \partial \tau-\rho \partial \rho]\left[\rho^{-1}(1+\tau)^{-2}\right]=\left[(1+\tau) \rho^{-1}(-2)(1+\tau)^{-3}-\rho(1+\tau)^{-2}(-1) \rho^{-2}\right] \nonumber \\
+  & =-2 \rho^{-1}(1+\tau)^{-2}+\rho^{-1}(1+\tau)^{-2}=-\rho^{-1}(1+\tau)^{-2}=-\Lambda_{+}^{2} \nonumber \\
+\end{align}
+Utilizing the aforementioned equations yields:
+\begin{align}\label{eq:defQ1}
+  & (\boldsymbol{e}^{+})^2(\phi_{\ell m})= 4^2(\Lambda_{+})^{4}\sum_{p=\ell}^{\infty} \frac{1}{p!}\big(\boldsymbol{e}^{+}\left(\rho^{p} Q_{p; l, m}^{0}\right)-Q_{p; l, m}^{0} \rho^{p}\big) = \nonumber \\
+  & = 4^2(\Lambda_{+})^{4}\sum_{p=\ell}^{\infty} \frac{1}{p!}\left[(1+\tau) \rho^{p} Q_{p; l, m}^{0}-\rho^{p} Q_{p; l, m}^{0} p \rho^{p-1}\right]-\rho^{p} Q_{p; l, m}^{0} = \nonumber \\
+  & = 4^2(\Lambda_{+})^{4}\sum_{p=\ell}^{\infty} \frac{1}{p!}\rho^{p}\big((1+\tau)\dot{Q}^{0}_{p;\ell,m}(\tau)-(p+1){Q}^{0}_{p;\ell,m}(\tau)\big).
+\end{align}
+Where $Q^{1}_{p,\ell,m}(\tau):= \big((1+\tau)\dot{Q}^{0}_{p,\ell,m}(\tau)-(p+1){Q}^{0}_{p,\ell,m}(\tau)\big)$ and \eqref{eq:defQ0} gives 
+\begin{align}\label{eq:DefQ1IntermsQ0}
+& Q_{p ; l, m}^{1}(\tau)=(1+\tau) \dot{Q}_{p; l, m}^{0}-(p+1) Q_{p; l m}^{0}=(1+\tau) \frac{d}{d \tau}\left[(1+\tau) \dot{a}_{p;l, m}-p a_{p; l, m}\right]- (p+1)\left[(1+\tau) \dot{a}_{p;l, m}-p a_{p; l, m}\right] = \nonumber \\
+& =(1+\tau)^{2} \ddot{a}_{p; l, m}-2 p(1+\tau) \dot{a}_{p; l, m}+p(p+1) a_{p; l,m}. \nonumber \\
+\end{align}
+Therefore, one can compute $\mathcal{N}^{+}_{1,m}$ as
+\begin{align}\label{NP1_precomputation}
+  & \mathcal{N}^{+}_{1,m}= \lim_{\substack{\rho \to \rho_{\star} \\ \tau \to 1}} (\boldsymbol{e}^{+})^2(\phi_{1m}) = \sum_{p=1}^{\infty}\frac{1}{p!}\rho_{\star}^{p-2}Q^{1}_{p,1,m}|_{\mathscr{I}^{+}} =  (1+\tau)^{-4} \sum_{p=0}^{\infty} \frac{1}{p !} Q_{p l, m}^{1}(\tau) \rho^{p} = \nonumber \\
+  & = (1+\tau)^{-4}\left(\sum_{p=0}^{1} \frac{1}{p !} \rho^{p-2} Q_{p; 1, m}^{1}\cdot(\tau)+\sum_{p=2}^{2} \frac{1}{p !} \rho^{0} Q_{p, 1, m}^{1}\cdot(\tau)+\sum_{p=3}^{\infty} \frac{1}{p !} \rho^{p-2} A_{p, 1, m}^{1}\cdot{(\tau)}\right) = \nonumber \\
+  & = \lim _{\substack{\rho \rightarrow 0 \\ \tau \rightarrow 1}} 2^{-4}\big\{\rho^{-2} Q_{0,1, m}^{1}\cdot(\tau)+\rho^{-1} Q_{1,1, m}^{1}\cdot(\tau)\big\}+\lim _{\rho \rightarrow 0} 2^{-4} \frac{1}{2 !} Q^{1}_{2, 1, m}\cdot(\tau). 
+\end{align}
+Similar to the previous case, we have the following:
+\begin{remark}\label{rem:l1}
+  By directly applying Lemma \ref{Lemma:Sol_Jacobi_and_Logs}, we can calculate: 
+ \begin{align}
+   Q^{1}_{1;1,m} &=-2^{-1}D_{11m}(1-\tau)^{-1},\\
+   Q^{1}_{p;1,m} &=2^{2-p}(p-1)p(p+1)A_{2,p,m}(1-\tau)^{p-2} \qquad
+   \text{for}\qquad p\neq 1.
+ \end{align}
+\end{remark}
+\pagebreak
+By observing Remark \ref{rem:l1}, it becomes apparent that only the term with $p=2$ in equation \eqref{NP1_precomputation} contributes to the overall sum. \\
+Direct evaluation leads to:
+\begin{align}
+  \mathcal{N}^{+}_{1,m}=3A_{21m}.
+\end{align}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{The $i^0$-cylinder logarithmic NP constants}
+\label{sec:LogarithmicNP_main}
+
+  
