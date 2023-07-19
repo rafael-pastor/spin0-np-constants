@@ -19,8 +19,9 @@
 \contentsline {section}{\numberline {3.2}Definition of NP constants}{17}{section.3.2}%
 \contentsline {section}{\numberline {3.3}The classical NP constants}{17}{section.3.3}%
 \contentsline {section}{\numberline {3.4}The $i^0$-cylinder logarithmic NP constants}{20}{section.3.4}%
-\contentsline {chapter}{Bibliography}{21}{section*.11}%
-\contentsline {chapter}{\numberline {A}Vector calculus}{25}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Vector identities}{25}{section.A.1}%
-\contentsline {chapter}{\numberline {B}Technical Datasheets}{27}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Some Datasheet}{27}{section.B.1}%
+\contentsline {section}{\numberline {3.5}The general case: Induction proof}{21}{section.3.5}%
+\contentsline {chapter}{Bibliography}{25}{section*.11}%
+\contentsline {chapter}{\numberline {A}Vector calculus}{29}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Vector identities}{29}{section.A.1}%
+\contentsline {chapter}{\numberline {B}Technical Datasheets}{31}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Some Datasheet}{31}{section.B.1}%

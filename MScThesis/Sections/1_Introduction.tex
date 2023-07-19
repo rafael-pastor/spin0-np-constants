@@ -590,4 +590,137 @@ Direct evaluation leads to:
 \section{The $i^0$-cylinder logarithmic NP constants}
 \label{sec:LogarithmicNP_main}
 
+In section \ref{sec:classicalNP}, it was demonstrated that if the regularity condition stated in Remark \ref{Remark:logfreeRemark} is not satisfied, the classical NP constants are not well-defined. However, it has been found that analogous constants arise for polyhomogeneous formal expansions of the gravitational field (Weyl scalars) using the Newman-Penrose formalism [\cite{Val98}, \cite{Val99a}]. This leads to the natural question of whether there exists a choice of $f(\tilde{\rho})$ that allows the calculation of the associated modified NP constants (for the spin-0 field) without imposing the regularity condition. In this section, it will be shown that the constants $D_{p;\ell,m}$ that define the regularity condition precisely correspond to the $f(\tilde{\rho}) = \tilde{\rho}$-modified NP constants. \\
+In this section, we will compute the $\ell=0$ and $\ell=1$ modified NP constants ${}^{f}\mathcal{N}^{+}_{\ell,m}$ for the spin-0 field with $f(\tilde{\rho})=\tilde{\rho}$. By employing Proposition \ref{Prop:NPtoFgauge} to express the derivatives in terms of the $F$-coordinates, we obtain:
+\begin{align}
+  \tilde{\rho}L (\phi_{\ell m})= \varkappa^{-1}\boldsymbol{e} (\phi_{\ell m}) = \frac{(1-\tau)}{(1+\tau)}\sum_{p=0}^{\infty}[(1+\tau)\partial_{\tau}-\rho\partial_{\rho}](a_{p;\ell,m}(\tau)\rho^p) = \frac{(1-\tau)}{(1+\tau)}\sum_{p=0}^{\infty}Q^{0}_{p;\ell,m}(\tau)\rho^p.
+\end{align}
+Therefore, for $\ell=0$, we have:
+\begin{align}
+  \mathcal{}^{\tilde{\rho}}\mathcal{N}^{+}_{0,0} = \lim_{\substack{\rho \to \rho_{\star} \\ \tau \to 1}} \; \varkappa^{-1}\boldsymbol{e}(\phi_{00}) = \sum_{p=0}^{\infty}\rho_{\star}^p\biggl[\frac{(1-\tau)}{(1+\tau)}Q^{0}_{p;0,0}\biggr]|_{\mathscr{I}^{+}}.
+\end{align}
+Using Remark \ref{rem:l0} and evaluating at the critical set $I^{+}$, we obtain:
+\begin{align}
+  & \mathcal{}^{\tilde{\rho}}\mathcal{N}^{+}_{0,0} = \lim_{\substack{\rho \to \rho_{\star} \\ \tau \to 1}} \; \varkappa^{-1}\boldsymbol{e}(\phi_{00}) = \sum_{p=0}^{\infty}\rho_{\star}^p\biggl[\frac{(1-\tau)}{(1+\tau)}Q^{0}_{p;0,0}\biggr] = \frac{(1-\tau)}{(1+\tau)}\biggl\{D_{000}(1-\tau)^{-1} + (1+\tau)\rho B_{100}-\frac{1}{2}A_{100}(1-\tau)\rho - \frac{1}{2}B_{100}(1+\tau)\rho\biggr\} =\nonumber \\
+  & = \frac{(1-\tau)}{(1+\tau)}\biggl\{D_{000}(1-\tau)^{-1} - \rho A_{100}\biggr\} = \frac{1}{2}D_{000}.
+\end{align}
+\\
+Similarly, for $\ell=1$, the relevant quantity to evaluate is:
+\begin{align}
+  \tilde{\rho} L (\boldsymbol{e}^{+}) \phi_{1m}= \varkappa^{-1}\boldsymbol{e} (\boldsymbol{e}^{+})\phi_{1m} = 4^{-1}\frac{(1-\tau)}{(1+\tau)}\rho^{-1}(1+\tau)^{-2}(\boldsymbol{e}^{+})^2\phi_{1m} = 4\varkappa^{-1}(\Lambda_{+})^{2}\sum_{p=1}^{\infty}\frac{1}{p!}\rho^pQ^{1}_{p;\ell,m},
+\end{align}
+in the last equality, we have used equations \eqref{eq:defQ1} and \eqref{eq:DefQ1IntermsQ0}. Therefore, for $\ell=1$, we have:
+\begin{align}
+  \mathcal{}^{\tilde{\rho}}\mathcal{N}^{+}_{1,m} = \lim_{\substack{\rho \to \rho_{\star} \\ \tau \to 1}} \; \varkappa^{-1}\boldsymbol{e} (\boldsymbol{e}^{+}) \phi_{1m} = \sum_{p=1}^{\infty}\frac{1}{p!}\rho_{\star}^{p-1}(\varkappa^{-1}Q^{1}_{p;1,m})|_{\mathscr{I}^{+}}.
+\end{align}
+\\
+Using Remark \ref{rem:l1} and evaluating at the critical set $I^{+}$, we obtain:
+\begin{align}
+  & \mathcal{}^{\tilde{\rho}}\mathcal{N}^{+}_{1,m} = \lim_{\substack{\rho \to \rho_{\star} \\ \tau \to 1}} \; \varkappa^{-1}\boldsymbol{e} (\boldsymbol{e}^{+}) \phi_{1m} = \nonumber \\
+  & = \varkappa^{-1}\biggl\{\ddot{a}_{1;1,m}(\tau)+\frac{1}{2}\rho \ddot{a}_{2;1,m}(\tau) - (1+\tau)^{-1}\dot{a}_{1;1,m}(\tau)+(1+\tau)^{-1}\rho \dot{a}_{2;1,m}(\tau)-\frac{1}{2}\rho(1+\tau)^{-1}\dot{a}_{2;1,m}(\tau)-(1+\tau)^{-2}\rho a_{2;1,m}(\tau)\biggr\} = \nonumber \\
+  & = \varkappa^{-1} \biggl\{\frac{1}{16}(\tau-1)^{-1}(1+\tau)^{-2}\bigl[16D_{11m}+7A_{21m}\rho - B_{21m}\rho + 16D_{11m}\tau - 16A_{21m}\rho\tau - 8B_{21m}\rho\tau - 6A_{21m}\rho\tau^{2} - 6B_{21m}\rho\tau^{2} + \nonumber \\
+  & + 8A_{21m}\rho\tau^{3} + 8B_{21m}\rho\tau^{3} + 7A_{21m}\rho\tau^{4} + 7B_{21m}\rho\tau^{4} - 32C_{11m}(\tau^{2}-1) - 8D_{11m}(\tau^{2}-1)\ln\Biggl(\frac{1+\tau}{1-\tau}\Biggr)\bigr]\biggr\} = - \frac{1}{4}D_{11m}.
+\end{align}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{The general case: Induction proof}
+\label{sec:induction_argument}
+
+\noindent
+In this section, we derive the $\ell$-NP constants using an inductive approach.
+\begin{proposition}\label{lemmaMainNPplus}
+  \begin{align}\label{eq:bmelplusonephilm}
+    (\boldsymbol{e}^{+})^{n}\phi_{\ell m} = (\Lambda_{+})^{2n}\sum_{p=\ell}^{\infty}\frac{1}{p!}Q^{n-1}_{p;\ell,m}(\tau)\rho^{p}
+  \end{align}
+  with
+  \begin{align}\label{eq:Qn}
+    Q^{n-1}_{p;\ell,m}(\tau)= \sum_{q=0}^{n}(-1)^q p^{[q]} {n \choose q}(1+\tau)^{n-q}a_{p;\ell,m}^{(n-q)}(\tau)
+  \end{align}
+  here, $a_{p;\ell,m}^{(n)}(\tau)$ denotes the $n$-th derivative of $a_{p;\ell,m}(\tau)$ with respect to $\tau$, and $p^{[q]}$ represents the rising factorial defined as $(p+q-1)!/(p-1)!$.
+\end{proposition}
+\begin{proof}
+  To prove Proposition \ref{lemmaMainNPplus}, we proceed inductively as follows. We first verify that equations \eqref{eq:defQ0}, \eqref{eq:bmeplus1philmraw}, \eqref{eq:defQ1}, and \eqref{eq:bmeplus2philmraw} are recovered when substituting $\ell=0$ and $\ell=1$ in expressions \eqref{eq:bmelplusonephilm} and \eqref{eq:Qn}. This serves as the basis for the induction. 
+  Assuming that equations \eqref{eq:bmelplusonephilm} and \eqref{eq:Qn} are valid (induction hypothesis), we can apply $\boldsymbol{e}^{+}$ to equation \eqref{eq:bmelplusonephilm}, which yields the following expression:
+  \begin{align}\label{eq:inductionNp2step1}
+    (\boldsymbol{e}^+)^{n+1}\phi_{\ell m} = \boldsymbol{e}^{+}((\boldsymbol{e}^{+})^{n}\phi_{\ell m}) = \boldsymbol{e}^{+}\Big((\Lambda_{+})^{2n}\sum_{p=\ell}^{\infty}\frac{1}{p!}Q^{n-1}_{p;\ell,m}(\tau)\rho^{p}\Big) = 
+    (\Lambda_{+})^{2}\boldsymbol{e}\Big((\Lambda_{+})^{2n}\sum_{p=\ell}^{\infty}\rho^p Q^{n-1}_{p;\ell,m}(\tau)\Big).
+  \end{align}
+  By using equations \eqref{eq:Fframe} and \eqref{eq:LorentzTransf}, we can perform a direct calculation to obtain the following expression:
+  \begin{align}\label{eq:bmederLambda}
+    & \boldsymbol{e}(\Lambda_{+})^{2n} = [(1+\tau) \partial \tau-\rho \partial \rho]\left[\rho^{-n}(1+\tau)^{-2n}\right] = \left[(1+\tau) \rho^{-n}(-2n)(1+\tau)^{-2n-1}-\rho^{-n+1}(1+\tau)^{-2n}(-n) \rho^{-n-1}\right] = \nonumber \\
+    & = -2 \rho^{-n}(1+\tau)^{-2n}+\rho^{-n}(1+\tau)^{-2n} = -\rho^{-n}(1+\tau)^{-2n} = -n\Lambda^{2n}.
+  \end{align}
+  Expanding expression \eqref{eq:inductionNp2step1} and using equation \eqref{eq:bmederLambda}, we can derive the following result:
+  \begin{align}\label{eq:inductionNp2step2}
+    & (\boldsymbol{e}^+)^{n+1}\phi_{\ell m} = (\Lambda_{+})^{2}\left\{(\Lambda_+)^{2n} \sum_{p=\ell}^{\infty} \boldsymbol{e}^+ \left(\rho^{p}Q^{n-1}_{p;\ell,m}(\tau)\right)+ \sum_{p=\ell}^{\infty} \rho^{p}Q^{n-1}_{p;\ell,m}(\tau) \boldsymbol{e}^+((\Lambda_+)^{2n}) \right\} = \nonumber \\
+    & = (\Lambda_{+})^{2}\left\{(\Lambda_+)^{2n} \sum_{p=\ell}^{\infty} \boldsymbol{e}^+ \left(\rho^{p}Q^{n-1}_{p;\ell,m}(\tau)\right) - n \sum_{p=\ell}^{\infty} \rho^{p}Q^{n-1}_{p;\ell,m}(\tau)\right\} = (\Lambda_{+})^{2(n+1)} \sum_{p=\ell}^{\infty} \left[\boldsymbol{e}^+\left(p^{p} Q^{n-1}_{p;\ell,m}(\tau)\right)-n \rho^{p} Q^{n-1}_{p;\ell,m}(\tau)\right] = \nonumber \\
+    & = (\Lambda_{+})^{2(n+1)} \sum_{p=\ell}^{\infty} \left[(1+\tau) \rho^{p} \dot{Q}_{p;\ell,m}^{n-1}(\tau)-\rho p \rho^{p-1} Q_{p;\ell,m}^{n-1}(\tau) - n \rho^{p}Q^{n-1}_{p;\ell,m}(\tau)\right] = \nonumber \\
+    & = (\Lambda_{+})^{2(n+1)} \sum_{p=\ell}^{\infty} \left[(1+\tau) \rho^{p}\dot{Q}_{p;\ell,m}^{n-1}(\tau)-p \rho^{p} Q^{n-1}_{p;\ell,m}(\tau) - n \rho^{p}Q^{n-1}_{p;\ell,m}(\tau)\right] = \nonumber \\
+    & = (\Lambda_{+})^{2(n+1)} \sum_{p=\ell}^{\infty} \rho^{p} \left[(1+\tau)\dot{Q}^{n-1}_{p;\ell,m}-(p+n)Q^{n-1}_{p;\ell,m}\right].
+  \end{align}
+  Thus we have shown that:
+  \begin{align}\label{eq:inductionNp2step3}
+    (\boldsymbol{e}^+)^{n+1}\phi_{\ell m} = (\Lambda_{+})^{2(n+1)} \sum_{p=\ell}^{\infty} \rho^{p}  R^{n}_{p;\ell,m}
+  \end{align}
+  where 
+  \begin{align}\label{eq:QNrecursive}
+    R^{n}_{p;\ell,m}=(1+\tau)\dot{Q}^{n-1}_{p;\ell,m}-(p+n)Q^{n-1}_{p;\ell,m}.
+  \end{align}
+  Using the induction hypothesis \eqref{eq:Qn}, we can compute all the pieces to construct $R^{n}_{p;\ell,m}$:
+  \begin{align}\label{eq:Qndot}
+    & \dot{Q}_{p;\ell,m}^{n-1} = \frac{d}{d \tau}\left[\sum_{q=0}^{n}(-1)^{q} p^{[q]}{n \choose q}(1+\tau)^{n-q}a_{p;\ell,m}^{(n-q)}(\tau)\right] = \sum_{q=0}^{n}(-1)^{q} p^{[q]}{n \choose q} \left[(1+\tau)^{n-q} a_{p;\ell,m}^{(n-q+1)} +(n-q)(1+\tau)^{n-q-1} a_{p;\ell,m}^{(n-q)}\right].
+  \end{align}
+  By substituting equation \eqref{eq:Qn} (induction hypothesis) and rearranging, we obtain the following expression:
+  \begin{align}\label{eq:Rn1}
+    & R^{n}_{p;\ell,m} = \sum_{q=0}^{n}(-1)^{q} p^{[q]}{n \choose q}\left\{(1+\tau)^{n-q+1} a^{(n-q+1)}+[n-q-(p+n)](1+\tau)^{n-q} a^{(n-q)}\right\} = \nonumber \\
+    & =\sum_{q=0}^{n}(-1)^{n}p^{[q]}{n \choose q}\left\{(1+\tau)^{n-q+1} a^{(n-q+1)}-(p+q)(1+\tau)^{n-q} a^{(n-q)}\right\}.
+  \end{align}
+  In the last expression, we have shortened the notation by denoting $a^{(n)}_{p;\ell,m}(\tau)$ simply as $a^{(n)}$.\\
+  Expanding the first term in the first sum of \eqref{eq:Rn1} renders,
+  \begin{align}\label{eq:Rn2}
+    & R^{n}_{p;\ell,m} = (-1)^{0} p^{[0]}{n \choose 0}(1+\tau)^{n+1} a^{(n+1)}+\sum_{q=1}^{n}(-1)^{q} (-1)^{q} p^{[q]}{n \choose q}(1+\tau)^{n-q+1} a^{(n-q+1)} - \nonumber \\
+    & -\sum_{q=0}^{n}(-1)^{q}(-1)^{q} p^{[q]}{n \choose q}(p+q)(1+\tau)^{n-q} a^{(n-a)}.
+  \end{align}
+  Separating the last term in the secod sum and rearranging gives
+  \begin{align}
+    & R^{n}_{p;\ell,m} = p^{[0]}(1+\tau)^{n+1} a^{(n+1)}+\sum_{q=1}^{n}(-1)^{q} p^{[q]}{n \choose q}(1+\tau)^{n-q+1} a^{(n-q+1)} - \nonumber \\
+    & - \left\{\sum_{q=0}^{n-1}\left[(-1)^{q} p^{[q]}{n \choose q}(p+q)(1+\tau)^{n-q} a^{(n-q)}\right]+(-1)^{n} p^{[n]}{n \choose n}(p+n)\right\}.
+  \end{align}
+  It follows from the definition of the rising factorial that $p^{[q+1]}=(p+q)p^{[q]}$, in particular $p^{[n+1]}=(p+n+1)p^{[n]}$. Using this fact and relabeling according to $i = q-1 \rightarrow q = i+1$ and $i(q=1) = 0$ \& $i(q= n+1) = n$, we have:
+  \begin{align}
+    & R^{n}_{p;\ell,m} = p^{[0]}(1+\tau)^{n+1} a^{(n+1)}+\sum_{i=0}^{n-1}(-1)^{i+1} p^{[i+1]}{n \choose i+1}(1+\tau)^{n-i} a^{n-i} + \nonumber \\
+    & +\sum_{q=0}^{n-1}(-1)^{q+1} p^{[q+1]}{n \choose q}(1+\tau)^{n-q} a^{(n-q)}+(-1)^{n+1} p^{[q+1]} a.
+  \end{align}
+  For the second sum we simply relabel the dumie index $i = q$ and get,
+  \begin{align}
+    R^{n}_{p;\ell,m} = p^{[0]}(1+\tau)^{n+1} a^{(n+1)}+\sum_{i=0}^{n-1}(-1)^{i+1} p^{[i+1]}\Biggl[{n \choose i+1} + {n \choose i}\Biggr](1+\tau)^{n-i} a^{n-i} + (-1)^{n+1} p^{[n+1]} a.
+  \end{align}
+  Using the recursive identity of the binomial coefficients,
+  \begin{align}
+    & {i \choose j} ={i-1 \choose j} + {i-1 \choose j-1} \nonumber \\
+    \nonumber \\ 
+    & {n+1 \choose i+1} ={n \choose i+1} + {n \choose i},
+  \end{align}
+  then one gets,
+  \begin{align}
+    & R^{n}_{p;\ell,m} = p^{[0]}(1+\tau)^{n+1} a^{(n+1)}+\sum_{i=0}^{n-1}\left[(-1)^{i+1} p^{[i+1]}{n+1 \choose i+1}(1+\tau)^{n-i} a^{(n-i)}\right] + (-1)^{n+1} p^{[n+1]}a = \nonumber \\
+    & = (-1)^{0} p^{[0]}{n+1 \choose 0}(1+\tau)^{n+1} a^{(n+1)}+\sum_{i=0}^{n-1}(-1)^{i+1} p^{[i+1]}{n+1 \choose i+1}(1+\tau)^{n-i} a^{(n-i)} + (-1)^{n+1} p^{[n+1]}{n+1 \choose n+1}a.
+  \end{align}
+  Observing that latter can be rewritten more compactly as
+\begin{align}
+  R^{n}_{p;\ell,m} = \sum_{q=0}^{n+1}(-1)^{q} p^{[q]} {n+1 \choose q}(1+\tau)^{n-q+1}a^{(n-q+1)},
+\end{align}
+and recalling equation \eqref{eq:Qn} then one concludes that
+\begin{align}\label{eq:RnIsQnplusone}
+  R^{n}_ {p;\ell,m}=Q^{n}_{p;\ell,m}.
+\end{align}
+\end{proof}
+
+Notice that Proposition \ref{lemmaMainNPplus} provides, via equations \eqref{eq:RnIsQnplusone} and \eqref{eq:QNrecursive}, a recursive way to compute $Q^{n}_{p;\ell,m}$. This can be summarized as follows:
+
+
+
+
+
+
   
