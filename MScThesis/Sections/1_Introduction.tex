@@ -520,7 +520,7 @@ To compute the $\ell=0$ NP constant at $\mathscr{I}^{+}$, it is necessary to eva
 here, $\rho_{\star}$ represents a constant that parametrizes the cut $\mathcal{C}^{+}$, and $Q^{0}_{p,\ell,m}|_{\mathscr{I}^{+}}$ denotes the value of $Q^{0}_{p,\ell,m}$ at $\mathscr{I}^{+}$, specifically at $\rho=1$. Notably, when $\rho_{\star}=0$, it corresponds to selecting $\mathcal{C}^{+}$ as $\mathcal{I}^{+}$.
 A direct calculation using Lemma \ref{Lemma:Sol_Jacobi_and_Logs} shows the following:
 \begin{align}\label{eq:Q0lm}
-  & Q_{p;l,m}^{0}(\tau)=(1+\tau) \dot{a}_{p ; l, m}(\tau)-p_{p ; l, m}(\tau) \Rightarrow Q_{0;0,0}^{0}(\tau)=2 \dot{a}_{0;0,0}(\tau)-0 \cdot a_{0;0,0} =2 \dot{a}_{0;0,0}(\tau)=\frac{D_{000}}{1-\tau}, \\
+  & Q_{p;l,m}^{0}(\tau)=(1+\tau) \dot{a}_{p ; l, m}(\tau)-pa_{p ; l, m}(\tau) \Rightarrow Q_{0;0,0}^{0}(\tau)=2 \dot{a}_{0;0,0}(\tau)-0 \cdot a_{0;0,0} =2 \dot{a}_{0;0,0}(\tau)=\frac{D_{000}}{1-\tau}, \\
   & Q_{1;0,0}^{0}(\tau)=2 \dot{a}_{1;0,0}(1)-1 \cdot a_{1;0,0}(1)=-A_{100}.
 \end{align}
 Therefore, it is important to note that if the regularity condition of Remark \ref{Remark:logfreeRemark} is not satisfied, the classical NP constants will not be well-defined, regardless of the chosen cut for evaluation. Thus, in order to compute the classical $\ell=0$ NP constant, the regularity condition must be imposed. However, once the regularity condition is satisfied, the value of the classical $\ell=0$ NP constant becomes independent of the specific cut chosen for evaluation. This can be seen through the following analysis:
@@ -716,11 +716,158 @@ and recalling equation \eqref{eq:Qn} then one concludes that
 \end{align}
 \end{proof}
 
-Notice that Proposition \ref{lemmaMainNPplus} provides, via equations \eqref{eq:RnIsQnplusone} and \eqref{eq:QNrecursive}, a recursive way to compute $Q^{n}_{p;\ell,m}$. This can be summarized as follows:
+Notice that Proposition \ref{lemmaMainNPplus} provides, via equations \eqref{eq:RnIsQnplusone} and \eqref{eq:QNrecursive}, a recursive way to compute $Q^{n-1}_{p;\ell,m}$. This can be summarized as follows:
+
+\begin{corollary}
+  $Q^{n-1}_{p;\ell,m}$ satisfies
+  \begin{align}\label{eq:Qnrecursion_coro}
+    Q^{n}_{p;\ell,m}=(1+\tau)\dot{Q}^{n-1}_{p;\ell,m}-(p+n)Q^{n-1}_{p;\ell,m}.
+  \end{align}
+\end{corollary}
+\medskip
+\begin{remark}
+  The rising and falling factorials, denoted as $x^{[n]}$ and $x_{[n]}$ respectively, are defined as follows:
+\begin{align}
+ x^{[n]}:= \prod_{i=1}^{n}(x+i-1), \qquad
+ x_{[n]}:=\prod_{i=1}^{n}(x-i+1)
+\end{align}
+We also note here that:
+\begin{subequations}\label{eq:firstDerJac}
+\begin{align}
+\frac{d}{d\tau}P_{\ell-k}^{(-p+k,p+k)}= \frac{1}{2}(\ell +k+1)P_{\ell-k-1}^{(-p+k+1,p+k+1)} 
+\end{align}
+\begin{align}
+\frac{d}{d\tau}P_{\ell-k}^{(p+k,-p+k)}= \frac{1}{2}(\ell +k+1)P_{\ell-k-1}^{(p+k+1,-p+k+1)}
+\end{align}
+\end{subequations}
+\end{remark}
+
+In computing the NP constants, we are mainly interested in the case where $n=\ell$. With equation \eqref{eq:Qn} and the solution $a_{p;\ell,m}(\tau)$ provided in Lemma \ref{Lemma:Sol_Jacobi_and_Logs}, it is possible to explicitly determine $Q^{n}_{p;\ell,m}(\tau)$ for any given parameters $n,p,\ell,$ and $m$. However, for our purposes, the focus lies on the $n=\ell$ scenario. In the following, we explore the structure of $Q^{\ell}_{p;\ell,m}$ in relation to the initial data constants $A_{p;\ell,m}$, $B_{p;\ell,m}$, $C_{p;\ell,m}$, and $D_{p;\ell,m}$.
+\begin{proposition}
+For $p \neq \ell$
+  \begin{align}\label{eq:ind_Qpnotl}
+    Q^{n}_{p;\ell,m}(\tau) = (\ell+1)^{[n+1]}\Big(\frac{1+\tau}{2}\Big)^{p+n+1}B_{p;\ell,m}P_{\ell-n-1}^{(-p+n+1,p+n+1)}(\tau)+\sum_{k=0}^{n+1}A_{p;\ell,m}h^{n}_{k}(\tau)P_{\ell-k}^{(p+k,-p+k)}(\tau)
+  \end{align}
+  where $h^{n}_{k}(\tau)$ are polynomials in $\tau$, and we can determine them recursively using the following expressions:
+   \begin{align}
+h_{k}^{n+1}:= \Big(\frac{1+\tau}{2}\Big)(\ell+ k+ 1)h_{k-1}^{n} +
+(1+\tau)\dot{h}_{k}^{n}-(p+n+1)h_{k}^{n},
+   \end{align}
+   starting with
+   \begin{align}
+     h_{0}^{0}(\tau) =-p \Big(\frac{1-\tau}{2}\Big)^{p-1}, \qquad
+     h_{1}^0(\tau) =(\ell+1) \Big(\frac{1-\tau}{2}\Big)^{p}\Big(\frac{1+\tau}{2}\Big),\qquad h_{-1}^{n}=h^{n}_{n+2}=0.
+  \end{align}
+\end{proposition}
 
 
+\begin{proof}
+  We proceed inductively as follows. For the case $p \neq \ell$, a direct calculation using Lemma \ref{Lemma:Sol_Jacobi_and_Logs} gives:
+  \begin{align}
+    & Q^{0}_{p;\ell,m}= (1+\tau)\dot{a}_{p;\ell,m} = (\ell+1)^{[1]}\Big(\frac{1+\tau}{2}\Big)^{p+1}B_{p;\ell,m}P_{\ell-1}^{(-p+1,p+1)}(\tau)+\sum_{k=0}^{1}A_{p;\ell,m}h^{0}_{k}(\tau)P_{\ell-k}^{(p+k,-p+k)}(\tau) = \nonumber \\
+    & = B_{p;\ell,m}(\ell+1)\Big(\frac{1+\tau}{2}\Big)^{p+1}P_{\ell-1}^{(-p+1,p+1)} + A_{p;\ell,m}h^{0}_{0}(\tau)P_{\ell}^{(p,-p)}(\tau) + A_{p;\ell,m}h^{0}_{1}(\tau)P_{\ell-1}^{(p+1,-p+1)}(\tau) = \nonumber \\
+    & = B_{p;\ell,m}(\ell+1)\Big(\frac{1+\tau}{2}\Big)^{p+1}P_{\ell-1}^{(-p+1,p+1)} - A_{p;\ell,m}p \Big(\frac{1-\tau}{2}\Big)^{p-1}P_{\ell}^{(p,-p)}(\tau) + A_{p;\ell,m}(\ell+1) \Big(\frac{1-\tau}{2}\Big)^{p}\Big(\frac{1+\tau}{2}\Big)P_{\ell-1}^{(p+1,-p+1)}(\tau).
+\end{align}
+This proves the case $n=0$, with:
+\begin{align}\label{eq:h0andh1}
+  h_{0}^{0}(\tau)=-p \Big(\frac{1-\tau}{2}\Big)^{p-1}, \qquad h_{1}^0(\tau)=(\ell+1) \Big(\frac{1-\tau}{2}\Big)^{p}\Big(\frac{1+\tau}{2}\Big),
+\end{align}
+Now, assuming equation \eqref{eq:ind_Qpnotl} is valid as the induction hypothesis, we proceed with the induction step to compute $Q^{n}_{p;\ell,m}$. Using equation \eqref{eq:Qnrecursion_coro}, we have:
+\begin{align}
+  & Q^{n}_{p;\ell,m}=\sum_{k=0}^{n}A_{p;\ell,m} \Big[(1+\tau)\Big(h^{n-1}_{k} \dot{P}_{\ell-k}^{(p+k,-p+k)} + P_{\ell-k}^{(p+k,-p+k)}\dot{h}^{n-1}_{k} \Big) -(p+n)h^{n-1}_{k} P_{\ell-k}^{(p+k,-p+k)}\Big] + \nonumber \\ 
+  & + 2 B_{p;\ell,m}(\ell+1)^{[n]}\Big(\frac{1+\tau}{2}\Big)^{p+n+1}\dot{P}_{\ell-n-2}^{(-p+n,p+n)}.
+\end{align}
+Observe from the previous expression that in terms with the coefficient $B_{p;\ell,m}$, only $\dot{P}$ appears, and the terms of the form $B_{p,\ell,m} P$ cancel out.
+
+\begin{remark}
+  In Corollary \ref{coro:propNPplusQ}, we will observe that this cancellation is crucial as it ensures that the classical NP constants at $\mathscr{I}^{+}$ are solely determined by $A_{p;\ell,m}$ and not by any combination of $A_{p;\ell,m}$ and $B_{p;\ell,m}$, as one might expect in general.
+\end{remark}
+
+By utilizing the identity \ref{eq:firstDerJac} to compute the derivatives of the Jacobi polynomials and taking into account that $(\ell+n+1)(\ell+1)^{[n]}=(\ell+1)^{[n+1]}$, we obtain the following expression.
+\begin{align}
+  & Q^{n}_{p;\ell,m}=\sum_{k=0}^{n}A_{p;\ell,m} \Big[\Big(\frac{1+\tau}{2}\Big)(\ell+k+1)h^{n-1}_{k} P_{\ell-k-1}^{(p+k+1,-p+k+1)}+\Big((1+\tau) \dot{h}^{n-1}_{k} -(p+n)h^{n-1}_{k}\Big)P_{\ell-k}^{(p+k,-p+k)} \Big] + \nonumber \\ 
+  & + B_{p;\ell,m}(\ell+1)^{[n+1]} \Big(\frac{1+\tau}{2}\Big)^{p+n+1}P_{\ell-n-3}^{(-p+n+1,p+n+1)}.
+\end{align}
+Rearranging the sum, the latter expression can be rewritten as follows
+\begin{align}
+  Q^{n}_{p;\ell,m}(\tau) =(\ell+1)^{[n+1]}\Big(\frac{1+\tau}{2}\Big)^{p+n+1}B_{p;\ell,m}P_{\ell-n-3}^{(-p+n+1,p+n+1)}(\tau)+\sum_{k=0}^{n+1}A_{p;\ell,m}h^{n}_{k}(\tau)P_{\ell-k}^{(p+k,-p+k)}(\tau)
+\end{align}
+where 
+\begin{align}
+  h_{k}^{n}:= \Big(\frac{1+\tau}{2}\Big)(\ell+ k+ 1)h_{k-1}^{n-1} +(1+\tau)\dot{h}_{k}^{n-1}-(p+n)h_{k}^{n-1} 
+\end{align}
+The recursive computation of $h^{n-1}_k(\tau)$ begins with $h_{0}^{0}$ and $h_{1}^{0}$ as given in equation \eqref{eq:h0andh1}, where $h^{n-1}_{-1}=h^{n-1}_{n+1}=0$.
+\end{proof}
+
+\begin{corollary}\label{coro:propNPplusQ}
+  For $p\neq l$ and $n=l$ one has
+    \begin{align}\label{eq:ind_Qpnotl_pequaln}
+      Q^{n}_{p;n,m}(\tau) =\sum_{k=0}^{n+1}A_{p;n,m}h^{n}_{k}(\tau)J_{n-k}^{(p+k,-p+k)}(\tau).
+  \end{align}
+\end{corollary}
+
+\begin{proof}
+  This follows from the observation that the Jacobi polynomial multiplying the term $B_{p,\ell,m}$ in equation \eqref{eq:ind_Qpnotl} vanishes if $\ell=n$.
+\end{proof}
 
 
+\begin{proposition}\label{prop:pequallQn}
+  \begin{align}\label{eq:prop:pequallQn}
+    Q^{n}_{p;p;m}(\tau)=g^n_{p}(\tau)D_{p,p,m} + (-1)^{n+1}p_{[n+1]}\Big(\frac{1+\tau}{2}\Big)^{p+n+1}\Big(\frac{1-\tau}{2}\Big)^{p-n-1}\Bigg(C_{p,p,m} + D_{p,p,m} \int_{0}^{\tau} \frac{ds}{(1-s^2)^{p+1}}\Bigg)
+  \end{align}
+  where $g^n_p(\tau)$ is a polynomial in $\tau$ determined recursively
+  by
+\begin{align}
+  & g^{n+1}_p = (1+\tau)\dot{g}^{n}_p+(-1)^{n+1}2^{-2p}p_{[n+1]}(1+\tau)^{n+1}(1-\tau)^{-n-2}-(p+n+1)g^{n}_p, \\
+  & g^{0}_p = 2^{-2p}(1-\tau)^{-1}.
+\end{align}
+
+\begin{proof}
+  To simplify the notation, let $F(\tau) = \int_{0}^{\tau} (1-s^2)^{-p-1} ds$, so that $\dot{F} = (1-\tau)^{-p-1}(1+\tau)^{-p-1}$. Using this notation, a direct calculation for the case $p = \ell$ gives:
+\begin{align}
+Q^{0}_{p;p,m}=(1+\tau)\dot{a}_{p,p,m}=2^{-2p}D_{p,p,m}(1-\tau)^{-1} - p\Big(\frac{1+\tau}{2}\Big)^{p+1}\Big(\frac{1-\tau}{2}\Big)^{p-1}(C_{p,p,m}+D_{p,p,m}F).
+\end{align}
+This establishes the base case for $n=0$ in equation \eqref{eq:prop:pequallQn} with $g^0_p=2^{-2p}(1-\tau)^{-1}$. To prove the general case, we proceed with induction. Assume, as our induction hypothesis, that equation \eqref{eq:prop:pequallQn} holds. Now, to compute $Q^{n+1}_{p;p,m}$, we will use equation \eqref{eq:Qnrecursion_coro}. To do this calculation step by step, let's first observe that:
+\begin{align}
+\dot{Q}^{n}_{p,p,m} = D_{p,p,m}G^{n}_p+(-1)^{n+1}p_{[n+1]}2^{-2p}(C_{p,p,m}+D_{p,p,m}F)(1+\tau)^{p+n}(1-\tau)^{p-n-2}2(n+1-p\tau)
+\end{align}
+where $G^{n}_p:=\dot{g}^{n}_p+(-1)^{n+1}2^{-2p}p_{[n+1]}(1+\tau)^{n}(1-\tau)^{-n-2}$ assisted with equation \eqref{eq:Qnrecursion_coro} a calculation renders
+\begin{align}
+  & Q^{n+1}_{p,p,m} = \Big((1+\tau)G^{n}_p-(p+n+1)g^{n}_p\Big)D_{p,p,m} + \nonumber \\ 
+  & \qquad \quad + (-1)^{n+1}p_{[n+1]}2^{-2p}(C_{p,p,m}+D_{p,p,m}F)(1+\tau)^{p+n+2}(1-\tau)^{p-n-2}(-p+n+1).
+\end{align}
+Finally, by using the identity $(-p+n+1)p_{[n+1]}=-p_{[n+2]}$, we arrive at the expression for $Q^{n+1}_{p;p,m}$ as follows:
+\begin{align}
+  Q^{n+1}_{p,p,m} =g^{n+1}_p D_{p,p,m} + (-1)^{n+2}p_{[n+2]}\Big(\frac{1+\tau}{2}\Big)^{p+n+2}\Big(\frac{1-\tau}{2}\Big)^{p-n-2}\Bigg(C_{p,p,m} +D_{p,p,m} F\Bigg)
+\end{align}
+with
+\begin{align}
+g^{n+1}_p=(1+\tau)\dot{g}^{n}_p+(-1)^{n+1}2^{-2p}p_{[n+1]}(1+\tau)^{n+1}(1-\tau)^{-n-2}-(p+n+1)g^{n}_p.
+\end{align}
+\end{proof}
+\end{proposition}
+
+\begin{corollary}\label{coro:propNPplusQlog}
+  For $p=l=n$ one has
+  \begin{align}\label{eq:ind_Qpequall_pequaln}
+    Q^{n}_{n;n,m}(\tau) =g^n_n(\tau)D_{n,n,m}.
+  \end{align}
+\end{corollary}
+\begin{proof}
+  This result can be deduced from equation \eqref{eq:prop:pequallQn} by observing that $p_{[n+1]}$ becomes zero when $p=n$. This is due to the nature of the rising factorial, which involves multiplying consecutive integers up to a certain number, and $(n+1)!$ includes $(n+1)$ in the multiplication. Consequently, when $p=n$, the term $(1+\tau)^{n}(1-\tau)^{-n-2}$ from the Jacobi polynomial will cancel the corresponding factor coming from $p_{[n+1]}$, simplifying the expression for $Q^{n+1}_{n;n,m}$ to the form derived earlier.
+\end{proof}
 
 
-  
+\begin{remark}\label{Remark:Qngen}
+  Although computing explicit expressions for $h_{k}^{n}(\tau)$ and $g^{n}_{p}(\tau)$ using the recursive relations is challenging, it is not necessary for identifying the parameters in the initial data that determine the values of the NP constants. Corollaries \ref{coro:propNPplusQ} and \ref{coro:propNPplusQlog} provide sufficient information for this purpose. Additionally, by writing the formulae in terms of special functions and recursive relations, one can still calculate $Q^{n}_{p;n,m}$ explicitly for large values of $n$ using computer algebra programs like {\tt{Mathematica}}. Experimental results suggest that for general $(n=\ell,p)$:
+  \begin{subequations}\label{rem:n}
+    \begin{align}
+      Q^{n}_{n;n,m}(\tau) &=\alpha_{n}D_{n,n,m}(1-\tau)^{-1} \\
+      Q^{n}_{p;n,m}(\tau) &=\beta_{n,p}\prod_{i=0}^{2n} (p+n-i)A_{n,p,m}(1-\tau)^{p-n-1} \qquad \text{for}\qquad p\neq n
+    \end{align}
+    \end{subequations}
+    where $\alpha_{n}$ and $\beta_{n,p}$ are some constants.  
+\end{remark}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{The NP constants in terms of initial data}
+\label{sec:NPconstantsInitialData}
