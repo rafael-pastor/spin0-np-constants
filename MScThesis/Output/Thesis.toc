@@ -10,19 +10,19 @@
 \contentsline {section}{\numberline {1.1}Motivation}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Global structure of spacetimes}{2}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Newman-Penrose constants}{5}{section.1.3}%
-\contentsline {chapter}{\numberline {2}Cylinder at $i^0$}{7}{chapter.2}%
-\contentsline {section}{\numberline {2.1}The $i^0$ - cylinder representation in Minkowski spacetime}{7}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Linear model equations}{10}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Spin-0 fields close to $i^0$ and $\mathscr {I}$}{11}{section.2.3}%
-\contentsline {chapter}{\numberline {3}The NP-constants for the spin-0 fields close to $i^0$ \& $\mathscr {I}$}{14}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Conservation Laws}{14}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Definition of NP constants}{17}{section.3.2}%
-\contentsline {section}{\numberline {3.3}The classical NP constants}{17}{section.3.3}%
-\contentsline {section}{\numberline {3.4}The $i^0$-cylinder logarithmic NP constants}{20}{section.3.4}%
-\contentsline {section}{\numberline {3.5}The general case: Induction proof}{21}{section.3.5}%
-\contentsline {section}{\numberline {3.6}The NP constants in terms of initial data}{27}{section.3.6}%
-\contentsline {chapter}{Bibliography}{29}{section*.11}%
-\contentsline {chapter}{\numberline {A}Vector calculus}{33}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Vector identities}{33}{section.A.1}%
-\contentsline {chapter}{\numberline {B}Technical Datasheets}{35}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Some Datasheet}{35}{section.B.1}%
+\contentsline {chapter}{\numberline {2}Cylinder at $i^0$}{9}{chapter.2}%
+\contentsline {section}{\numberline {2.1}The $i^0$ - cylinder representation in Minkowski spacetime}{9}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Linear model equations}{12}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Spin-0 fields close to $i^0$ and $\mathscr {I}$}{13}{section.2.3}%
+\contentsline {chapter}{\numberline {3}The NP-constants for the spin-0 fields close to $i^0$ \& $\mathscr {I}$}{16}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Conservation Laws}{16}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Definition of NP constants}{19}{section.3.2}%
+\contentsline {section}{\numberline {3.3}The classical NP constants}{19}{section.3.3}%
+\contentsline {section}{\numberline {3.4}The $i^0$-cylinder logarithmic NP constants}{22}{section.3.4}%
+\contentsline {section}{\numberline {3.5}The general case: Induction proof}{23}{section.3.5}%
+\contentsline {section}{\numberline {3.6}The NP constants in terms of initial data}{29}{section.3.6}%
+\contentsline {chapter}{Bibliography}{31}{section*.11}%
+\contentsline {chapter}{\numberline {A}Vector calculus}{35}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Vector identities}{35}{section.A.1}%
+\contentsline {chapter}{\numberline {B}Technical Datasheets}{37}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Some Datasheet}{37}{section.B.1}%
