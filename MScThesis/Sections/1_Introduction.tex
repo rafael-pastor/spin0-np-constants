@@ -110,13 +110,13 @@ $$ {I}^+ = \{ \tau = 1, \enspace \rho = 0\}, \enspace {I}^- = \{ \tau = -1, \ens
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Newman-Penrose constants}
 \label{section:Newman-Penrose Constants}
-The Newman-Penrose constants, originally introduced in \cite{NewPen68}, are quantities defined on null-infinity that obey conservation laws for asymptotically flat gravitational fields. For linear fields propagating in flat spacetime, there exists an infinite number of conservation laws. For example, in ordinary Electromagnetic (EM) theory with a spin-1 field, the total charge is conserved. In the linearized gravitational theory, which involves a spin-2 field, the total mass, linear momentum, and angular momentum are also conserved. In our case, we are interested in studying spin-0 fields, which correspond to solutions of the wave equation.
-\\
-The NP constants form an infinite hierarchy of conserved quantities for linear equations, including the spin-1, spin-2, and spin-0 fields. Newman and Penrose demonstrated that these constants can be expressed as the product of the square of the dipole moment and the difference between the monopole and the quadrupole moments, as shown in \cite{DaiVal02}. However, in the full non-linear gravitational theory, the conservation of mass and momentum no longer holds.
-\\
-Turning our attention to the interpretation of these charges, the NP constants are considered a set of conserved charges at null infinity \cite{NewPen68}. These charges are computed as 2-surface integrals at cuts $\mathcal{C} \approx \mathbb{S}^2$ of null infinity $\mathscr{I}$. In the linear theory, an infinite hierarchy of these conserved quantities exists, while in the non-linear theory of General Relativity, only ten quantities remain conserved \cite{NewPen68}.
-\\
-A conservation law arises when the value of an integral remains constant regardless of the specific "time" at which a 2-surface is selected. In the context of our current investigation, we can determine whether outgoing waves carry away or preserve the quantity of interest by computing the integral at future null infinity with a constant retarded time $u = u_0$, and then comparing it with the integral at a later retarded time $u = u_1$. The difference between the two integrals will capture the contribution from the outgoing waves that escape between the two hypersurfaces defined by $u = \text{constant}$. If this difference always vanishes, then we have a conserved quantity. On the other hand, if the difference does not vanish, then the quantity is not conserved.
+The Newman-Penrose constants, originally introduced in \cite{NewPen68}, are quantities defined on null-infinity that obey conservation laws for asymptotically flat gravitational fields. For linear fields propagating in flat spacetime, there exists an infinite number of conservation laws. For example, in ordinary Electromagnetic (EM) theory with a spin-1 field, the total charge is conserved. In the linearized gravitational theory, which involves a spin-2 field, the total mass, linear momentum, and angular momentum are also conserved. In our case, we are interested in studying spin-0 fields, which correspond to solutions of the wave equation.\\
+
+The NP constants form an infinite hierarchy of conserved quantities for linear equations, including the spin-1, spin-2, and spin-0 fields. Newman and Penrose demonstrated that these constants can be expressed as the product of the square of the dipole moment and the difference between the monopole and the quadrupole moments, as shown in \cite{DaiVal02}. However, in the full non-linear gravitational theory, the conservation of mass and momentum no longer holds.\\
+
+Turning our attention to the interpretation of these charges, the NP constants are considered a set of conserved charges at null infinity \cite{NewPen68}. These charges are computed as 2-surface integrals at cuts $\mathcal{C} \approx \mathbb{S}^2$ of null infinity $\mathscr{I}$. In the linear theory, an infinite hierarchy of these conserved quantities exists, while in the non-linear theory of General Relativity, only ten quantities remain conserved \cite{NewPen68}.\\
+
+A conservation law arises when the value of an integral remains constant regardless of the specific "time" at which a 2-surface is selected. In the context of our current investigation, we can determine whether outgoing waves carry away or preserve the quantity of interest by computing the integral at future null infinity with a constant retarded time $u = u_0$, and then comparing it with the integral at a later retarded time $u = u_1$. The difference between the two integrals will capture the contribution from the outgoing waves that escape between the two hypersurfaces defined by $u = \text{constant}$. If this difference always vanishes, then we have a conserved quantity. On the other hand, if the difference does not vanish, then the quantity is not conserved.\\
 
 \begin{figure}[h]
   \centering \includegraphics[width =0.55\textwidth]{penrose constants.png}
@@ -124,8 +124,8 @@ A conservation law arises when the value of an integral remains constant regardl
     Taken from \cite{NewPen68}.}
 \end{figure}
 
-The newly discovered conservation laws are distinct and not connected to any previously known laws. While a comprehensive physical interpretation of these new quantities is not yet evident, a preliminary understanding of their significance can be proposed. This interpretation is largely based on their meaning in the linear theories, where their conservation is relatively straightforward, as well as their interpretation in the context of static fields. To gain deeper insights, we will conduct a detailed analysis of the linear gravitational and Maxwell theories. Through this investigation, we hope to shed light on the nature and implications of these novel conservation laws.
-\\
+The newly discovered conservation laws are distinct and not connected to any previously known laws. While a comprehensive physical interpretation of these new quantities is not yet evident, a preliminary understanding of their significance can be proposed. This interpretation is largely based on their meaning in the linear theories, where their conservation is relatively straightforward, as well as their interpretation in the context of static fields. To gain deeper insights, we will conduct a detailed analysis of the linear gravitational and Maxwell theories. Through this investigation, we hope to shed light on the nature and implications of these novel conservation laws.\\
+
 In the context of flat spacetime, we will introduce a set of null polar coordinates, where the usual spherical polar angles, $\theta$ and $\phi$, are retained. However, we will introduce new coordinates, $r$ and $u$, such that $r/\sqrt{2}$ represents the radial distance, and $(2u - r)/\sqrt{2}$ serves as the time parameter in the standard system. Consequently, $\sqrt{2u}$ corresponds to the conventional retarded time parameter, while $\sqrt{2(u + r)}$ represents the corresponding advanced time. The hypersurfaces defined by $u = \text{constant}$ are the outgoing null cones with their vertices at $r = 0$. The metric is given by:
 \begin{equation}\label{eq:flatmetric}
   d s^2 = 2d u^2 + 2dudr - \frac{1}{2} r^2(d\theta^{2} + \sin^2\theta d\phi^2) = g_{\mu \nu}dx^{\mu}dx^{\nu}.
@@ -190,6 +190,154 @@ Before proceeding to derive the new conservation laws, it is essential to first 
 \end{equation}
 with $\int{_{s}Y_{l,m}\dh^{l-s+1}\xi d\omega} = 0$. Therefore, $\int {_{0}Y_{0,0}\Phi_{1}^{0} d\omega}$ is constant and proportional to the total electric charge.\\
 Using the same approach, we can obtain the new conserved quantities multiplying \eqref{eq:Phin+1} by $_{1}\overline{Y}_{n-k+1,m}$ and integrating over the sphere $\int {_{s}\overline{Y}_{l,m}\overline{\dh}\dh \eta d \omega} = -(l-s)(l+s+1) \int{_{s}\overline{Y}_{l,m}\eta d\omega}$:
+\begin{equation}\label{eq:Eleccharge}
+  (n+1)\frac{d}{du}\int{_{1}Y_{n-k+1,m}\Phi_{0}^{n+1} d\omega} = - \int{_{1}\overline{Y}_{n-k+1,m}(\overline{\dh}\dh \Phi_{0}^{n}+(n+3)n\Phi_{0}^{n})d\omega} = -k(2n-k+3)\int{_{1}\overline{Y}_{n-k+1,m}\Phi_{0}^{n} d\omega}.
+\end{equation}
+Consequently,
+\begin{equation}\label{eq:F}
+  F_{m}^{n,k} = \int{_{1}\overline{Y}_{n-k+1,m}\Phi_{0}^{n+1} d\omega},
+\end{equation}
+where $m$, $n$ and $k$ satisfy $n \geq k \geq 0$, $|m| \leq n-k+1$, and therefore 
+\begin{equation}\label{eq:Fdot}
+  \dot{F}_{m}^{n,k} = \frac{-k(2n-k+3)}{(n+1)}F_{m}^{n-1,k-1} ; \qquad \dot{F}_{m}^{n,0} = 0.
+\end{equation}
+
+As a result, we obtain a series of conserved quantities denoted as $F_{m}^{n,0}$ (when $N \geq n+1$). Nevertheless, in the non-linear Einstein-Maxwell theory, only certain quantities for $n = 0$ and $m = -1, 0, 1$ remain conserved. Hence, our main focus will be on these three quantities, and we will use the shorthand notation $F_{m} = F_{m}^{0,0}$.\\
+From the following ansatz
+\begin{equation}\label{eq:Phi0ansatz}
+  \Phi_{0}^{n} = \sum_{l = n+1}^{\infty}\alpha_{l,m}^{n} {_{1}Y_{l,m}},
+\end{equation}
+for all outgoing multipole solutions (with sufficient smoothness), the coefficients $F_{m}^{n,k}$ are zero in the absence of incoming waves. These coefficients, $F_{m}^{n,k}$, provide a measure of the asymptotic properties of the time profile of the incoming waves for large values of the advanced time coordinate $v = u + r$. In this analysis, we will particularly focus on the case of an incoming dipole field with the dipole axis along the z-direction.\\
+The field of the advanced dipole described with retarded coordinates is as follows:
+\begin{align}\label{eq:RetardCoordsPhi}
+  & \phi_{0} = -\sin\theta \frac{\partial^{2}}{\partial r^{2}}\left(\frac{\alpha}{r}\right), \nonumber \\ 
+  & \phi_{1} = -2 \cos\theta \frac{\partial}{\partial r}\left(\frac{\alpha}{r^2}\right), \nonumber \\ 
+  & \phi_{2} = +2 \sin\theta \frac{\alpha}{r^{3}},
+\end{align}
+in the above expression, $\alpha = \alpha(u + r)$ is an arbitrary complex function of the advanced time $u + reached$ and represents the electric dipole moment plus i times the magnetic dipole moment.
+To verify the validity of this solution, we can perform a direct substitution of the given expression in the Maxwell equations (1.12)-(1.15). To satisfy the condition \eqref{eq:MaxwellAnsatz}, we must assume (taking $N = 1$):
+$$\alpha = \beta(u+r)^{-1} + \o((u+r)^{-1})$$
+Plugging into \eqref{eq:RetardCoordsPhi} and making use of the following identity $(u+r)^{-1} = r^{-1}-ur^{-2}+u^{2}r^{-3}$, we obtain:
+\begin{equation}\label{eq:Phi0retard}
+  \Phi_{0} = -6\beta r^{-4}\sin\theta + \o(r^{-4}),
+\end{equation}
+and with \eqref{eq:MaxwellAnsatz}, $\Phi_{0}^{1} = -6\beta \sin\theta$ and \eqref{eq:F}, $$F_{0} = -8(3\pi)^{-\frac{1}{2}}\beta, \qquad F_{-1} = F_{1} = 0.$$
+Hence, the $F_m$ values are determined solely by the coefficient of the $(u + r)^{-1}$ term in the asymptotic expansion of the incoming dipole field. Consequently, in flat spacetime, they may not carry significant fundamental significance. A similar observation applies to the other $F_{m}^{n,k}$ quantities.\\
+
+Furthermore, these conclusions and results obtained in the context of Maxwell theory can be straightforwardly extended to the case of linearized gravitational theory. The five complex functions:
+\begin{align}\label{eq:MaxcomplexFuc}
+  & \Psi_{0} = -C_{\mu\nu\rho\sigma}l^{\mu}m^{\nu}l^{\rho}m^{\sigma}, \nonumber \\ 
+  & \Psi{1} = -C_{\mu\nu\rho\sigma}l^{\mu}n^{\nu}l^{\rho}m^{\sigma}, \nonumber \\ 
+  & \Psi_{2} = -C_{\mu\nu\rho\sigma}{\overline{{{m}}}^{\mu}n^{\nu}l^{\rho}m^{\sigma}}, \nonumber \\ 
+  & \Psi_{3} = -C_{\mu\nu\rho\sigma}{\overline{{{m}}}^{\mu}n^{\nu}l^{\sigma}}n^{\sigma}, \nonumber \\
+  & \Psi_{4} = -C_{\mu\nu\rho\sigma}{\overline{{{m}}}^{\mu}n^{\nu}\overline{{{m}}}^{\rho}}n^{\sigma}
+\end{align}
+In the context of linearized gravitational theory, we introduce the five complex functions denoted by $\Psi$, where $C_{\mu\nu\rho\sigma}$ represents the linearized Weyl tensor. These functions play an analogous role to the $\Phi$'s in the Maxwell theory. Their dynamics are governed by the linearized Bianchi identities. Much like the correspondence between $F_{\mu \nu}$ and the electromagnetic fields $(\boldsymbol{E}, \boldsymbol{B})$, the linearized Weyl tensor corresponds to two trace-free symmetric, 3-dimensional tensors denoted as $C_{km}$ and $E_{km}$, with $C_{km}$ given by $C_{\alpha \kappa \beta \mu}(l^{\alpha}+n^{\alpha})(l^{\beta}+n^{\beta})$ and $E_{km}$ given by $C_{\alpha \kappa \beta \mu}^{*}(l^{\alpha}+n^{\alpha})(l^{\beta}+n^{\beta})$. Writting $$Z_{k,j} = \frac{1}{2}C_{k,j} + \frac{i}{2}E_{k,j},$$ we get $$\Psi_{0} = - Z_{k,j}m_{k}m_{j}, \qquad \Psi_{1} = 2^{\frac{1}{2}}Z_{k,j}c_{k}m_{j}, \qquad \Psi_{2} = Z_{k,j}m_{k}\overline{m}_{j}, \qquad \Psi_{3} = - 2^{\frac{1}{2}}Z_{k,j}c_{k}\overline{m}_{j}, \qquad \Psi_{4} = -Z_{k,j}\overline{m}_{k}\overline{m}_{j}.$$
+
+Similar to the Maxwell theory, our focus lies on solutions that satisfy a boundary condition at infinity, allowing for sufficiently smooth retarded fields and properly tailing off incoming fields. Specifically, we demand behavior of the form:
+\begin{equation}\label{eq:Psi0ansatz}
+  \Psi_{0}=\sum_{n=0}^{N}\frac{\Psi_{0}^{n}}{r^{5+n}}+(\o^{-5-N}),
+\end{equation}
+under these conditions, the 'Bianchi identities' can be integrated to yield:
+\begin{align}\label{eq:Psiintegrals}
+  & \Psi_{1}=\frac{\Psi_{1}^{0}}{r^{4}}+\o({r}^{-4}), \nonumber \\ 
+  & \Psi_{2}=\frac{\Psi_{2}^{0}}{r^{3}}+\o({r}^{-3}), \nonumber \\ 
+  & \Psi_{3}=\frac{\Psi_{3}^{0}}{r^{2}}+\o({r}^{-2}), \nonumber \\
+  & \Psi_{4}=\frac{\Psi_{4}^{0}}{r}+\o({r}^{-1}).
+\end{align}
+
+After employing equations \eqref{eq:Psi0ansatz}, \eqref{eq:Psiintegrals}, and $\dh$, the time-development equations (the second set of the Bianchi identities) take the following form:
+\begin{equation}\label{eq:Psidot}
+  \dot{\Psi}_{0}^{0} = -\dh \Psi_{1}^{0}, \qquad \dot{\Psi}_{1}^{0} = -\dh \Psi_{2}^{0}, \qquad \dot{\Psi}_{2}^{0} = -\dh \Psi_{3}^{0}, \qquad \dot{\Psi}_{3}^{0} = -\dh \Psi_{4}^{0}.
+\end{equation}
+
+\begin{equation}\label{eq:Psi0n+1}
+  (n+1)\dot{\Psi}_{0}^{n+1} = -\{\overline{\dh}\dh + (n+5)n\}\Psi_{0}^{n} \qquad (N \textgreater n \geq 0).
+\end{equation}
+
+The conservation of mass can be derived using equation \eqref{eq:Psidot} in a manner analogous to how the conservation of charge was obtained from equation \eqref{eq:Phi0}
+\begin{equation}\label{eq:YPsi0}
+  \frac{d}{du} \int {_{0}Y_{0,0}\Psi_{2}^{0} d\omega} = - \int {_{0}Y_{0,0}\dh \Psi_{3}^{0} d\omega} = 0.
+\end{equation}
+The total mass is proportional to the function $\int {_{0}Y_{0,0}\Psi_{2}^{0} d\omega}$. Demonstrating the conservation laws for linear and angular momentum requires a more involved approach, as their proofs rely on the existence of the linearized metric tensor and the Weyl tensor. The crucial significance of the existence of the linearized metric lies in implying that the dipole parts of $\Psi_{3}^{0}$ and $\Psi_{2}^{0}$ are purely 'magnetic' and 'electric', respectively. The linear momentum vector is given by
+\begin{equation}\label{eq:LinMomentum}
+  \int {_{0}Y_{1,m}Re(\Psi_{2}^{0}) d\omega} \Biggl(= \int{_{0}Y_{1,m}\Psi_{2}^{0} d\omega} \Biggr)
+\end{equation}
+and the angular momentum vector
+\begin{equation}\label{eq:AngMomentum}
+  \int {_{0}Y_{1,m}Im(\overline{\dh} \Psi_{1}^{0}) d\omega} \quad (m = -1,0,1).
+\end{equation}
+
+In the linear theory, the new conservation laws can be derived from equation \eqref{eq:Psi0n+1} by multiplying both sides by $_{2}\overline{Y}_{n-k+2,m}$ and integrating over the sphere:
+\begin{equation}\label{eq:intYoverline}
+  (n+1)\frac{d}{du}\int{_{2}\overline{Y}_{n-k+2,m}\Psi_{0}^{n+1} d\omega} = - \int{_{2}\overline{Y}_{n-k+2,m}\{\overline{\dh}\dh \Psi_{0}^{n}+(n+5)n\Psi_{0}^{n}\}d\omega} = -\int{_{2}\overline{Y}_{n-k+2,m}k(2n-k+5)\Psi_{0}^{n} d\omega},
+\end{equation}
+hence 
+\begin{equation}\label{eq:Gdot}
+  \dot{G}_{m}^{n,k} = \frac{-k(2n-k+5)}{(n+1)}G_{m}^{n-1,k-1} ; \qquad \dot{G}_{m}^{n,0} = 0.
+\end{equation}
+where $m$, $n$ and $k$ satisfy $n \geq k \geq 0$, $|m| \leq n-k+2$, with
+\begin{equation}\label{eq:G}
+  G_{m}^{n,k} = \int{_{1}\overline{Y}_{n-k+2,m}\Phi_{0}^{n+1} d\omega}.
+\end{equation}
+
+The interpretation of these charges is still a subject of debate [[7], [2], [5]]. However, their conservation holds in
+general asymptotically flat spacetimes, even when the dynamics involve complex phenomena like black hole
+collisions [2]. Recent interest in asymptotic quantities, particularly the Bondi-Metzner-Sachs (BMS) charges,
+has emerged due to their connection with the concept of black hole soft hair [[1], [8], [9]]. Understanding the re-
+lationship between conserved quantities at past and future null infinity is a crucial aspect of these discussions.\\
+
+However, the resolution of the singular nature of spatial infinity poses challenges in matching the conserved
+quantities.
+Therefore, the study of the Newman-Penrose constants and their conservation offers valuable insights into the
+dynamics of gravitational fields, particularly in black hole collisions and asymptotically flat spacetimes. These
+constants provide information about the residual radiation and behavior of the system at later times, shedding
+light on the intricate nature of spacetime and the conservation laws that govern it.\\
+
+The peeling theorem, one of the most emblematic results in the classical theory of asymptotics in general rel-
+ativity, has played a very important role in the development of the modern notion of gravitational radiation. It
+is usually formulated within the context of asymptotically simple spacetimes, as defined in Section 10.2 of [3].
+An inspection of the proof of the peeling theorem reveals that, in fact, it is only necessary to assume that the
+conformal extension is $\mathbb{C}^4$. In view of this, the question of the existence and genericity of spacetimes satisfy-
+ing the peeling behavior can be rephrased in terms of the construction of asymptotically flat spacetimes with, at least, this minimum of differentiability [10]. Penrose’s compactification procedure, when applied to the
+Minkowski spacetime, yields a fully smooth conformal extension. However, for spacetimes with nonvanishing
+mass, such as the Schwarzschild spacetime, the conformal structure degenerates at spatial infinity. This degen-
+eration occurs because spatial infinity can be viewed as the final point of the generators of null infinity, either
+in the past or future direction. As a result, it is natural to expect that the behavior of the gravitational fields near
+spatial infinity will somehow reflect the peeling properties of the spacetime [11].\\
+
+The peeling theorem, documented in [[12], [13], [14]], represents a significant outcome in the study of asymp-
+totic behavior in general relativity. It characterizes the decay of the Weyl tensor in the asymptotic region of
+the spacetime, signifying the gradual "peeling" of gravitational radiation. This theorem deepens our under-
+standing of the intricate nature of gravitational radiation and its properties in the far-reaching regions of the spacetime.\\
+
+Hence, the peeling theorem and the Newman-Penrose constants are interconnected concepts that deepen our
+understanding of the gravitational radiation and its properties in asymptotically flat spacetimes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

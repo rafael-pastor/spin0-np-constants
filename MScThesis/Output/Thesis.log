@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.14)  25 JUL 2023 15:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.14)  26 JUL 2023 15:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -897,35 +897,61 @@ Package pdftex.def Info: Penrose diagram.pdf  used on input line 87.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [3]
+Underfull \hbox (badness 10000) in paragraph at lines 113--114
+
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [4
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.120 
+l.114 
        <./Penrose diagram.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
+
+ []
+
 <penrose constants.png, id=314, 1132.23pt x 1003.75pt>
 File: penrose constants.png Graphic file (type png)
 <use penrose constants.png>
 Package pdftex.def Info: penrose constants.png  used on input line 122.
 (pdftex.def)             Requested size: 250.38564pt x 221.97438pt.
 
-Underfull \vbox (badness 6078) has occurred while \output is active []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
- [5
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--128
+
+ []
+
+
+Underfull \vbox (badness 1418) has occurred while \output is active []
+
+ [5]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.130 \begin{equation}
-                      \label{eq:flatmetric} <./penrose constants.png>]
+l.155 \end{align}
+                  <./penrose constants.png>]
 
 LaTeX Warning: Command \dh invalid in math mode on input line 156.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [6]
 
 LaTeX Warning: Command \dh invalid in math mode on input line 162.
 
@@ -1007,6 +1033,10 @@ LaTeX Warning: Command \dh invalid in math mode on input line 184.
 LaTeX Warning: Command \textgreater invalid in math mode on input line 184.
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7]
+
 LaTeX Warning: Command \dh invalid in math mode on input line 189.
 
 
@@ -1019,222 +1049,330 @@ LaTeX Warning: Command \dh invalid in math mode on input line 192.
 LaTeX Warning: Command \dh invalid in math mode on input line 192.
 
 
+LaTeX Warning: Command \dh invalid in math mode on input line 194.
+
+
+LaTeX Warning: Command \dh invalid in math mode on input line 194.
+
+
+LaTeX Warning: Command \o invalid in math mode on input line 219.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7] [8]
+ [8]
+
+LaTeX Warning: Command \o invalid in math mode on input line 222.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--226
+
+ []
+
+
+LaTeX Warning: Command \o invalid in math mode on input line 239.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9]
+
+LaTeX Warning: Command \o invalid in math mode on input line 247.
+
+
+LaTeX Warning: Command \o invalid in math mode on input line 247.
+
+
+LaTeX Warning: Command \o invalid in math mode on input line 247.
+
+
+LaTeX Warning: Command \o invalid in math mode on input line 247.
+
+
+LaTeX Warning: Command \o invalid in math mode on input line 247.
+
+
+LaTeX Warning: Command \o invalid in math mode on input line 247.
+
+
+LaTeX Warning: Command \o invalid in math mode on input line 247.
+
+
+LaTeX Warning: Command \o invalid in math mode on input line 247.
+
+
+LaTeX Warning: Command \dh invalid in math mode on input line 249.
+
+
+LaTeX Warning: Command \dh invalid in math mode on input line 251.
+
+
+LaTeX Warning: Command \dh invalid in math mode on input line 251.
+
+
+LaTeX Warning: Command \dh invalid in math mode on input line 251.
+
+
+LaTeX Warning: Command \dh invalid in math mode on input line 251.
+
+
+LaTeX Warning: Command \dh invalid in math mode on input line 255.
+
+
+LaTeX Warning: Command \dh invalid in math mode on input line 255.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 255.
+
+
+LaTeX Warning: Command \dh invalid in math mode on input line 260.
+
+
+LaTeX Warning: Command \dh invalid in math mode on input line 268.
+
+
+LaTeX Warning: Command \dh invalid in math mode on input line 273.
+
+
+LaTeX Warning: Command \dh invalid in math mode on input line 273.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10]
+Underfull \hbox (badness 10000) in paragraph at lines 284--289
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 290--296
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 297--308
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 309--313
+
+ []
+
+[11] [12]
 Chapter 2.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 196.
+(hyperref)                removing `math shift' on input line 344.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 196.
+(hyperref)                removing `superscript' on input line 344.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 196.
+(hyperref)                removing `math shift' on input line 344.
 
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 22.88956pt on input line 196.
+(Font)              scaled to size 22.88956pt on input line 344.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 15.89755pt on input line 196.
+(Font)              scaled to size 15.89755pt on input line 344.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 22.88956pt on input line 196.
+(Font)              scaled to size 22.88956pt on input line 344.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 15.89755pt on input line 196.
+(Font)              scaled to size 15.89755pt on input line 344.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 13.24796pt on input line 204.
+(Font)              scaled to size 13.24796pt on input line 352.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 204.
+(Font)              scaled to size 7.35999pt on input line 352.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 13.24796pt on input line 204.
+(Font)              scaled to size 13.24796pt on input line 352.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 204.
+(Font)              scaled to size 7.35999pt on input line 352.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 204.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 204.
+(hyperref)                removing `math shift' on input line 352.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 204.
+(hyperref)                removing `superscript' on input line 352.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 352.
 
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 209.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 357.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <7.6> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 209.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 357.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <6> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 209.
-[9
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 357.
+[13
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [10] [11]
+ [14] [15]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [12]
+ [16]
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 327.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 475.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <8> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 327.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 475.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 327.
+(hyperref)                removing `math shift' on input line 475.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 327.
+(hyperref)                removing `superscript' on input line 475.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 327.
+(hyperref)                removing `math shift' on input line 475.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 327.
+(hyperref)                removing `math shift' on input line 475.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 327.
+(hyperref)                removing `math shift' on input line 475.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13]
-Overfull \hbox (1.46333pt too wide) in paragraph at lines 396--401
+ [17]
+Overfull \hbox (1.46333pt too wide) in paragraph at lines 544--549
 \T1/futs/m/it/10 where $\FML/futmi/m/it/10 A[]$\T1/futs/m/it/10 , $\FML/futmi/m/it/10 B[]$\T1/futs/m/it/10 , $\FML/futmi/m/it/10 C[]$ \T1/futs/m/it/10 and $\FML/futmi/m/it/10 D[]$ \T1/futs/m/it/10 are con-stants that can be writ-ten in terms of $\FML/futmi/m/it/10 a[]\T1/futs/m/n/10 (0)$ \T1/futs/m/it/10 and $[]\T1/futs/m/n/10 (0)$
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [14] [15]
+ [18] [19]
 Chapter 3.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 423.
+(hyperref)                removing `math shift' on input line 571.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 423.
+(hyperref)                removing `superscript' on input line 571.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 423.
+(hyperref)                removing `math shift' on input line 571.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 423.
+(hyperref)                removing `math shift' on input line 571.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 423.
+(hyperref)                removing `math shift' on input line 571.
 
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 423.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 571.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 423.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 571.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <12> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 423.
-[16
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 571.
+[20
 
 ]
-Overfull \hbox (4.4427pt too wide) in paragraph at lines 452--454
+Overfull \hbox (4.4427pt too wide) in paragraph at lines 600--602
 \T1/futs/m/n/10 sum-ing that ex-pres-sion [] holds true for $\FML/futmi/m/it/10 n \FMS/futm/m/n/10 Å \FML/futmi/m/it/10 N$\T1/futs/m/n/10 , let's pro-ceed with the in-duc-tion step by cal-cu-lat-ing $[]\FML/futmi/m/it/10 L\T1/futs/m/n/10 ([][])[]\FML/futmi/m/it/10 ^^^$
  []
 
 
 Underfull \vbox (badness 1147) has occurred while \output is active []
 
- [17] [18] [19]
+ [21] [22] [23]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [20]
+ [24]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21]
+ [25]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 652.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 652.
+(hyperref)                removing `math shift' on input line 800.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 652.
+(hyperref)                removing `superscript' on input line 800.
 
 
-Overfull \hbox (39.11499pt too wide) detected at line 668
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 800.
+
+
+Overfull \hbox (39.11499pt too wide) detected at line 816
 []
  []
 
 
-Overfull \hbox (24.55563pt too wide) detected at line 685
+Overfull \hbox (24.55563pt too wide) detected at line 833
 []
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [22]
+ [26]
 
 Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 700.
+(amsmath)                 on input line 848.
 
 
-Overfull \hbox (3.35745pt too wide) detected at line 722
+Overfull \hbox (3.35745pt too wide) detected at line 870
 []
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [23]
-Overfull \hbox (29.76935pt too wide) detected at line 734
+ [27]
+Overfull \hbox (29.76935pt too wide) detected at line 882
 []
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [24] [25]
-Overfull \hbox (5.20215pt too wide) detected at line 832
+ [28] [29]
+Overfull \hbox (5.20215pt too wide) detected at line 980
 []
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [26] [27] [28]
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 924.
+ [30] [31] [32]
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1072.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)) [29] [30
+)) [33] [34
 
-] (Output/Thesis.bbl [31
+] (Output/Thesis.bbl [35
 
-] [32]) [33] [34
+] [36]) [37] [38
 
 ] (./Modules/Appendix_A.tex
 Appendix A.
-) [35
+) [39
 
-] [36
+] [40
 
 ] (./Modules/Appendix_B.tex
 Appendix B.
-) [37
+) [41
 
-] [38
+] [42
 
 ] (Output/Thesis.aux)
 
@@ -1248,18 +1386,18 @@ Package rerunfilecheck Info: File `Thesis.out' has not changed.
 (rerunfilecheck)             Checksum: A794E0AD7C4176886B025C49D0FB14F1;4875.
  ) 
 Here is how much of TeX's memory you used:
- 16861 strings out of 478268
- 269484 string characters out of 5846347
- 631695 words of memory out of 5000000
- 34359 multiletter control sequences out of 15000+600000
+ 16899 strings out of 478268
+ 269994 string characters out of 5846347
+ 632662 words of memory out of 5000000
+ 34376 multiletter control sequences out of 15000+600000
  654487 words of font info for 211 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  115i,14n,109p,1375b,515s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-bb.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-mcl.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-ml.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-mlitb.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/adobe/utopia/putbi8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on Output/Thesis.pdf (56 pages, 686922 bytes).
+Output written on Output/Thesis.pdf (60 pages, 702426 bytes).
 PDF statistics:
- 962 PDF objects out of 1000 (max. 8388607)
- 837 compressed objects within 9 object streams
- 291 named destinations out of 1000 (max. 500000)
+ 1007 PDF objects out of 1200 (max. 8388607)
+ 878 compressed objects within 9 object streams
+ 312 named destinations out of 1000 (max. 500000)
  232 words of extra memory for PDF output out of 10000 (max. 10000000)
 
