@@ -126,7 +126,7 @@ A conservation law arises when the value of an integral remains constant regardl
     Taken from \cite{NewPen68}.}
 \end{figure}
 
-The newly discovered conservation laws are distinct and not connected to any previously known laws. While a comprehensive physical interpretation of these new quantities is not yet evident, a preliminary understanding of their significance can be proposed. This interpretation is largely based on their meaning in the linear theories, where their conservation is relatively straightforward, as well as their interpretation in the context of static fields. To gain deeper insights, we will conduct a detailed analysis of the linear gravitational and Maxwell theories. Through this investigation, we hope to shed light on the nature and implications of these novel conservation laws.\\
+The newly (in 1968) discovered conservation laws are distinct and not connected to any previously known laws. While a comprehensive physical interpretation of these new quantities is not yet evident, a preliminary understanding of their significance can be proposed. This interpretation is largely based on their meaning in the linear theories, where their conservation is relatively straightforward, as well as their interpretation in the context of static fields. To gain deeper insights, we will conduct a detailed analysis of the linear gravitational and Maxwell theories. Through this investigation, we hope to shed light on the nature and implications of these novel conservation laws.\\
 
 In the context of flat spacetime, we will introduce a set of null polar coordinates, where the usual spherical polar angles, $\theta$ and $\phi$, are retained. However, we will introduce new coordinates, $r$ and $u$, such that $r/\sqrt{2}$ represents the radial distance, and $(2u - r)/\sqrt{2}$ serves as the time parameter in the standard system. Consequently, $\sqrt{2u}$ corresponds to the conventional retarded time parameter, while $\sqrt{2(u + r)}$ represents the corresponding advanced time. The hypersurfaces defined by $u = \text{constant}$ are the outgoing null cones with their vertices at $r = 0$. The metric is given by:
 \begin{equation}\label{eq:flatmetric}
@@ -162,8 +162,8 @@ From \eqref{eq:Maxtensor} we can see that $\Phi_{0}$, $\Phi_{1}$ and $\Phi_{2}$ 
   & \Biggl(\frac{\partial}{\partial u} - \frac{\partial}{\partial r} - \frac{1}{r}\Biggr)\Phi_{0}  + \frac{1}{r}\dh \Phi_{1} = 0, \\ 
   & \Biggl(\frac{\partial}{\partial u} - \frac{\partial}{\partial r} - \frac{2}{r}\Biggr)\Phi_{1}  + \frac{1}{r}\dh \Phi_{2} = 0. 
 \end{align}
-Where $\dh$ is given by $\dh \eta = -(\sin \theta)^{s}\Biggl(\frac{\partial}{\partial \theta} + \frac{i}{\sin \theta}\frac{\partial}{\partial \phi}\Biggr)\{(\sin \theta)^{-s}\eta\}$.\\
-
+Where $\dh$ is given by $$\dh \eta = -(\sin \theta)^{s}\Biggl(\frac{\partial}{\partial \theta} + \frac{i}{\sin \theta}\frac{\partial}{\partial \phi}\Biggr)\{(\sin \theta)^{-s}\eta\},$$ where $s$ represents the spin weight.
+\\
 Our focus lies on solutions that fulfill a suitable asymptotic boundary condition. This condition allows for all sufficiently smooth retarded fields and includes fields with incoming waves that decay appropriately. We employ the integer $N$ to gauge the degree of smoothness needed, and our requirement is as follows:
 \begin{equation}\label{eq:MaxwellAnsatz}
   \phi_{0}=\sum_{n=0}^{N}\frac{\phi_{0}^{n}(u,\theta,\phi)}{r^{3+n}}+\o(r^{-3-N}),
@@ -185,7 +185,6 @@ Using  $\overline{\dh}\dh \eta - \dh \overline{\dh} \eta = 2s\eta$, we can write
 \begin{equation}\label{eq:Phin+1}
   (n + 1)\dot{\Phi}_{0}^{n+1} = -\{\overline{\dh}\dh \Phi_{0}^{n} + (n+3)n\Phi_{0}^{n}\} \qquad (N \textgreater n \geq 0).
 \end{equation}
-
 Before proceeding to derive the new conservation laws, it is essential to first exhibit the law of conservation of charge within this formalism. To achieve this, we multiply the first equation of \eqref{eq:Phi0} by $_{0}Y_{0,0}$ and subsequently integrate over the sphere, yielding:
 \begin{equation}\label{eq:YPhi0}
   \frac{d}{du} \int {_{0}Y_{0,0}\Phi_{1}^{0} d\omega} = - \int {_{0}Y_{0,0}\dh \Phi_{2}^{0} d\omega} = 0
@@ -203,7 +202,6 @@ where $m$, $n$ and $k$ satisfy $n \geq k \geq 0$, $|m| \leq n-k+1$, and therefor
 \begin{equation}\label{eq:Fdot}
   \dot{F}_{m}^{n,k} = \frac{-k(2n-k+3)}{(n+1)}F_{m}^{n-1,k-1} ; \qquad \dot{F}_{m}^{n,0} = 0.
 \end{equation}
-
 As a result, we obtain a series of conserved quantities denoted as $F_{m}^{n,0}$ (when $N \geq n+1$). Nevertheless, in the non-linear Einstein-Maxwell theory, only certain quantities for $n = 0$ and $m = -1, 0, 1$ remain conserved. Hence, our main focus will be on these three quantities, and we will use the shorthand notation $F_{m} = F_{m}^{0,0}$.\\
 From the following ansatz
 \begin{equation}\label{eq:Phi0ansatz}
@@ -263,7 +261,7 @@ The conservation of mass can be derived using equation \eqref{eq:Psidot} in a ma
 \end{equation}
 The total mass is proportional to the function $\int {_{0}Y_{0,0}\Psi_{2}^{0} d\omega}$. Demonstrating the conservation laws for linear and angular momentum requires a more involved approach, as their proofs rely on the existence of the linearized metric tensor and the Weyl tensor. The crucial significance of the existence of the linearized metric lies in implying that the dipole parts of $\Psi_{3}^{0}$ and $\Psi_{2}^{0}$ are purely 'magnetic' and 'electric', respectively. The linear momentum vector is given by
 \begin{equation}\label{eq:LinMomentum}
-  \int {_{0}Y_{1,m}Re(\Psi_{2}^{0}) d\omega} \Biggl(= \int{_{0}Y_{1,m}\Psi_{2}^{0} d\omega} \Biggr)
+  \int {_{0}Y_{1,m}Re(\Psi_{2}^{0}) d\omega} = \Biggl(\int{_{0}Y_{1,m}\Psi_{2}^{0} d\omega} \Biggr)
 \end{equation}
 and the angular momentum vector
 \begin{equation}\label{eq:AngMomentum}
@@ -283,11 +281,10 @@ where $m$, $n$ and $k$ satisfy $n \geq k \geq 0$, $|m| \leq n-k+2$, with
   G_{m}^{n,k} = \int{_{1}\overline{Y}_{n-k+2,m}\Phi_{0}^{n+1} d\omega}.
 \end{equation}
 
-The interpretation of these charges is still a subject of debate [[7], [2], [5]]. However, their conservation holds in
+The interpretation of these charges is still a subject of debate [\cite{PenRin84}, \cite{DaiVal02}, \cite{Bac10}]. However, their conservation holds in
 general asymptotically flat spacetimes, even when the dynamics involve complex phenomena like black hole
-collisions [2]. Recent interest in asymptotic quantities, particularly the Bondi-Metzner-Sachs (BMS) charges,
-has emerged due to their connection with the concept of black hole soft hair [[1], [8], [9]]. Understanding the re-
-lationship between conserved quantities at past and future null infinity is a crucial aspect of these discussions.\\
+collisions \cite{DaiVal02}. Recent interest in asymptotic quantities, particularly the Bondi-Metzner-Sachs (BMS) charges,
+has emerged due to their connection with the concept of black hole soft hair [\cite{HawMalStr16}, \cite{HawMalStr17}, \cite{HeLyMi15}]. Understanding the relationship between conserved quantities at past and future null infinity is a crucial aspect of these discussions.\\
 
 However, the resolution of the singular nature of spatial infinity poses challenges in matching the conserved
 quantities.
@@ -296,33 +293,64 @@ dynamics of gravitational fields, particularly in black hole collisions and asym
 constants provide information about the residual radiation and behavior of the system at later times, shedding
 light on the intricate nature of spacetime and the conservation laws that govern it.\\
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Peeling Theorem}
+\label{sec:Peeling Theorem}
+
 The peeling theorem, one of the most emblematic results in the classical theory of asymptotics in general rel-
 ativity, has played a very important role in the development of the modern notion of gravitational radiation. It
-is usually formulated within the context of asymptotically simple spacetimes, as defined in Section 10.2 of [3].
+is usually formulated within the context of asymptotically simple spacetimes, as defined in Section 10.2 of \cite{Val16}.
 An inspection of the proof of the peeling theorem reveals that, in fact, it is only necessary to assume that the
 conformal extension is $\mathbb{C}^4$. In view of this, the question of the existence and genericity of spacetimes satisfy-
-ing the peeling behavior can be rephrased in terms of the construction of asymptotically flat spacetimes with, at least, this minimum of differentiability [10]. Penrose’s compactification procedure, when applied to the
+ing the peeling behavior can be rephrased in terms of the construction of asymptotically flat spacetimes with, at least, this minimum of differentiability \cite{GasVal17}. Penrose’s compactification procedure, when applied to the
 Minkowski spacetime, yields a fully smooth conformal extension. However, for spacetimes with nonvanishing
 mass, such as the Schwarzschild spacetime, the conformal structure degenerates at spatial infinity. This degen-
 eration occurs because spatial infinity can be viewed as the final point of the generators of null infinity, either
 in the past or future direction. As a result, it is natural to expect that the behavior of the gravitational fields near
-spatial infinity will somehow reflect the peeling properties of the spacetime [11].\\
+spatial infinity will somehow reflect the peeling properties of the spacetime \cite{Pen65a}.\\
 
-The peeling theorem, documented in [[12], [13], [14]], represents a significant outcome in the study of asymp-
-totic behavior in general relativity. It characterizes the decay of the Weyl tensor in the asymptotic region of
-the spacetime, signifying the gradual "peeling" of gravitational radiation. This theorem deepens our under-
-standing of the intricate nature of gravitational radiation and its properties in the far-reaching regions of the spacetime.\\
+In the context of the physical Ricci tensor vanishing near infinity, the physical Weyl tensor $C_{abcd}$ contains all essential information about the curvature in the region. Being conformally invariant, it is related to the unphysical Weyl tensor $\tilde{C}_{abcd}$ as $C_{abcd} = \tilde{C}_{abcd}$. The critical point to note is that $\tilde{C}_{abcd}$ must vanish at $\mathscr{I}^+$. \\
+
+Now, consider any null geodesic $\gamma$ within spacetime $M$ from a point $p$ in the physical region to another point $q$ on $\mathscr{I}^+$. Let $\lambda$ be the physical affine parameter along $\gamma$, where $q$ corresponds to the limit as $\lambda$ tends to infinity. The tangent vector $k^{a}$ to $\gamma$ in this parameterization plays a vital role. While the unphysical Weyl curvature on $\gamma$ may not have any specific characteristics, it is guaranteed to vanish at $q$. However, during the transformation from unphysical to physical spacetime, an infinite amount of "stretching" occurs along the direction of $k^{a}$. This results in the peeling property of the physical Weyl tensor, which can be expressed as follows: As $\lambda$ approaches infinity, we observe that:
+\begin{equation}\label{eq:peeling}
+  C_{a b c d}=\frac{C_{a b c d}^{(1)}}{\lambda}+\frac{C_{a b c d}^{(2)}}{\lambda^{2}}+\frac{C_{a b c d}^{(3)}}{\lambda^{3}}+\frac{C_{a b c d}^{(4)}}{\lambda^{4}}+O\Bigl(\frac{1}{\lambda^{5}}\Bigr),
+\end{equation}
+in the context of an asymptotically Minkowski spacetime basis, each component of the physical Weyl tensor, denoted as $C_{abcd}^{\mu}$, exhibits bounded behavior \cite{Wal84a}. \\
+
+The peeling theorem, documented in [\cite{Sac61}, \cite{BonBurMet62}, \cite{NewPen62}], represents a significant outcome in the study of asymptotic behavior in general relativity. It characterizes the decay of the Weyl tensor in the asymptotic region of
+the spacetime, signifying the gradual "peeling" of gravitational radiation. This theorem deepens our understanding of the intricate nature of gravitational radiation and its properties in the far reaching regions of the spacetime.\\
 
 Hence, the peeling theorem and the Newman-Penrose constants are interconnected concepts that deepen our
 understanding of the gravitational radiation and its properties in asymptotically flat spacetimes.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{The Newman-Penrose gauge}
+\label{sec:The Newman-Penrose gauge}
+
+The Peeling theorem underscores the advantages of adopting a gauge that is well-suited to the structure of null infinity. By utilizing the Newman-Penrose gauge, we gain even deeper insights into the properties of asymptotically simple spacetimes. This gauge choice allows for a more comprehensive understanding of the behavior and characteristics of these spacetimes at infinity \cite{Val16}. \\
+
+Let us consider a conformal extension $(M, \boldsymbol{g}, \Xi)$ of an asymptotically simple spacetime $(\tilde{M}, \tilde{\boldsymbol{g}})$, where $\tilde{\boldsymbol{g}}$ satisfies the vacuum Einstein field equations with a cosmological constant of zero. In the theory of asymptotics, it is known that for vacuum spacetimes with zero cosmological constant, the conformal boundary $\mathscr{I}$ is composed of two distinct null hypersurfaces: $\mathscr{I}^+$ and $\mathscr{I}^-$. Both hypersurfaces have the topological structure of $\mathbb{R} \times  \mathbb{S}^2$.\\
+
+In the forthcoming exposition, we shall use the symbol $\{l^{\prime}, n^{\prime}, m^{\prime}, \overline{m}^{\prime}\}$ to denote a frame defined in a local region $U$ around $\mathscr{I}^+$. This frame will be referred to as "adapted to $\mathscr{I}^+$ " provided it satisfies the following conditions:
+
+\begin{itemize}
+  \item[(i)] The vector $l^{\prime}$ is tangential to $\mathscr{I}^{+}$ and remains parallelly propagated along this null hypersurface, which can be expressed as follows:
+   \begin{equation*}
+   \nabla_{l^{\prime}} l^{\prime} \simeq 0.
+   \end{equation*}
+  \item[(ii)] Within $U$, we can find a smooth function $u$ that acts as an affine parameter along the null generators of $\mathscr{I}^{+}$, denoted by $l^{\prime}(u) \simeq 1$. We then define the vector $n^{\prime}$ as $n^{\prime}=\boldsymbol{g}(\mbox{\textbf{d}}u, \cdot )$, which makes it tangential to the null generators of the hypersurfaces transverse to $\mathscr{I}$ defined by:
+  \begin{equation*}
+  \mathcal{N}_{u_{\circ}}\equiv \{ p \in U \;| \; u(p)=u_{\circ}\},
+  \end{equation*}
+   with constant $u_{\circ}$.
+  \item[(iii)] The tetrad $\{l^{\prime}, n^{\prime}, m^{\prime}, \overline{m}^{\prime}\}$ is aligned with the tangent vectors of the cuts $\mathcal{C}_{u_{\circ}}\equiv \mathcal{N}_{u_{\circ}}\cap \mathscr{I}^{+} \approx \mathbb{S}^2$, and it is parallelly propagated along $\mathcal{N}_{u_{\circ}}$, meaning that it fulfills the condition:
+  \begin{equation*}
+  \nabla_{n^{\prime}}\{l^{\prime}, n^{\prime}, m^{\prime}, \overline{m}^{\prime}\}=0 \qquad \text{on} \qquad
+  \mathcal{N}_{u_{\circ}}.
+  \end{equation*}
+  \end{itemize}
 
 
-
-
-
-
-
-
+  
 
 
 
@@ -555,7 +583,7 @@ here, the over-dot represents a derivative with respect to $\partial_\tau$. A ca
     \end{enumerate}
 \end{lemma}
 
-One intriguing characteristic shared by the study of evolution equations using the i0-cylinder framework is the emergence of logarithmic terms at null infinity in the solution. This becomes evident when examining the hypergeometric function featured in Equation \eqref{eq:Sol_highestharmonic} for various values of p. For instance, for p = 0 and p = 1, the following expressions arise:
+One intriguing characteristic shared by the study of evolution equations using the $i^0$-cylinder framework is the emergence of logarithmic terms at null infinity in the solution. This becomes evident when examining the hypergeometric function featured in Equation \eqref{eq:Sol_highestharmonic} for various values of $p$. For instance, for $p = 0$ and $p = 1$, the following expressions arise:
 \begin{align}
   {a}_{0;0,0}(\tau) & = C_{000} + \tfrac{1}{2} D_{000} (\log(1 + \tau
   )- \log(1 - \tau ))\\ {a}_{1;1,m}(\tau) & = \tfrac{1}{4} (1 - \tau )
@@ -563,7 +591,7 @@ One intriguing characteristic shared by the study of evolution equations using t
   \log(1 - \tau ) + 2\tau(1-\tau^2)))
 \end{align}
 
-These logarithmic terms have implications for the linear version of the associated Peeling property, as discussed in \cite{Val07,MinMacKro22}. In the full non-linear case, additional obstacles to the smoothness of null infinity arise, as explored in \cite{Val04}. In the gravitational scenario, conditions can be imposed on the initial data to prevent the emergence of these logarithmic terms in the evolution, as described in \cite{Fri98a}. For the spin-0 case, the corresponding condition can be expressed as follows:
+These logarithmic terms have implications for the linear version of the associated peeling property, as discussed in \cite{Val07,MinMacKro22}. In the full non-linear case, additional obstacles to the smoothness of null infinity arise, as explored in \cite{Val04}. In the gravitational scenario, conditions can be imposed on the initial data to prevent the emergence of these logarithmic terms in the evolution, as described in \cite{Fri98a}. For the spin-0 case, the corresponding condition can be expressed as follows:
 
 \begin{remark}\label{Remark:logfreeRemark}(Regularity condition~\cite{MinMacKro22}).
   \emph{Lemma \ref{Lemma:Sol_Jacobi_and_Logs}} implies that expanding the integral in \eqref{eq:Sol_highestharmonic} results in logarithmic terms, hence
@@ -736,7 +764,7 @@ here, $\rho_{\star}$ represents a constant that parametrizes the cut $\mathcal{C
 A direct calculation using Lemma \ref{Lemma:Sol_Jacobi_and_Logs} shows the following:
 \begin{align}\label{eq:Q0lm}
   & Q_{p;l,m}^{0}(\tau)=(1+\tau) \dot{a}_{p ; l, m}(\tau)-pa_{p ; l, m}(\tau) \Rightarrow Q_{0;0,0}^{0}(\tau)=2 \dot{a}_{0;0,0}(\tau)-0 \cdot a_{0;0,0} =2 \dot{a}_{0;0,0}(\tau)=\frac{D_{000}}{1-\tau}, \\
-  & Q_{1;0,0}^{0}(\tau)=2 \dot{a}_{1;0,0}(1)-1 \cdot a_{1;0,0}(1)=-A_{100}.
+  & Q_{1;0,0}^{0}(\tau)=2 \dot{a}_{1;0,0}(\tau)-1 \cdot a_{1;0,0}(\tau)=-A_{100}.
 \end{align}
 Therefore, it is important to note that if the regularity condition of Remark \ref{Remark:logfreeRemark} is not satisfied, the classical NP constants will not be well-defined, regardless of the chosen cut for evaluation. Thus, in order to compute the classical $\ell=0$ NP constant, the regularity condition must be imposed. However, once the regularity condition is satisfied, the value of the classical $\ell=0$ NP constant becomes independent of the specific cut chosen for evaluation. This can be seen through the following analysis:
 \begin{remark}\label{rem:l0}
@@ -754,7 +782,7 @@ gives
 Thus, based on the insights provided by Remark \ref{rem:l0} and assuming the regularity condition is fulfilled, we can conclude that:
 \begin{align}
   &\mathcal{N}^{+}_{0,0}= \sum_{p=0}^{\infty} \frac{1}{p!}\rho^{p-1}_{\star}Q^{0}_{p;0,0}|_{\mathscr{I}^{+}} = \sum_{p=0}^{\infty} \frac{1}{p !}(1+\tau)^{-2} \rho^{p-1} Q_{p; 0,0}^{0}(\tau) = \sum_{p=0}^{\infty} \frac{1}{p !} 2^{-2} \rho^{p-1} Q_{p; 0,0}^{0}(1) \nonumber \\
-  & \left[\frac{2^{-2}}{0 !} \rho^{-1} A_{0;0,0}\cdot(1)+\frac{2^{-2}}{\rho !} \rho^{0} A_{1;0,0} \cdot(1)+\sum_{p=2}^{\infty} \frac{2^{-2}}{p !} \rho^{p-1} A_{p;0,0}\cdot(\tau)\right] = -A_{100}.
+  & \left[\frac{2^{-2}}{0 !} \rho^{-1} A_{0;0,0} +\frac{2^{-2}}{\rho !} \rho^{0} A_{1;0,0} +\sum_{p=2}^{\infty} \frac{2^{-2}}{p !} \rho^{p-1} A_{p;0,0}\right] = -A_{100}.
 \end{align}
 
 It is expected that the regularity condition must be imposed to ensure well-defined classical NP constants, as a similar observation holds for the spin-1 and spin-2 cases in \cite{GasVal20} (see also \cite{Val98, Val99a}). Additionally, Remark \ref{rem:l0} demonstrates that only the term with $p=1$ contributes to the calculation. This aligns with the "constancy" of the NP constants, indicating that their value does not depend on the chosen cut \cite{NewPen68}. In other words, if we assume that the NP constants are well-defined, the specific form of the expressions in Remark \ref{rem:l0} is not necessary to determine the contribution of the initial data parameters from Lemma \ref{Lemma:Sol_Jacobi_and_Logs} to $\mathcal{N}^{+}_{0,0}$. As long as only the parameter $A_{p;\ell,m}$ (and not $B_{p;\ell,m}$) appears in Equation \ref{rem:l0:eq2}, the value of $\mathcal{N}^{+}_{0,0}$ can be determined. 
@@ -784,7 +812,7 @@ Therefore, one can compute $\mathcal{N}^{+}_{1,m}$ as
 \begin{align}\label{NP1_precomputation}
   & \mathcal{N}^{+}_{1,m}= \lim_{\substack{\rho \to \rho_{\star} \\ \tau \to 1}} (\boldsymbol{e}^{+})^2(\phi_{1m}) = \sum_{p=1}^{\infty}\frac{1}{p!}\rho_{\star}^{p-2}Q^{1}_{p,1,m}|_{\mathscr{I}^{+}} =  (1+\tau)^{-4} \sum_{p=0}^{\infty} \frac{1}{p !} Q_{p l, m}^{1}(\tau) \rho^{p} = \nonumber \\
   & = (1+\tau)^{-4}\left(\sum_{p=0}^{1} \frac{1}{p !} \rho^{p-2} Q_{p; 1, m}^{1}\cdot(\tau)+\sum_{p=2}^{2} \frac{1}{p !} \rho^{0} Q_{p, 1, m}^{1}\cdot(\tau)+\sum_{p=3}^{\infty} \frac{1}{p !} \rho^{p-2} A_{p, 1, m}^{1}\cdot{(\tau)}\right) = \nonumber \\
-  & = \lim _{\substack{\rho \rightarrow 0 \\ \tau \rightarrow 1}} 2^{-4}\big\{\rho^{-2} Q_{0,1, m}^{1}\cdot(\tau)+\rho^{-1} Q_{1,1, m}^{1}\cdot(\tau)\big\}+\lim _{\rho \rightarrow 0} 2^{-4} \frac{1}{2 !} Q^{1}_{2, 1, m}\cdot(\tau). 
+  & = \lim _{\substack{\rho \rightarrow 0 \\ \tau \rightarrow 1}} 2^{-4}\big\{\rho^{-2} Q_{0,1, m}^{1}\cdot(\tau)+\rho^{-1} Q_{1,1, m}^{1}\cdot(\tau)\big\}+\lim_{\substack{\rho \rightarrow 0 \\ \tau \rightarrow 1}} 2^{-4} \frac{1}{2 !} Q^{1}_{2, 1, m}\cdot(\tau). 
 \end{align}
 Similar to the previous case, we have the following:
 \begin{remark}\label{rem:l1}
@@ -1017,7 +1045,7 @@ The recursive computation of $h^{n-1}_k(\tau)$ begins with $h_{0}^{0}$ and $h_{1
 \begin{corollary}\label{coro:propNPplusQ}
   For $p\neq l$ and $n=l$ one has
     \begin{align}\label{eq:ind_Qpnotl_pequaln}
-      Q^{n}_{p;n,m}(\tau) =\sum_{k=0}^{n+1}A_{p;n,m}h^{n}_{k}(\tau)J_{n-k}^{(p+k,-p+k)}(\tau).
+      Q^{n}_{p;n,m}(\tau) =\sum_{k=0}^{n+1}A_{p;n,m}h^{n}_{k}(\tau)P_{n-k}^{(p+k,-p+k)}(\tau).
   \end{align}
 \end{corollary}
 
@@ -1086,3 +1114,6 @@ g^{n+1}_p=(1+\tau)\dot{g}^{n}_p+(-1)^{n+1}2^{-2p}p_{[n+1]}(1+\tau)^{n+1}(1-\tau)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{The NP constants in terms of initial data}
 \label{sec:NPconstantsInitialData}
+
+This subsection aims to consolidate the outcomes of the induction arguments from subsection \ref{sec:induction_argument} and ascertain the relationships between the NP constants at $\mathscr{I}^{\pm}$ and the initial data parameters $A_{p;\ell,m}$, $B_{p;\ell,m}$, $C_{p;\ell,m}$, and $D_{p;\ell,m}$. \\
+

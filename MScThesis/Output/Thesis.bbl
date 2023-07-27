@@ -29,6 +29,73 @@ E.~T. Newman and R.~Penrose.
 \newblock \emph{Proc. Roy. Soc. Lond. A}, 305:\penalty0 175--204, 1968.
 \newblock \doi{10.1098/rspa.1968.0112}.
 
+\bibitem[Penrose and Rindler(1984, 1986)]{PenRin84}
+R.~Penrose and W.~Rindler.
+\newblock \emph{Spinors and Spacetime}, volume 1, 2.
+\newblock Cambridge University Press, 1984, 1986.
+
+\bibitem[Backdahl(2010)]{Bac10}
+T.~Backdahl.
+\newblock {Relating the Newman-Penrose constants to the Geroch-Hansen multipole
+  moments}.
+\newblock \emph{J. Phys. Conf. Ser.}, 229:\penalty0 012016, 2010.
+\newblock \doi{10.1088/1742-6596/229/1/012016}.
+
+\bibitem[Hawking et~al.(2017)Hawking, Perry, and Strominger]{HawMalStr17}
+S.~W. Hawking, M.~J. Perry, and A.~Strominger.
+\newblock Superrotation charge and supertranslation hair on black holes.
+\newblock \emph{Journal of High Energy Physics}, 2017\penalty0 (5), may 2017.
+\newblock \doi{10.1007/jhep05(2017)161}.
+\newblock URL \url{https://doi.org/10.1007%2Fjhep05%282017%29161}.
+
+\bibitem[He et~al.(2015)He, Lysov, Mitra, and Strominger]{HeLyMi15}
+T.~He, V.~Lysov, P.~Mitra, and A.~Strominger.
+\newblock {BMS} supertranslations and weinberg's soft graviton theorem.
+\newblock \emph{Journal of High Energy Physics}, 2015\penalty0 (5), may 2015.
+\newblock \doi{10.1007/jhep05(2015)151}.
+\newblock URL \url{https://doi.org/10.1007%2Fjhep05%282015%29151}.
+
+\bibitem[Gasper{\'{\i}}n and Kroon(2017)]{GasVal17}
+E.~Gasper{\'{\i}}n and J.~A.~V. Kroon.
+\newblock Polyhomogeneous expansions from time symmetric initial data.
+\newblock \emph{Classical and Quantum Gravity}, 34\penalty0 (19):\penalty0
+  195007, sep 2017.
+\newblock \doi{10.1088/1361-6382/aa87bf}.
+\newblock URL \url{https://doi.org/10.1088%2F1361-6382%2Faa87bf}.
+
+\bibitem[Penrose(1965)]{Pen65a}
+R.~Penrose.
+\newblock Zero rest-mass fields including gravitation: Asymptotic behaviour.
+\newblock \emph{Proc. Roy. Soc. Lond.}, A284:\penalty0 159--203, 1965.
+
+\bibitem[Wald(1984)]{Wal84a}
+R.~M. Wald.
+\newblock \emph{General Relativity}.
+\newblock University of Chicago Press, Chicago, 1984.
+\newblock ISBN 0-226-87032-4 (hardcover), 0-226-87033-2 (paperback).
+
+\bibitem[Sachs(1961)]{Sac61}
+R.~K. Sachs.
+\newblock Gravitational waves in general relativity. 6. the outgoing radiation
+  condition.
+\newblock \emph{Proc. Roy. Soc. Lond. A}, 264:\penalty0 309--338, 1961.
+\newblock \doi{10.1098/rspa.1961.0202}.
+
+\bibitem[Bondi(1962)]{BonBurMet62}
+B.~M. G. J. v. d. M. A. W.~K. Bondi, H.
+\newblock Gravitational waves in general relativity, vii. waves from
+  axi-symmetric isolated system.
+\newblock \emph{Proc. R. Soc. Lond. A}, 269:\penalty0 21--52, 1962.
+\newblock \doi{10.1098/rspa.1962.0161}.
+
+\bibitem[{Newman} and {Penrose}(1962)]{NewPen62}
+E.~{Newman} and R.~{Penrose}.
+\newblock An approach to gravitational radiation by a method of spin
+  coefficients.
+\newblock \emph{Journal of Mathematical Physics}, 3\penalty0 (3):\penalty0
+  566--578, may 1962.
+\newblock \doi{10.1063/1.1724257}.
+
 \bibitem[Penrose(1963)]{Pen63}
 R.~Penrose.
 \newblock Asymptotic properties of fields and spacetimes.
@@ -92,12 +159,6 @@ M.~Maggiore.
 \newblock \emph{Gravitational Waves. Vol. 1: Theory and Experiments}.
 \newblock Oxford University Press, Oxford, 2007.
 \newblock ISBN ISBN-13: 978-0-19-857074-5.
-
-\bibitem[Wald(1984)]{Wal84a}
-R.~M. Wald.
-\newblock \emph{General Relativity}.
-\newblock University of Chicago Press, Chicago, 1984.
-\newblock ISBN 0-226-87032-4 (hardcover), 0-226-87033-2 (paperback).
 
 \bibitem[Kroon(2007)]{Val07}
 J.~A.~V. Kroon.
@@ -175,72 +236,11 @@ J.~A. Valiente-Kroon.
 \newblock \doi{10.1088/0264-9381/16/5/314}.
 \newblock URL \url{https://doi.org/10.1088%2F0264-9381%2F16%2F5%2F314}.
 
-\bibitem[Backdahl(2010)]{Bac10}
-T.~Backdahl.
-\newblock {Relating the Newman-Penrose constants to the Geroch-Hansen multipole
-  moments}.
-\newblock \emph{J. Phys. Conf. Ser.}, 229:\penalty0 012016, 2010.
-\newblock \doi{10.1088/1742-6596/229/1/012016}.
-
 \bibitem[Bai et~al.(2007)Bai, Zhou-jian, Gong, Shang, Wu, and
   Lau]{BaiZhoGonXueXiaoLau07}
 S.~Bai, C.~Zhou-jian, X.-f. Gong, Y.~Shang, X.-n. Wu, and Y.~K. Lau.
 \newblock {Light Cone Structure near Null Infinity of the Kerr Metric}.
 \newblock \emph{Phys. Rev. D}, 75:\penalty0 044003, 2007.
 \newblock \doi{10.1103/PhysRevD.75.044003}.
-
-\bibitem[Penrose and Rindler(1984, 1986)]{PenRin84}
-R.~Penrose and W.~Rindler.
-\newblock \emph{Spinors and Spacetime}, volume 1, 2.
-\newblock Cambridge University Press, 1984, 1986.
-
-\bibitem[Hawking et~al.(2017)Hawking, Perry, and Strominger]{HawMalStr17}
-S.~W. Hawking, M.~J. Perry, and A.~Strominger.
-\newblock Superrotation charge and supertranslation hair on black holes.
-\newblock \emph{Journal of High Energy Physics}, 2017\penalty0 (5), may 2017.
-\newblock \doi{10.1007/jhep05(2017)161}.
-\newblock URL \url{https://doi.org/10.1007%2Fjhep05%282017%29161}.
-
-\bibitem[He et~al.(2015)He, Lysov, Mitra, and Strominger]{HeLyMi15}
-T.~He, V.~Lysov, P.~Mitra, and A.~Strominger.
-\newblock {BMS} supertranslations and weinberg's soft graviton theorem.
-\newblock \emph{Journal of High Energy Physics}, 2015\penalty0 (5), may 2015.
-\newblock \doi{10.1007/jhep05(2015)151}.
-\newblock URL \url{https://doi.org/10.1007%2Fjhep05%282015%29151}.
-
-\bibitem[Bondi(1962)]{BonBurMet62}
-B.-M. G. J. v. d. M. A. W.~K. Bondi, H.
-\newblock Gravitational waves in general relativity, vii. waves from
-  axi-symmetric isolated system.
-\newblock \emph{Proc. R. Soc. Lond. A}, 269:\penalty0 21--52, 1962.
-\newblock \doi{10.1098/rspa.1962.0161}.
-
-\bibitem[{Newman} and {Penrose}(1962)]{NewPen62}
-E.~{Newman} and R.~{Penrose}.
-\newblock An approach to gravitational radiation by a method of spin
-  coefficients.
-\newblock \emph{Journal of Mathematical Physics}, 3\penalty0 (3):\penalty0
-  566--578, may 1962.
-\newblock \doi{10.1063/1.1724257}.
-
-\bibitem[Sachs(1961)]{Sac61}
-R.~K. Sachs.
-\newblock Gravitational waves in general relativity. 6. the outgoing radiation
-  condition.
-\newblock \emph{Proc. Roy. Soc. Lond. A}, 264:\penalty0 309--338, 1961.
-\newblock \doi{10.1098/rspa.1961.0202}.
-
-\bibitem[Gasper{\'{\i}}n and Kroon(2017)]{GasVal17}
-E.~Gasper{\'{\i}}n and J.~A.~V. Kroon.
-\newblock Polyhomogeneous expansions from time symmetric initial data.
-\newblock \emph{Classical and Quantum Gravity}, 34\penalty0 (19):\penalty0
-  195007, sep 2017.
-\newblock \doi{10.1088/1361-6382/aa87bf}.
-\newblock URL \url{https://doi.org/10.1088%2F1361-6382%2Faa87bf}.
-
-\bibitem[Penrose(1965)]{Pen65a}
-R.~Penrose.
-\newblock Zero rest-mass fields including gravitation: Asymptotic behaviour.
-\newblock \emph{Proc. Roy. Soc. Lond.}, A284:\penalty0 159--203, 1965.
 
 \end{thebibliography}
