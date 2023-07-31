@@ -1117,3 +1117,91 @@ g^{n+1}_p=(1+\tau)\dot{g}^{n}_p+(-1)^{n+1}2^{-2p}p_{[n+1]}(1+\tau)^{n+1}(1-\tau)
 
 This subsection aims to consolidate the outcomes of the induction arguments from subsection \ref{sec:induction_argument} and ascertain the relationships between the NP constants at $\mathscr{I}^{\pm}$ and the initial data parameters $A_{p;\ell,m}$, $B_{p;\ell,m}$, $C_{p;\ell,m}$, and $D_{p;\ell,m}$. \\
 
+\begin{proposition}
+  Consider a spin-0 field $\tilde{\phi}$ propagating in Minkowski spacetime, characterized by analytic initial data close to $i^0$ as given by equation \eqref{eq:ID_field}. Assuming that the regularity condition is satisfied, i.e., $D_{p;p,m}=0$, and that the classical NP constants at $\mathscr{I}^+$ are well-defined, then we have the following relationship:
+   \begin{align}
+     \mathcal{N}^{+}_{\ell,m}=q^{+}(\ell) \;A_{\ell+1,\ell,m},
+   \end{align}
+   Upon further examination, we find that the expression simplifies to:
+
+   \[ q^{+}(\ell) = \frac{{\mathcal{N}^{+}_{\ell, m}}}{{A_{\ell+1, \ell, m}}}, \]
+   Consequently, the $\mathscr{I}^+$ classical NP constants are solely dependent on the initial data parameter $A_{\ell+1, \ell, m}$, with $q^{+}(\ell)$ representing a numerical factor.
+\end{proposition}
+
+\begin{proof}
+  By using equations \eqref{eq:classicalNP} and \eqref{eq:bmelplusonephilm}, we can express the $\mathscr{I}^+$ classical NP constant for the spin-0 field as follows:
+  \begin{align}
+    \mathcal{N}^{+}_{\ell,m} = (\boldsymbol{e}^{+})^{\ell+1}\phi_{\ell m}|_{\mathcal{C}^{+}} = (2\Lambda_{+})^{2(\ell+1)}\sum_{p=\ell}^{\infty}\frac{1}{p!}Q^{\ell}_{p;\ell,m}(\tau)\rho^{p}|_{\mathcal{C}^{+}} = \sum_{p=\ell}^{\infty}\frac{1}{p!}\rho_{\star}^{p-(\ell+1)}Q^{\ell}_{p;\ell,m}|_{\mathscr{I}^{+}}.
+  \end{align}
+  Under the assumption that the regularity condition is satisfied and the NP constants are well-defined, evaluating the above expression at the critical set $I^{+}$ yields:
+  \begin{align}
+  \mathcal{N}^{+}_{\ell,m} = \frac{1}{(\ell+1)!}Q^{\ell}_{\ell+1;\ell,m}|_{\mathscr{I}^{+}}.
+  \end{align}
+  Upon inspecting $Q^{\ell}_{\ell+1;\ell,m}|_{\mathscr{I}^{+}}$ using Corollary \ref{coro:propNPplusQ}, we obtain the final result:
+  \begin{align}
+  \mathcal{N}^{+}_{\ell,m} = q^{+}(\ell) \; A_{\ell+1, \ell,m},
+  \end{align}
+  where $q^{+}(\ell)$ is a numerical factor.
+\end{proof}
+
+
+\begin{proposition}
+    Given a spin-0 field $\tilde{\phi}$ propagating in Minkowski spacetime, with analytic initial data close to $i^0$ as given in equation \eqref{eq:ID_field}, we can define the $f(\tilde{\rho})=\tilde{\rho}$ modified NP constants at $\mathscr{I}^+$. If these constants are well-defined, then their expression is given by:
+    \begin{align}
+      {}^{\tilde{\rho}}\mathcal{N}^{+}_{\ell,m}=q^{+}(\ell) \;D_{\ell,\ell,m}
+    \end{align}
+    where $q^{+}(\ell)$ is a numerical factor. In summary, the modified NP constants at $\mathscr{I}^{+}$ are directly related to the initial data parameter $D_{\ell,\ell,m}$ for the given spin-0 field propagating in Minkowski spacetime with analytic initial data close to $i^0$.
+\end{proposition}
+
+\begin{proof}             
+    By employing equations \eqref{eq:DefModifiedNP} and \eqref{eq:bmelplusonephilm}, we obtain the following expression:
+    \begin{align}
+      {}^{\tilde{\rho}}\mathcal{N}^{+}_{\ell,m}= \tilde{\rho}L(\boldsymbol{e}^{+})^{\ell}\phi_{\ell m}|_{\mathcal{C}^{+}}= \varkappa^{-1}(2\Lambda_+)^{-2}(\boldsymbol{e}^{+})^{\ell+1}\phi_{\ell m}|_{\mathcal{C}^{+}} =\sum_{p=\ell}^{\infty}\frac{1}{p!}\rho_{\star}^{p-\ell}(\varkappa^{-1}Q^{\ell}_{p;\ell,m})|_{\mathscr{I}^{+}}
+    \end{align}
+    Assuming the well-definedness of the $i^0$-cylinder logarithmic NP constants, their evaluation at the critical set $I^{+}$ yields the following:
+    \begin{align}
+      {}^{\tilde{\rho}}\mathcal{N}^{+}_{\ell,m} =\frac{1}{\ell!} (\varkappa^{-1}Q^{\ell}_{p;\ell,m})|_{\mathscr{I}^{+}}
+    \end{align}
+    Examining the expression for $Q^{\ell}_{\ell+1;\ell,m}|_{\mathscr{I}^{+}}$ using Corollary \ref{eq:ind_Qpequall_pequaln}, we obtain:
+    \begin{align}
+      {}^{\tilde{\rho}}\mathcal{N}^{+}_{\ell,m}=q^{+}(\ell) \;D_{\ell,\ell,m}
+    \end{align}
+    where $q^{+}(\ell)$ is a numerical factor.
+\end{proof}
+
+By making minimal adjustments and employing Proposition \ref{Prop:NPtoFgauge}, along with Equation \eqref{eq:classicalNP}, we can compute the classical NP constants at $\mathscr{I}^{-}$. Analogously, we can derive results similar to those in subsections \ref{sec:classicalNP}, \ref{sec:LogarithmicNP_main}, and \ref{sec:induction_argument}, with the required modifications. The time-dual propositions can be summarized as follows:
+    
+\begin{proposition}
+  Suppose $\tilde{\phi}$ is a spin-0 field propagating in Minkowski spacetime with analytic initial data near $i^0$ as given in equation \eqref{eq:ID_field}, and it satisfies the regularity condition $D_{p;p,m}=0$. If the classical NP constants at $\mathscr{I}^-$ are well-defined, then:
+  \begin{align}
+    \mathcal{N}^{-}_{\ell,m}=q^{-}(\ell) \;B_{\ell+1,\ell,m}.
+  \end{align}
+  Hence, the $\mathscr{I}^-$ classical NP constants are exclusively determined by the initial data parameter $B_{\ell+1,\ell,m}$, where $q^{-}(\ell)$ represents a numerical factor.
+\end{proposition}
+
+\begin{proposition}
+  If the $f(\tilde{\rho})=\tilde{\rho}$ modified NP constants at $\mathscr{I}^-$ are well-defined, then for the spin-0 field $\tilde{\phi}$, which propagates in Minkowski spacetime with analytic initial data close to $i^0$ as described in equation \ref{eq:ansatz}, we have the following relationship:
+  \begin{align}
+     {}^{\tilde{\rho}}\mathcal{N}^{-}_{\ell,m}=q^{-}(\ell) \;D_{\ell,\ell,m}
+   \end{align}
+   if the $f(\tilde{\rho})=\tilde{\rho}$ modified NP constants at $\mathscr{I}^-$ are well-defined, then they are solely determined by the initial data parameter $D_{\ell,\ell,m}$.
+\end{proposition}
+
+The summary of this section can be presented as follows: The $i^0$-cylinder NP constants at $\mathscr{I}^{\pm}$ are well-defined and they depend only on specific initial data parameters. At $\mathscr{I}^{+}$, the classical NP constants depend solely on $A_{\ell+1, \ell, m}$, while at $\mathscr{I}^{-}$, they depend only on $B_{\ell+1, \ell, m}$. These results have been derived from the analysis of the modified NP constants and their relations to the initial data parameters.
+
+\begin{corollary}
+  Consider a spin-0 field $\tilde{\phi}$ propagating in Minkowski spacetime with analytic initial data close to the point $i^0$, which can be described using \eqref{eq:ID_field}:
+
+  \begin{itemize}
+  \item  In the absence of the regularity condition, the classical NP constants become ill-defined.
+  \item  When the regularity condition is met and the classical NP constants are well-defined, it is typically observed that the classical NP constants at $\mathscr{I}^{\pm}$ do not match. 
+  \item Provided the logarithmic NP constants at $\mathscr{I}^{\pm}$ are well-defined, they originate from the same initial data, leading to their equivalence up to a numerical constant.
+  \end{itemize}
+\end{corollary}
+
+\begin{figure}[h]
+	\centering \includegraphics[width =0.35\textwidth]{friedrich cylinder.pdf}
+    \caption{Representation of the Friedrich Cylinder. Past null infinity is represented by
+    $\mathscr{I}^{-}$, Future null infinity $\mathscr{I}^{+}$, spatial infinity as $i^{0}$ and the critical sets as $I^{+}$ and $I^{-}$.}
+\end{figure}
+  

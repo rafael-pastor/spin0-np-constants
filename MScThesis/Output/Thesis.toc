@@ -23,8 +23,4 @@
 \contentsline {section}{\numberline {3.4}The $i^0$-cylinder logarithmic NP constants}{27}{section.3.4}%
 \contentsline {section}{\numberline {3.5}The general case: Induction proof}{28}{section.3.5}%
 \contentsline {section}{\numberline {3.6}The NP constants in terms of initial data}{34}{section.3.6}%
-\contentsline {chapter}{Bibliography}{35}{section*.11}%
-\contentsline {chapter}{\numberline {A}Vector calculus}{39}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Vector identities}{39}{section.A.1}%
-\contentsline {chapter}{\numberline {B}Technical Datasheets}{41}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Some Datasheet}{41}{section.B.1}%
+\contentsline {chapter}{Bibliography}{37}{section*.11}%
