@@ -2,10 +2,7 @@
 \contentsline {section}{Acknowledgments}{vii}{section*.1}%
 \contentsline {section}{Resumo}{ix}{section*.2}%
 \contentsline {section}{Abstract}{xi}{section*.3}%
-\contentsline {section}{List of Tables}{xv}{section*.5}%
-\contentsline {section}{List of Figures}{xvii}{section*.7}%
-\contentsline {section}{Nomenclature}{1}{section*.9}%
-\contentsline {section}{Glossary}{1}{section*.10}%
+\contentsline {section}{List of Figures}{xv}{section*.5}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Motivation}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Global structure of spacetimes}{2}{section.1.2}%
@@ -23,4 +20,4 @@
 \contentsline {section}{\numberline {3.4}The $i^0$-cylinder logarithmic NP constants}{27}{section.3.4}%
 \contentsline {section}{\numberline {3.5}The general case: Induction proof}{28}{section.3.5}%
 \contentsline {section}{\numberline {3.6}The NP constants in terms of initial data}{34}{section.3.6}%
-\contentsline {chapter}{Bibliography}{37}{section*.11}%
+\contentsline {chapter}{Bibliography}{37}{section*.7}%
