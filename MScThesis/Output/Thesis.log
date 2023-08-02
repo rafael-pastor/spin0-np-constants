@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.14)  1 AUG 2023 12:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.14)  2 AUG 2023 12:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -775,7 +775,7 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ) (./Modules/FrontCover.tex
 Package pdftex.def Info: Option `bb' equivalent to `viewport' with the pdftex driver on input line 15.
-<Figures/Logos/IST_A_CMYK_POS.pdf, id=92, 845.0471pt x 597.51233pt>
+<Figures/Logos/IST_A_CMYK_POS.pdf, id=96, 845.0471pt x 597.51233pt>
 File: Figures/Logos/IST_A_CMYK_POS.pdf Graphic file (type pdf)
 <use Figures/Logos/IST_A_CMYK_POS.pdf>
 Package pdftex.def Info: Figures/Logos/IST_A_CMYK_POS.pdf  used on input line 15.
@@ -824,24 +824,24 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 
 ] (./Modules/Acknowledgements.tex) [7] [8
 
-] (./Modules/Resumo.tex) [9] [10
+] (./Modules/Resumo.tex
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 9.19998pt on input line 16.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 6.99199pt on input line 16.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 16.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 9.19998pt on input line 16.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 6.99199pt on input line 16.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 16.
+) [9] [10
 
 ] (./Modules/Abstract.tex) [11] [12
 
-] (Output/Thesis.toc
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 2.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 2.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 2.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 2.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 2.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 2.
-)
+] (Output/Thesis.toc)
 \tf@toc=\write7
 \openout7 = `Thesis.toc'.
 
@@ -903,7 +903,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--39
 Underfull \vbox (badness 2503) has occurred while \output is active []
 
  [3]
-<Penrose diagram.pdf, id=251, 260.975pt x 451.6875pt>
+<Penrose diagram.pdf, id=256, 260.975pt x 451.6875pt>
 File: Penrose diagram.pdf Graphic file (type pdf)
 <use Penrose diagram.pdf>
 Package pdftex.def Info: Penrose diagram.pdf  used on input line 89.
@@ -933,7 +933,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 121--122
 
  []
 
-<penrose constants.png, id=283, 1132.23pt x 1003.75pt>
+<penrose constants.png, id=288, 1132.23pt x 1003.75pt>
 File: penrose constants.png Graphic file (type png)
 <use penrose constants.png>
 Package pdftex.def Info: penrose constants.png  used on input line 124.
@@ -1352,26 +1352,21 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 833.
 
 
-Overfull \hbox (39.11499pt too wide) detected at line 849
+Overfull \hbox (57.35873pt too wide) detected at line 867
 []
  []
 
 
-Overfull \hbox (24.55563pt too wide) detected at line 866
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1189) has occurred while \output is active []
 
  [27]
 
 Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 881.
+(amsmath)                 on input line 882.
 
 
-Overfull \hbox (3.35745pt too wide) detected at line 903
+Overfull \hbox (3.35745pt too wide) detected at line 904
 []
  []
 
@@ -1379,49 +1374,80 @@ Overfull \hbox (3.35745pt too wide) detected at line 903
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [28]
-Overfull \hbox (29.76935pt too wide) detected at line 915
+Overfull \hbox (29.76935pt too wide) detected at line 916
 []
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29] [30]
-Overfull \hbox (5.20215pt too wide) detected at line 1013
+ [29]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [30]
+Overfull \hbox (5.20215pt too wide) detected at line 1016
 []
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [31] [32] [33]
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1105.
+[31] [32] [33]
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1108.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-Underfull \hbox (badness 10000) in paragraph at lines 1118--1119
+Underfull \hbox (badness 10000) in paragraph at lines 1121--1122
 
  []
 
 [34] [35]
-LaTeX Font Info:    Trying to load font information for TS1+futs on input line 1196.
+LaTeX Font Info:    Trying to load font information for TS1+futs on input line 1199.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/fourier/ts1futs.fd
 File: ts1futs.fd 2003/09/14 Fontinst v1.801 font definitions for TS1/futs.
 )
-<friedrich cylinder.pdf, id=827, 361.35pt x 355.3275pt>
+<friedrich cylinder.pdf, id=833, 361.35pt x 355.3275pt>
 File: friedrich cylinder.pdf Graphic file (type pdf)
 <use friedrich cylinder.pdf>
-Package pdftex.def Info: friedrich cylinder.pdf  used on input line 1203.
+Package pdftex.def Info: friedrich cylinder.pdf  used on input line 1206.
 (pdftex.def)             Requested size: 159.33821pt x 156.68073pt.
-) [36
+
+Underfull \hbox (badness 10000) in paragraph at lines 1215--1216
+
+ []
+
+[36
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.181 \cleardoublepage
-                       <./friedrich cylinder.pdf>] (Output/Thesis.bbl [37
+l.1216 
+        <./friedrich cylinder.pdf>]
+Overfull \hbox (8.53731pt too wide) in paragraph at lines 1217--1218
+\T1/futs/m/n/10 spa-tial and null in-fin-ity. The anal-y-sis was car-ried out us-ing pre-scribed an-a-lytic ini-tial data close to $\FML/futmi/m/it/10 i[]$ \T1/futs/m/n/10 in Minkowski
+ []
 
 
-] [38]) [39] [40
+Underfull \hbox (badness 10000) in paragraph at lines 1217--1218
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1219--1220
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1221--1222
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1223--1224
+
+ []
+
+) [37] [38
+
+] (Output/Thesis.bbl [39
+
+] [40]) [41] [42
 
 ] (./Modules/Appendix_A.tex) (./Modules/Appendix_B.tex) (Output/Thesis.aux)
 
@@ -1432,21 +1458,21 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 25D3A0208280CF64845DD2A754A9CE05;4306.
+(rerunfilecheck)             Checksum: 369618892BC5385233674DCF7C358FBA;4439.
  ) 
 Here is how much of TeX's memory you used:
- 16905 strings out of 478268
- 270168 string characters out of 5846347
- 632529 words of memory out of 5000000
- 34382 multiletter control sequences out of 15000+600000
+ 16911 strings out of 478268
+ 270238 string characters out of 5846347
+ 633568 words of memory out of 5000000
+ 34384 multiletter control sequences out of 15000+600000
  654923 words of font info for 213 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 115i,14n,109p,1280b,533s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 115i,14n,109p,1388b,533s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-bb.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-mcl.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-ml.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-mlitb.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/adobe/utopia/putbi8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on Output/Thesis.pdf (56 pages, 735464 bytes).
+Output written on Output/Thesis.pdf (58 pages, 743199 bytes).
 PDF statistics:
- 1037 PDF objects out of 1200 (max. 8388607)
- 904 compressed objects within 10 object streams
- 317 named destinations out of 1000 (max. 500000)
- 197 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1053 PDF objects out of 1200 (max. 8388607)
+ 918 compressed objects within 10 object streams
+ 321 named destinations out of 1000 (max. 500000)
+ 205 words of extra memory for PDF output out of 10000 (max. 10000000)
 

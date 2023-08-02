@@ -541,10 +541,10 @@ here, $\Delta _{\mathbb{S}^{2}{}}{}$ represents the Laplace operator on $\mathbb
 \end{equation}
 In terms of initial data, this entails examining analytic initial data in the vicinity of $i^0$, which can be expressed in the following form:
 \begin{equation}\label{eq:ID_field}
-  \phi|_{\mathcal{S}} =
+  \phi|_{{S}} =
   \sum_{p=0}^{\infty}
   \sum_{\ell=0}^{p}\sum_{m=-\ell}^{m=\ell}\frac{1}{p!}a_{p;\ell,m}(0)Y_{\ell
-    m}\rho^p, \qquad \dot{\phi}|_{\mathcal{S}} =
+    m}\rho^p, \qquad \dot{\phi}|_{{S}} =
   \sum_{p=0}^{\infty}\sum_{\ell=0}^{p}\sum_{m=-\ell}^{m=\ell}
   \frac{1}{p!}\dot{a}_{p;\ell,m}(0)Y_{\ell
     m}\rho^p,
@@ -583,7 +583,7 @@ here, the over-dot represents a derivative with respect to $\partial_\tau$. A ca
     \end{enumerate}
 \end{lemma}
 
-One intriguing characteristic shared by the study of evolution equations using the $i^0$-cylinder framework is the emergence of logarithmic terms at null infinity in the solution. This becomes evident when examining the hypergeometric function featured in Equation \eqref{eq:Sol_highestharmonic} for various values of $p$. For instance, for $p = 0$ and $p = 1$, the following expressions arise:
+One fascinating aspect of exploring evolution equations within the $i^0$-cylinder framework is the appearance of logarithmic terms at null infinity in the solutions. This observation becomes apparent when analyzing the hypergeometric function presented in Equation \eqref{eq:Sol_highestharmonic} for different values of $p$. Let's consider the cases of $p = 0$ and $p = 1$, which yield the following expressions:
 \begin{align}
   {a}_{0;0,0}(\tau) & = C_{000} + \tfrac{1}{2} D_{000} (\log(1 + \tau
   )- \log(1 - \tau ))\\ {a}_{1;1,m}(\tau) & = \tfrac{1}{4} (1 - \tau )
@@ -729,7 +729,7 @@ Equations \eqref{eq:cons_laws} provide an infinite hierarchy of exact conservati
   {}^{f}\mathcal{N}^{+}_{\ell,m}:= f(\tilde{\rho})L (\boldsymbol{e}^{+})^{\ell}\phi_{\ell m} \Big|_{\mathcal{C}^{+}}, \\ 
   {}^{f}\mathcal{N}^{-}_{\ell,m}:= f(\tilde{\rho})\underline{L} (\boldsymbol{\underline{e}}^{-})^{\ell}\phi_{\ell m}\Big|_{\mathcal{C}^{-}},
 \end{align}
-here, $\mathcal{C^{\pm}} \approx \mathbb{S}^2$ represents a cut of $\mathscr{I}^{\pm}$. In the specific case of $f(\tilde{\rho})=\tilde{\rho}^2$, these quantities are referred to as the "classical NP-constants" and are denoted as $\mathcal{N}^{\pm}_{\ell,m}$. They can be succinctly expressed as follows:
+here, ${C^{\pm}} \approx \mathbb{S}^2$ represents a cut of $\mathscr{I}^{\pm}$. In the specific case of $f(\tilde{\rho})=\tilde{\rho}^2$, these quantities are referred to as the "classical NP-constants" and are denoted as $\mathcal{N}^{\pm}_{\ell,m}$. They can be succinctly expressed as follows:
 \begin{align}\label{eq:classicalNP}
   \mathcal{N}^{+}_{\ell,m}:= (\boldsymbol{e}^{+})^{\ell+1}\phi_{\ell m}\Big|_{\mathcal{C}^{+}},\\ 
   \mathcal{N}^{-}_{\ell,m}:= (\boldsymbol{\underline{e}}^{-})^{\ell+1}\phi_{\ell m} \Big|_{\mathcal{C}^{-}}.
@@ -844,7 +844,8 @@ Therefore, for $\ell=0$, we have:
 \end{align}
 Using Remark \ref{rem:l0} and evaluating at the critical set $I^{+}$, we obtain:
 \begin{align}
-  & \mathcal{}^{\tilde{\rho}}\mathcal{N}^{+}_{0,0} = \lim_{\substack{\rho \to \rho_{\star} \\ \tau \to 1}} \; \varkappa^{-1}\boldsymbol{e}(\phi_{00}) = \sum_{p=0}^{\infty}\rho_{\star}^p\biggl[\frac{(1-\tau)}{(1+\tau)}Q^{0}_{p;0,0}\biggr] = \frac{(1-\tau)}{(1+\tau)}\biggl\{D_{000}(1-\tau)^{-1} + (1+\tau)\rho B_{100}-\frac{1}{2}A_{100}(1-\tau)\rho - \frac{1}{2}B_{100}(1+\tau)\rho\biggr\} =\nonumber \\
+  & \mathcal{}^{\tilde{\rho}}\mathcal{N}^{+}_{0,0} = \lim_{\substack{\rho \to \rho_{\star} \\ \tau \to 1}} \; \varkappa^{-1}\boldsymbol{e}(\phi_{00}) = \sum_{p=0}^{\infty}\rho_{\star}^p\biggl[\frac{(1-\tau)}{(1+\tau)}Q^{0}_{p;0,0}\biggr] = \nonumber \\
+  & = \frac{(1-\tau)}{(1+\tau)}\biggl\{D_{000}(1-\tau)^{-1} + (1+\tau)\rho B_{100}-\frac{1}{2}A_{100}(1-\tau)\rho - \frac{1}{2}B_{100}(1+\tau)\rho\biggr\} + O(\rho^{2}) =\nonumber \\
   & = \frac{(1-\tau)}{(1+\tau)}\biggl\{D_{000}(1-\tau)^{-1} - \rho A_{100}\biggr\} = \frac{1}{2}D_{000}.
 \end{align}
 \\
@@ -860,7 +861,7 @@ in the last equality, we have used equations \eqref{eq:defQ1} and \eqref{eq:DefQ
 Using Remark \ref{rem:l1} and evaluating at the critical set $I^{+}$, we obtain:
 \begin{align}
   & \mathcal{}^{\tilde{\rho}}\mathcal{N}^{+}_{1,m} = \lim_{\substack{\rho \to \rho_{\star} \\ \tau \to 1}} \; \varkappa^{-1}\boldsymbol{e} (\boldsymbol{e}^{+}) \phi_{1m} = \nonumber \\
-  & = \varkappa^{-1}\biggl\{\ddot{a}_{1;1,m}(\tau)+\frac{1}{2}\rho \ddot{a}_{2;1,m}(\tau) - (1+\tau)^{-1}\dot{a}_{1;1,m}(\tau)+(1+\tau)^{-1}\rho \dot{a}_{2;1,m}(\tau)-\frac{1}{2}\rho(1+\tau)^{-1}\dot{a}_{2;1,m}(\tau)-(1+\tau)^{-2}\rho a_{2;1,m}(\tau)\biggr\} = \nonumber \\
+  & = \varkappa^{-1}\biggl\{\ddot{a}_{1;1,m}(\tau)+\frac{1}{2}\rho \ddot{a}_{2;1,m}(\tau) - (1+\tau)^{-1}\dot{a}_{1;1,m}(\tau)+(1+\tau)^{-1}\rho \dot{a}_{2;1,m}(\tau)-\frac{1}{2}\rho(1+\tau)^{-1}\dot{a}_{2;1,m}(\tau)-(1+\tau)^{-2}\rho a_{2;1,m}(\tau)\biggr\} + O(\rho^{3}) = \nonumber \\
   & = \varkappa^{-1} \biggl\{\frac{1}{16}(\tau-1)^{-1}(1+\tau)^{-2}\bigl[16D_{11m}+7A_{21m}\rho - B_{21m}\rho + 16D_{11m}\tau - 16A_{21m}\rho\tau - 8B_{21m}\rho\tau - 6A_{21m}\rho\tau^{2} - 6B_{21m}\rho\tau^{2} + \nonumber \\
   & + 8A_{21m}\rho\tau^{3} + 8B_{21m}\rho\tau^{3} + 7A_{21m}\rho\tau^{4} + 7B_{21m}\rho\tau^{4} - 32C_{11m}(\tau^{2}-1) - 8D_{11m}(\tau^{2}-1)\ln\Biggl(\frac{1+\tau}{1-\tau}\Biggr)\bigr]\biggr\} = - \frac{1}{4}D_{11m}.
 \end{align}
@@ -891,7 +892,7 @@ In this section, we derive the $\ell$-NP constants using an inductive approach.
   By using equations \eqref{eq:Fframe} and \eqref{eq:LorentzTransf}, we can perform a direct calculation to obtain the following expression:
   \begin{align}\label{eq:bmederLambda}
     & \boldsymbol{e}(\Lambda_{+})^{2n} = [(1+\tau) \partial \tau-\rho \partial \rho]\left[\rho^{-n}(1+\tau)^{-2n}\right] = \left[(1+\tau) \rho^{-n}(-2n)(1+\tau)^{-2n-1}-\rho^{-n+1}(1+\tau)^{-2n}(-n) \rho^{-n-1}\right] = \nonumber \\
-    & = -2 \rho^{-n}(1+\tau)^{-2n}+\rho^{-n}(1+\tau)^{-2n} = -\rho^{-n}(1+\tau)^{-2n} = -n\Lambda^{2n}.
+    & = -2 \rho^{-n}(1+\tau)^{-2n}+\rho^{-n}(1+\tau)^{-2n} = -\rho^{-n}(1+\tau)^{-2n} = -n(\Lambda_{+})^{2n}.
   \end{align}
   Expanding expression \eqref{eq:inductionNp2step1} and using equation \eqref{eq:bmederLambda}, we can derive the following result:
   \begin{align}\label{eq:inductionNp2step2}
@@ -940,8 +941,10 @@ In this section, we derive the $\ell$-NP constants using an inductive approach.
   \end{align}
   Using the recursive identity of the binomial coefficients,
   \begin{align}
-    & {i \choose j} ={i-1 \choose j} + {i-1 \choose j-1} \nonumber \\
-    \nonumber \\ 
+    & {i \choose j} ={i-1 \choose j} + {i-1 \choose j-1}, \nonumber \\
+  \end{align}
+  and
+  \begin{align}
     & {n+1 \choose i+1} ={n \choose i+1} + {n \choose i},
   \end{align}
   then one gets,
@@ -1204,4 +1207,21 @@ The summary of this section can be presented as follows: The $i^0$-cylinder NP c
     \caption{Representation of the Friedrich Cylinder. Past null infinity is represented by
     $\mathscr{I}^{-}$, Future null infinity $\mathscr{I}^{+}$, spatial infinity as $i^{0}$ and the critical sets as $I^{+}$ and $I^{-}$.}
 \end{figure}
-  
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Conclusions}
+\label{sec:conclusions}
+
+General relativity is a theory of gravitation that explains the force of gravity as a curvature of spacetime caused by mass and energy. Black holes, which are objects with such strong gravitational forces that nothing, not even light, can escape them, are an important aspect of this theory. When an object falls into a black hole, it is reduced to just three numbers, leading to the loss of a large amount of information, a problem known as the "information paradox." A recent theory called "soft hair" has been proposed to explain this paradox by positing that non-trivial distortions in clocks, sensitive to the black hole's consumption history, can provide an infinite number of properties for a black hole in certain limits. The Newman-Penrose (NP) constants are quantities defined on null-infinity in general relativity that obey conservation laws for asymptotically flat gravitational fields. These constants can be used to study the residual radiation present in spacetime after a black hole collision, and have been shown to be zero for stationary spacetimes such as the Schwarzschild and Kerr solutions. However, it is still an open question whether the NP constants are zero for all stationary spacetimes. \\
+
+In this thesis, we have computed the Newman-Penrose (NP) constants for a spin-0 field propagating near spatial and null infinity. The analysis was carried out using prescribed analytic initial data close to $i^0$ in Minkowski spacetime, and we discussed the infinite hierarchy of NP constants. \\
+
+To achieve this, we employed the concept of the $i^0$-cylinder framework. We investigated the relation between the NP constants at future and past null infinity by identifying the specific part of the initial data that determines these constants. It was noted that when analytic initial data is prescribed near $i^0$, the solution loses regularity at the critical sets $\mathcal{I}^{\pm}$, where $i^0$ and $\mathscr{I}$ meet. This loss of regularity is governed by a constant $D_{p;p,m}$ present in the parametrization of the initial data. When the regularity condition ($D_{p;p,m} = 0$) is not satisfied, the classical NP constants are not well-defined. \\
+
+However, in cases where the regularity condition is satisfied, we found that the classical NP constants at $\mathscr{I}^{\pm}$ arise from independent parts of the initial data. These parts are parametrized by the constants $A_{\ell+1,\ell,m}$ and $B_{\ell+1;\ell,m}$, respectively. As a result, there is no direct correspondence between the NP constants at future and past null infinity. \\
+
+Nevertheless, we also showed that utilizing the $f(\tilde{\rho})$-modified NP constants proposed in \cite{Keh21_a}, with $f(\tilde{\rho})=\tilde{\rho}$, yields conserved quantities that do not require the regularity condition. In fact, these modified constants precisely correspond to the terms in the initial data that control the regularity of the field: $D_{p;p,m}$. This offers a valuable alternative approach to studying the conservation properties of the system without relying on the regularity condition. \\
+
+In conclusion, it is evident that while the classical NP constants at $\mathscr{I}^{\pm}$ do not generally match, the \emph{$i^0$-cylinder NP constants} at $\mathscr{I}^{\pm}$ do coincide, up to a numerical factor. This remarkable alignment is a result of their origin from the same part of the initial data.
+
+
