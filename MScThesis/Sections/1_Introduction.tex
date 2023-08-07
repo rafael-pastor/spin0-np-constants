@@ -112,11 +112,11 @@ $$ {I}^+ = \{ \tau = 1, \enspace \rho = 0\}, \enspace {I}^- = \{ \tau = -1, \ens
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Newman-Penrose constants}
 \label{section:Newman-Penrose Constants}
-The Newman-Penrose constants, originally introduced in \cite{NewPen68}, are quantities defined on null-infinity that obey conservation laws for asymptotically flat gravitational fields. For linear fields propagating in flat spacetime, there exists an infinite number of conservation laws. For example, in ordinary Electromagnetic (EM) theory with a spin-1 field, the total charge is conserved. In the linearized gravitational theory, which involves a spin-2 field, the total mass, linear momentum, and angular momentum are also conserved. In our case, we are interested in studying spin-0 fields, which correspond to solutions of the wave equation.\\
+The Newman-Penrose constants, originally introduced in \cite{NewPen68}, are quantities defined on null infinity that obey conservation laws for asymptotically flat gravitational fields. For linear fields propagating in flat spacetime, there exists an infinite number of conservation laws. For example, in ordinary Electromagnetic (EM) theory with a spin-1 field, the total charge is conserved. In the linearized gravitational theory, which involves a spin-2 field, the total mass, linear momentum, and angular momentum are also conserved. In our case, we are interested in studying spin-0 fields, which correspond to solutions of the wave equation.\\
 
 The NP constants form an infinite hierarchy of conserved quantities for linear equations, including the spin-1, spin-2, and spin-0 fields. Newman and Penrose demonstrated that these constants can be expressed as the product of the square of the dipole moment and the difference between the monopole and the quadrupole moments, as shown in \cite{DaiVal02}. However, in the full non-linear gravitational theory, the conservation of mass and momentum no longer holds.\\
 
-Turning our attention to the interpretation of these charges, the NP constants are considered a set of conserved charges at null infinity \cite{NewPen68}. These charges are computed as 2-surface integrals at cuts $\mathcal{C} \approx \mathbb{S}^2$ of null infinity $\mathscr{I}$. In the linear theory, an infinite hierarchy of these conserved quantities exists, while in the non-linear theory of General Relativity, only ten quantities remain conserved \cite{NewPen68}.\\
+Turning our attention to the interpretation of these charges, the NP constants are considered a set of conserved charges at null infinity \cite{NewPen68}. These charges are computed as 2-surface integrals at cuts ${C} \approx \mathbb{S}^2$ of null infinity $\mathscr{I}$. In the linear theory, an infinite hierarchy of these conserved quantities exists, while in the non-linear theory of General Relativity, only ten quantities remain conserved \cite{NewPen68}.\\
 
 A conservation law arises when the value of an integral remains constant regardless of the specific "time" at which a 2-surface is selected. In the context of our current investigation, we can determine whether outgoing waves carry away or preserve the quantity of interest by computing the integral at future null infinity with a constant retarded time $u = u_0$, and then comparing it with the integral at a later retarded time $u = u_1$. The difference between the two integrals will capture the contribution from the outgoing waves that escape between the two hypersurfaces defined by $u = \text{constant}$. If this difference always vanishes, then we have a conserved quantity. On the other hand, if the difference does not vanish, then the quantity is not conserved.\\
 
@@ -214,12 +214,12 @@ The field of the advanced dipole described with retarded coordinates is as follo
   & \phi_{1} = -2 \cos\theta \frac{\partial}{\partial r}\left(\frac{\alpha}{r^2}\right), \nonumber \\ 
   & \phi_{2} = +2 \sin\theta \frac{\alpha}{r^{3}},
 \end{align}
-in the above expression, $\alpha = \alpha(u + r)$ is an arbitrary complex function of the advanced time $u + reached$ and represents the electric dipole moment plus i times the magnetic dipole moment.
+in the above expression, $\alpha = \alpha(u + r)$ is an arbitrary complex function of the advanced time $u + r$ and represents the electric dipole moment plus $i$ times the magnetic dipole moment.
 To verify the validity of this solution, we can perform a direct substitution of the given expression in the Maxwell equations (1.12)-(1.15). To satisfy the condition \eqref{eq:MaxwellAnsatz}, we must assume (taking $N = 1$):
-$$\alpha = \beta(u+r)^{-1} + \o((u+r)^{-1})$$
+$$\alpha = \beta(u+r)^{-1} + o((u+r)^{-1})$$
 Plugging into \eqref{eq:RetardCoordsPhi} and making use of the following identity $(u+r)^{-1} = r^{-1}-ur^{-2}+u^{2}r^{-3}$, we obtain:
 \begin{equation}\label{eq:Phi0retard}
-  \Phi_{0} = -6\beta r^{-4}\sin\theta + \o(r^{-4}),
+  \Phi_{0} = -6\beta r^{-4}\sin\theta + o(r^{-4}),
 \end{equation}
 and with \eqref{eq:MaxwellAnsatz}, $\Phi_{0}^{1} = -6\beta \sin\theta$ and \eqref{eq:F}, $$F_{0} = -8(3\pi)^{-\frac{1}{2}}\beta, \qquad F_{-1} = F_{1} = 0.$$
 Hence, the $F_m$ values are determined solely by the coefficient of the $(u + r)^{-1}$ term in the asymptotic expansion of the incoming dipole field. Consequently, in flat spacetime, they may not carry significant fundamental significance. A similar observation applies to the other $F_{m}^{n,k}$ quantities.\\
@@ -236,14 +236,14 @@ In the context of linearized gravitational theory, we introduce the five complex
 
 Similar to the Maxwell theory, our focus lies on solutions that satisfy a boundary condition at infinity, allowing for sufficiently smooth retarded fields and properly tailing off incoming fields. Specifically, we demand behavior of the form:
 \begin{equation}\label{eq:Psi0ansatz}
-  \Psi_{0}=\sum_{n=0}^{N}\frac{\Psi_{0}^{n}}{r^{5+n}}+(\o^{-5-N}),
+  \Psi_{0}=\sum_{n=0}^{N}\frac{\Psi_{0}^{n}}{r^{5+n}}+(o^{-5-N}),
 \end{equation}
 under these conditions, the 'Bianchi identities' can be integrated to yield:
 \begin{align}\label{eq:Psiintegrals}
-  & \Psi_{1}=\frac{\Psi_{1}^{0}}{r^{4}}+\o({r}^{-4}), \nonumber \\ 
-  & \Psi_{2}=\frac{\Psi_{2}^{0}}{r^{3}}+\o({r}^{-3}), \nonumber \\ 
-  & \Psi_{3}=\frac{\Psi_{3}^{0}}{r^{2}}+\o({r}^{-2}), \nonumber \\
-  & \Psi_{4}=\frac{\Psi_{4}^{0}}{r}+\o({r}^{-1}).
+  & \Psi_{1}=\frac{\Psi_{1}^{0}}{r^{4}}+o({r}^{-4}), \nonumber \\ 
+  & \Psi_{2}=\frac{\Psi_{2}^{0}}{r^{3}}+o({r}^{-3}), \nonumber \\ 
+  & \Psi_{3}=\frac{\Psi_{3}^{0}}{r^{2}}+o({r}^{-2}), \nonumber \\
+  & \Psi_{4}=\frac{\Psi_{4}^{0}}{r}+o({r}^{-1}).
 \end{align}
 
 After employing equations \eqref{eq:Psi0ansatz}, \eqref{eq:Psiintegrals}, and $\dh$, the time-development equations (the second set of the Bianchi identities) take the following form:
@@ -297,12 +297,10 @@ light on the intricate nature of spacetime and the conservation laws that govern
 \section{Peeling Theorem}
 \label{sec:Peeling Theorem}
 
-The peeling theorem, one of the most emblematic results in the classical theory of asymptotics in general rel-
-ativity, has played a very important role in the development of the modern notion of gravitational radiation. It
+The peeling theorem, one of the most emblematic results in the classical theory of asymptotics in general relativity, has played a very important role in the development of the modern notion of gravitational radiation. It
 is usually formulated within the context of asymptotically simple spacetimes, as defined in Section 10.2 of \cite{Val16}.
 An inspection of the proof of the peeling theorem reveals that, in fact, it is only necessary to assume that the
-conformal extension is $\mathbb{C}^4$. In view of this, the question of the existence and genericity of spacetimes satisfy-
-ing the peeling behavior can be rephrased in terms of the construction of asymptotically flat spacetimes with, at least, this minimum of differentiability \cite{GasVal17}. Penrose’s compactification procedure, when applied to the
+conformal extension is $\mathbb{C}^4$. In view of this, the question of the existence and genericity of spacetimes satisfying the peeling behavior can be rephrased in terms of the construction of asymptotically flat spacetimes with, at least, this minimum of differentiability \cite{GasVal17}. Penrose’s compactification procedure, when applied to the
 Minkowski spacetime, yields a fully smooth conformal extension. However, for spacetimes with nonvanishing
 mass, such as the Schwarzschild spacetime, the conformal structure degenerates at spatial infinity. This degen-
 eration occurs because spatial infinity can be viewed as the final point of the generators of null infinity, either
@@ -379,7 +377,7 @@ In Penrose's conformal approach \cite{Pen63}, the investigation of the gravitati
 Within the conformal structure of asymptotically flat spacetimes, a distinguished point is spatial infinity $i^0$, characterized by $\Omega = 0$ and $d\Omega = 0$. Extensive discussions on the conformal approach and the conformal Einstein field equations can be found in [\cite{Val16}, \cite{Fra04}, \cite{Fri02}]. This comprehensive exploration delves into the nuances of the conformal methodology and its implications for understanding the asymptotic behavior and structure of spacetime.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{The $i^0$ - cylinder representation in Minkowski  spacetime}
+\section{The $i^0$ cylinder representation in Minkowski  spacetime}
 \label{the $i^0$ cylinder}
 
 Consider the spherical polar coordinates denoted by $(\tilde{t}, \tilde{\rho}, \vartheta^A)$ with $A = 1, 2$, where $\vartheta^A$ represents a set of coordinates on $\mathbb{S}^2$. In this coordinate system, the metric of \textit{physical} Minkowski spacetime is given by $\tilde{\eta}$
@@ -490,7 +488,7 @@ Though the CEFEs have made significant strides in the mathematical study of spac
 
 The Bianchi identities, which offer a collection of evolution and constraint equations for the Weyl curvature, form the basis of the CEFEs. The spin-2 equation in a fixed backdrop spacetime, which is analogous to linearizing the Weyl sector of the CEFEs in spinorial form, is one approach to the linearized issue. The linearized metric formulations of the Einstein field equations seem considerably different from the elegant spin-2 solution $\nabla_{A^{\prime}}{ }^A \phi_{A B C D}=0$, which is also highly distinct. The CEFEs' non-linear wave-like formulation was first developed for the vacuum situation in \cite{Pae14}, and it has since been expanded to include the case of trace-free matter in \cite{CarHurKro19}, \cite{FenGas23}. \\
 
-H. Friedrich's conformal Einstein field equations are fundamentally based on equations for the Weyl tensor derived from the Bianchi identities. These formulations represent a distinct departure from purely metric formulations like the ADM, Z4, and generalized harmonic gauge formulations. According to Penrose's perspective on linearized gravity, specifically in the context of vacuum and around flat spacetime, the gravitational field is represented by a spin-2 field that satisfies the following equations:
+H. Friedrich's conformal Einstein field equations are fundamentally based on equations for the Weyl tensor derived from the Bianchi identities. These formulations represent a distinct departure from purely metric formulations and generalized harmonic gauge formulations. According to Penrose's perspective on linearized gravity, specifically in the context of vacuum and around flat spacetime, the gravitational field is represented by a spin-2 field that satisfies the following equations:
 \begin{equation}\label{eq:Spin2Eq}
   \tilde{\nabla}^{A A^{\prime}} \tilde{\phi}_{A B C D}=0,
 \end{equation}
@@ -504,7 +502,7 @@ in this equation, $\tilde{\phi}_{A B}$ represents a symmetric spinor known as th
 In \cite{NewPen68}, the NP constants were originally defined within the linear framework for spin-1 and spin-2 fields, as well as within the nonlinear setting for the Einstein field equations formulated in the Newman-Penrose formalism.
 While the spin-2 field is often employed in curvature-oriented formulations, wave equations are better suited for metric formulations. In the case of linearized gravity, for instance, the standard formulation, as described in [\cite{Mag07a}, \cite{Wal84a}], typically follows an approach that resembles the hyperbolic reduction of the Einstein field equations in harmonic gauge. In this formulation, the final expression takes the form of a wave equation for the metric components. \\
 
-Scalar fields that satisfy these wave equations can be referred to as spin-0 fields. In this section, we will express the physical wave equation in flat spacetime as a wave equation for an unphysical field propagating in the i0-cylinder background. A method to solve the resulting equation, following a similar approach to that used for spin-1 and spin-2 fields in [\cite{Val07}, \cite{GasKro16d}], has been outlined in [\cite{MinMacKro22}], \cite{GasPin23}.
+Scalar fields that satisfy these wave equations can be referred to as spin-0 fields. In this section, we will express the physical wave equation in flat spacetime as a wave equation for an unphysical field propagating in the $i^0$ cylinder background. A method to solve the resulting equation, following a similar approach to that used for spin-1 and spin-2 fields in [\cite{Val07}, \cite{GasKro16d}], has been outlined in [\cite{MinMacKro22}], \cite{GasPin23}.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Spin-0 fields close to $i^0$ and $\mathscr{I}$}
 \label{sec:Spin0FieldsCloseToI0AndI}
@@ -537,7 +535,7 @@ Thus, \eqref{eq:wave-unphysical} is just the wave equation for the unphysical fi
 \end{equation}
 here, $\Delta _{\mathbb{S}^{2}{}}{}$ represents the Laplace operator on $\mathbb{S}^2$. Following the methodology employed in the analysis of spin-1, spin-2, and spin-0 fields in [\cite{ValAli22}, \cite{MinMacKro22}], respectively, we adopt the following Ansatz:
 \begin{equation}\label{eq:ansatz}
-	\phi = \sum_{p = 0}^{\infty}\sum_{l = 0}^{p}\sum_{m = -l}^{m = l}\frac{1}{p!}a_{p;l,m}(\tau)\rho^{p}Y_{lm}.
+	\phi = \sum_{p = 0}^{\infty}\sum_{\ell = 0}^{p}\sum_{m = -\ell}^{m = \ell}\frac{1}{p!}a_{p;\ell,m}(\tau)\rho^{p}Y_{\ell m}.
 \end{equation}
 In terms of initial data, this entails examining analytic initial data in the vicinity of $i^0$, which can be expressed in the following form:
 \begin{equation}\label{eq:ID_field}
@@ -583,7 +581,7 @@ here, the over-dot represents a derivative with respect to $\partial_\tau$. A ca
     \end{enumerate}
 \end{lemma}
 
-One fascinating aspect of exploring evolution equations within the $i^0$-cylinder framework is the appearance of logarithmic terms at null infinity in the solutions. This observation becomes apparent when analyzing the hypergeometric function presented in Equation \eqref{eq:Sol_highestharmonic} for different values of $p$. Let's consider the cases of $p = 0$ and $p = 1$, which yield the following expressions:
+One fascinating aspect of exploring evolution equations within the $i^0$ cylinder framework is the appearance of logarithmic terms at null infinity in the solutions. This observation becomes apparent when analyzing the hypergeometric function presented in Equation \eqref{eq:Sol_highestharmonic} for different values of $p$. Let's consider the cases of $p = 0$ and $p = 1$, which yield the following expressions:
 \begin{align}
   {a}_{0;0,0}(\tau) & = C_{000} + \tfrac{1}{2} D_{000} (\log(1 + \tau
   )- \log(1 - \tau ))\\ {a}_{1;1,m}(\tau) & = \tfrac{1}{4} (1 - \tau )
@@ -596,7 +594,7 @@ These logarithmic terms have implications for the linear version of the associat
 \begin{remark}\label{Remark:logfreeRemark}(Regularity condition~\cite{MinMacKro22}).
   \emph{Lemma \ref{Lemma:Sol_Jacobi_and_Logs}} implies that expanding the integral in \eqref{eq:Sol_highestharmonic} results in logarithmic terms, hence
   $D_{p,p,m} = 0$ is called the regularity condition. The solutions for
-  $a(\tau)$ are polynomic in $\tau$, except for $l = p$ where one needs
+  $a(\tau)$ are polynomic in $\tau$, except for $\ell = p$ where one needs
   to impose the regularity condition to only have polynomic
   solutions. \cite{MinMacKro22}.
 \end{remark}
@@ -675,27 +673,27 @@ Using Proposition \ref{prop:main_commutation} for $\ell=n$ and rearranging gives
   $\mathbb{S}^2$.
 \end{corollary}
 \begin{proof}
-  Using \eqref{eq:main_commutation} with $n = N$ and substituting $\phi=\sum_{\ell, m} \phi_{\ell M}(\tau, \rho) Y_{l m}$ into the same expression leads to,
+  Using \eqref{eq:main_commutation} with $n = N$ and substituting $\phi=\sum_{\ell, m} \phi_{\ell M}(\tau, \rho) Y_{\ell m}$ into the same expression leads to,
   \begin{equation}\label{eq:coromain_commutation_proof}
-    \underline{L} L\left(e^{+}\right)^{N}\left(\sum_{l, m} \phi_{l n} Y_{l m}\right)=-\frac{2 N}{\tilde{p}} L\left(e^{+}\right)^{N}\left(\sum_{l, m} \phi_{l m} Y_{l m}\right)+\frac{1}{\tilde{\rho}^{2}}(N(N+1)+\Delta)\left(e^{+}\right)^{N}\left(\sum_{l, M} \phi_{l n} Y_{l m}\right)
+    \underline{L} L\left(e^{+}\right)^{N}\left(\sum_{\ell, m} \phi_{\ell n} Y_{\ell m}\right)=-\frac{2 N}{\tilde{p}} L\left(e^{+}\right)^{N}\left(\sum_{\ell, m} \phi_{\ell m} Y_{\ell m}\right)+\frac{1}{\tilde{\rho}^{2}}(N(N+1)+\Delta)\left(e^{+}\right)^{N}\left(\sum_{\ell, M} \phi_{\ell n} Y_{\ell m}\right)
   \end{equation}
   Applying the \textit{Liebniz} rule when the $L$ operator acts on $\phi_{\ell m}$ and $Y_{\ell m}$, gives the following:
   \begin{equation}\label{eq:liebnizrule}
-    L\left(\phi_{l m} Y_{l m}\right):=\phi_{l m} L Y_{l m}+Y_{l m} L \phi_{l m}
+    L\left(\phi_{\ell m} Y_{\ell m}\right):=\phi_{\ell m} L Y_{\ell m}+Y_{\ell m} L \phi_{\ell m}
   \end{equation}
   The operator $L$ acting on $Y_{\ell m}$ gives $0$ since $Y_{\ell m} = Y_{\ell m}(\theta, \varphi)$ depends only on angular derivatives. Therefore, \eqref{eq:liebnizrule} becomes
   \begin{equation}\label{eq:liebnizrule2}
-    L\left(\phi_{l m} Y_{l m}\right)=Y_{l m} L (\phi_{l m})
+    L\left(\phi_{\ell m} Y_{\ell m}\right)=Y_{\ell m} L (\phi_{\ell m})
   \end{equation}
   Using \eqref{eq:liebnizrule2} and $N = \ell$ we can rewrite \eqref{eq:coromain_commutation_proof} as,
   \begin{equation}\label{eq:coromain_commutation_proof2}
-    \sum_{l, m} Y_{l m}\left[\underline{L} L\left(e^{+}\right)^{l} \phi_{l m}+\frac{2l}{\tilde{\rho}} L\left(e^{+}\right)^{l} \phi_{l m}\right]=\frac{1}{\tilde{\rho}^{2}}\left[(l(l+1))\left(e^{+}\right)^{l}\left(\sum_{l, m} \phi_{l m} Y_{l m}\right) +\left(\sum_{l_{1} m} \phi_{l m} \Delta Y_{l m}\right)\left(e^{+}\right)^{l}\right]
+    \sum_{\ell, m} Y_{\ell m}\left[\underline{L} L\left(e^{+}\right)^{\ell} \phi_{\ell m}+\frac{2 \ell}{\tilde{\rho}} L\left(e^{+}\right)^{\ell} \phi_{\ell m}\right]=\frac{1}{\tilde{\rho}^{2}}\left[(\ell(\ell+1))\left(e^{+}\right)^{\ell}\left(\sum_{\ell, m} \phi_{\ell m} Y_{\ell m}\right) +\left(\sum_{\ell_{1} m} \phi_{\ell m} \Delta Y_{\ell m}\right)\left(e^{+}\right)^{\ell}\right]
   \end{equation}
-  Using the fac that $\sum_{l_{1} m} \Delta \phi_{l m} Y_{l m}=0$ and $\sum_{l, m} \phi_{l m} Y_{l m}=-l(l+1) \sum_{l, m} \phi_{l m}$ \eqref{eq:coromain_commutation_proof2} becomes,
+  Using the fac that $\sum_{\ell_{1} m} \Delta \phi_{\ell m} Y_{\ell m}=0$ and $\sum_{\ell, m} \phi_{\ell m} Y_{\ell m}=-\ell(\ell+1) \sum_{\ell, m} \phi_{\ell m}$ \eqref{eq:coromain_commutation_proof2} becomes,
   \begin{align}\label{eq:coromain_commutation_proof3}
-    & \sum_{l, m} Y_{l m}\left(\underline{L} L\left(e^{+}\right)^{l} \phi_{l m}+\frac{2 l}{\tilde{p}} L\left(e^{+}\right)^{l} \phi_{l m}\right)=0 \Leftrightarrow \nonumber \\
-    & \Leftrightarrow \underline{L} L\left(e^{+}\right)^{l} \phi_{l m}+\frac{2 l}{\tilde{\rho}} L\left(e^{+}\right)^{l} \phi_{l m}=0 \quad \Leftrightarrow \nonumber \\
-    & \Leftrightarrow \underline{L}\left(\tilde{\rho}^{-2 l} L\left(e^{+}\right)^{l} \phi_{l m}\right)=0
+    & \sum_{\ell, m} Y_{\ell m}\left(\underline{L} L\left(e^{+}\right)^{\ell} \phi_{\ell m}+\frac{2 \ell}{\tilde{p}} L\left(e^{+}\right)^{\ell} \phi_{\ell m}\right)=0 \Leftrightarrow \nonumber \\
+    & \Leftrightarrow \underline{L} L\left(e^{+}\right)^{\ell} \phi_{\ell m}+\frac{2 \ell}{\tilde{\rho}} L\left(e^{+}\right)^{\ell} \phi_{\ell m}=0 \quad \Leftrightarrow \nonumber \\
+    & \Leftrightarrow \underline{L}\left(\tilde{\rho}^{-2 \ell} L\left(e^{+}\right)^{\ell} \phi_{\ell m}\right)=0
   \end{align}
   We can see that \eqref{eq:coromain_commutation_proof3} is the same as \eqref{eq:coromain_commutation}, which completes the proof.   
 \end{proof}
@@ -726,13 +724,13 @@ Then, with the necessary adjustments, the time-reversed versions of \ref{prop:ma
 
 Equations \eqref{eq:cons_laws} provide an infinite hierarchy of exact conservation laws. Additionally, one can introduce the $f(\tilde{\rho})$-modified NP constants, as described in \cite{GajKehLeo22}, in the following manner: 
 \begin{align}\label{eq:DefModifiedNP}
-  {}^{f}\mathcal{N}^{+}_{\ell,m}:= f(\tilde{\rho})L (\boldsymbol{e}^{+})^{\ell}\phi_{\ell m} \Big|_{\mathcal{C}^{+}}, \\ 
-  {}^{f}\mathcal{N}^{-}_{\ell,m}:= f(\tilde{\rho})\underline{L} (\boldsymbol{\underline{e}}^{-})^{\ell}\phi_{\ell m}\Big|_{\mathcal{C}^{-}},
+  {}^{f}\mathcal{N}^{+}_{\ell,m}:= f(\tilde{\rho})L (\boldsymbol{e}^{+})^{\ell}\phi_{\ell m} \Big|_{{C}^{+}}, \\ 
+  {}^{f}\mathcal{N}^{-}_{\ell,m}:= f(\tilde{\rho})\underline{L} (\boldsymbol{\underline{e}}^{-})^{\ell}\phi_{\ell m}\Big|_{{C}^{-}},
 \end{align}
 here, ${C^{\pm}} \approx \mathbb{S}^2$ represents a cut of $\mathscr{I}^{\pm}$. In the specific case of $f(\tilde{\rho})=\tilde{\rho}^2$, these quantities are referred to as the "classical NP-constants" and are denoted as $\mathcal{N}^{\pm}_{\ell,m}$. They can be succinctly expressed as follows:
 \begin{align}\label{eq:classicalNP}
-  \mathcal{N}^{+}_{\ell,m}:= (\boldsymbol{e}^{+})^{\ell+1}\phi_{\ell m}\Big|_{\mathcal{C}^{+}},\\ 
-  \mathcal{N}^{-}_{\ell,m}:= (\boldsymbol{\underline{e}}^{-})^{\ell+1}\phi_{\ell m} \Big|_{\mathcal{C}^{-}}.
+  \mathcal{N}^{+}_{\ell,m}:= (\boldsymbol{e}^{+})^{\ell+1}\phi_{\ell m}\Big|_{{C}^{+}},\\ 
+  \mathcal{N}^{-}_{\ell,m}:= (\boldsymbol{\underline{e}}^{-})^{\ell+1}\phi_{\ell m} \Big|_{{C}^{-}}.
 \end{align}
 In the notation for ${}^{f}\mathcal{N}^{+}_{\ell,m}$ presented below, it will be implicitly assumed that $m$ takes values from $-\ell$ to $\ell$.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -746,7 +744,7 @@ In this section, we focus on computing the classical NP constants, which are det
 Therefore, when considering $\ell=0$, the computation of $\boldsymbol{e}^{+}(\phi_{00})$ is sufficient. By utilizing Proposition \ref{Prop:NPtoFgauge} and equation \eqref{eq:Fframe}, we obtain the following:
 \begin{align}\label{eq:bmeplus1philmraw}
    & \boldsymbol{e}^{+}(\phi_{\ell m})= 4(\Lambda_{+})^{2}\sum_{p=0}^{\infty}\frac{1}{p!}\boldsymbol{e}(a_{p;\ell,m}(\tau)\rho^{p}) = \Lambda_{+}^{2} \sum_{p=0}^{\infty} \left[(1+\tau) \partial_{\tau}-p \partial_{\rho}\right]\left(a_{p ; \ell, m}(\tau) \rho^{p}\right)= \nonumber \\
-   & =\Lambda_{+}^{2} \sum_{p=0}^{\infty} \left[(1+\tau) \dot{a}_{p_; l, m} \rho^{p}-\rho a_{p ; l, m} \cdot p \rho^{p-1}\right] = 4 \rho^{-1}(1+\tau)^{-2}\sum_{p=0}^{\infty} \frac{1}{p!}\rho^p((1+\tau)\dot{a}_{p;\ell,m}-p a_{p;\ell,m}).
+   & =\Lambda_{+}^{2} \sum_{p=0}^{\infty} \left[(1+\tau) \dot{a}_{p; \ell, m} \rho^{p}-\rho a_{p ; \ell, m} \cdot p \rho^{p-1}\right] = 4 \rho^{-1}(1+\tau)^{-2}\sum_{p=0}^{\infty} \frac{1}{p!}\rho^p((1+\tau)\dot{a}_{p;\ell,m}-p a_{p;\ell,m}).
 \end{align}
 With
 \begin{align}\label{eq:defQ0}
@@ -756,14 +754,14 @@ With this definition in place, we can express $\boldsymbol{e}^{+}(\phi_{\ell m})
 \begin{align}\label{eq:bmeplus1philm}
   \boldsymbol{e}^{+}(\phi_{\ell m}) = 4 (\Lambda_{+})^{2}\sum_{p=0}^{\infty} \frac{1}{p!}\rho^{p}Q^{0}_{p,\ell,m}(\tau).
 \end{align}
-To compute the $\ell=0$ NP constant at $\mathscr{I}^{+}$, it is necessary to evaluate $\boldsymbol{e}^{+}(\phi_{00})$ at a specific cut $\mathcal{C}^{+}$ of $\mathscr{I}^{+}$. By utilizing equation \eqref{eq:bmeplus1philm} and referring to Lemma \ref{Lemma:Sol_Jacobi_and_Logs}, we obtain the following expression:
+To compute the $\ell=0$ NP constant at $\mathscr{I}^{+}$, it is necessary to evaluate $\boldsymbol{e}^{+}(\phi_{00})$ at a specific cut ${C}^{+}$ of $\mathscr{I}^{+}$. By utilizing equation \eqref{eq:bmeplus1philm} and referring to Lemma \ref{Lemma:Sol_Jacobi_and_Logs}, we obtain the following expression:
 \begin{align}
   \mathcal{N}^{+}_{0,0}= \lim_{\substack{\rho \to \rho_{\star} \\ \tau \to 1}}  \boldsymbol{e}^{+}(\phi_{00}) = \sum_{p=0}^{\infty} \frac{1}{p!}\rho^{p-1}_{\star}Q^{0}_{p,0,0}|_{\mathscr{I}^{+}}.
 \end{align}
-here, $\rho_{\star}$ represents a constant that parametrizes the cut $\mathcal{C}^{+}$, and $Q^{0}_{p,\ell,m}|_{\mathscr{I}^{+}}$ denotes the value of $Q^{0}_{p,\ell,m}$ at $\mathscr{I}^{+}$, specifically at $\rho=1$. Notably, when $\rho_{\star}=0$, it corresponds to selecting $\mathcal{C}^{+}$ as $\mathcal{I}^{+}$.
+here, $\rho_{\star}$ represents a constant that parametrizes the cut $\mathcal{C}^{+}$, and $Q^{0}_{p,\ell,m}|_{\mathscr{I}^{+}}$ denotes the value of $Q^{0}_{p,\ell,m}$ at $\mathscr{I}^{+}$, specifically at $\rho=1$. Notably, when $\rho_{\star}=0$, it corresponds to selecting ${C}^{+}$ as $\mathcal{I}^{+}$.
 A direct calculation using Lemma \ref{Lemma:Sol_Jacobi_and_Logs} shows the following:
 \begin{align}\label{eq:Q0lm}
-  & Q_{p;l,m}^{0}(\tau)=(1+\tau) \dot{a}_{p ; l, m}(\tau)-pa_{p ; l, m}(\tau) \Rightarrow Q_{0;0,0}^{0}(\tau)=2 \dot{a}_{0;0,0}(\tau)-0 \cdot a_{0;0,0} =2 \dot{a}_{0;0,0}(\tau)=\frac{D_{000}}{1-\tau}, \\
+  & Q_{p;\ell,m}^{0}(\tau)=(1+\tau) \dot{a}_{p ; \ell, m}(\tau)-pa_{p ; \ell, m}(\tau) \Rightarrow Q_{0;0,0}^{0}(\tau)=2 \dot{a}_{0;0,0}(\tau)-0 \cdot a_{0;0,0} =2 \dot{a}_{0;0,0}(\tau)=\frac{D_{000}}{1-\tau}, \\
   & Q_{1;0,0}^{0}(\tau)=2 \dot{a}_{1;0,0}(\tau)-1 \cdot a_{1;0,0}(\tau)=-A_{100}.
 \end{align}
 Therefore, it is important to note that if the regularity condition of Remark \ref{Remark:logfreeRemark} is not satisfied, the classical NP constants will not be well-defined, regardless of the chosen cut for evaluation. Thus, in order to compute the classical $\ell=0$ NP constant, the regularity condition must be imposed. However, once the regularity condition is satisfied, the value of the classical $\ell=0$ NP constant becomes independent of the specific cut chosen for evaluation. This can be seen through the following analysis:
@@ -799,18 +797,18 @@ Performing an explicit calculation with equations \eqref{eq:Fframe} and \eqref{e
 \end{align}
 Utilizing the aforementioned equations yields:
 \begin{align}\label{eq:defQ1}
-  & (\boldsymbol{e}^{+})^2(\phi_{\ell m})= 4^2(\Lambda_{+})^{4}\sum_{p=\ell}^{\infty} \frac{1}{p!}\big(\boldsymbol{e}^{+}\left(\rho^{p} Q_{p; l, m}^{0}\right)-Q_{p; l, m}^{0} \rho^{p}\big) = \nonumber \\
-  & = 4^2(\Lambda_{+})^{4}\sum_{p=\ell}^{\infty} \frac{1}{p!}\left[(1+\tau) \rho^{p} Q_{p; l, m}^{0}-\rho^{p} Q_{p; l, m}^{0} p \rho^{p-1}\right]-\rho^{p} Q_{p; l, m}^{0} = \nonumber \\
+  & (\boldsymbol{e}^{+})^2(\phi_{\ell m})= 4^2(\Lambda_{+})^{4}\sum_{p=\ell}^{\infty} \frac{1}{p!}\big(\boldsymbol{e}^{+}\left(\rho^{p} Q_{p; \ell, m}^{0}\right)-Q_{p; \ell, m}^{0} \rho^{p}\big) = \nonumber \\
+  & = 4^2(\Lambda_{+})^{4}\sum_{p=\ell}^{\infty} \frac{1}{p!}\left[(1+\tau) \rho^{p} Q_{p; \ell, m}^{0}-\rho^{p} Q_{p; \ell, m}^{0} p \rho^{p-1}\right]-\rho^{p} Q_{p; \ell, m}^{0} = \nonumber \\
   & = 4^2(\Lambda_{+})^{4}\sum_{p=\ell}^{\infty} \frac{1}{p!}\rho^{p}\big((1+\tau)\dot{Q}^{0}_{p;\ell,m}(\tau)-(p+1){Q}^{0}_{p;\ell,m}(\tau)\big).
 \end{align}
 Where $Q^{1}_{p,\ell,m}(\tau):= \big((1+\tau)\dot{Q}^{0}_{p,\ell,m}(\tau)-(p+1){Q}^{0}_{p,\ell,m}(\tau)\big)$ and \eqref{eq:defQ0} gives 
 \begin{align}\label{eq:DefQ1IntermsQ0}
-& Q_{p ; l, m}^{1}(\tau)=(1+\tau) \dot{Q}_{p; l, m}^{0}-(p+1) Q_{p; l m}^{0}=(1+\tau) \frac{d}{d \tau}\left[(1+\tau) \dot{a}_{p;l, m}-p a_{p; l, m}\right]- (p+1)\left[(1+\tau) \dot{a}_{p;l, m}-p a_{p; l, m}\right] = \nonumber \\
-& =(1+\tau)^{2} \ddot{a}_{p; l, m}-2 p(1+\tau) \dot{a}_{p; l, m}+p(p+1) a_{p; l,m}. \nonumber \\
+& Q_{p ; \ell, m}^{1}(\tau)=(1+\tau) \dot{Q}_{p; \ell, m}^{0}-(p+1) Q_{p; \ell m}^{0}=(1+\tau) \frac{d}{d \tau}\left[(1+\tau) \dot{a}_{p;\ell, m}-p a_{p; \ell, m}\right]- (p+1)\left[(1+\tau) \dot{a}_{p;\ell, m}-p a_{p; \ell, m}\right] = \nonumber \\
+& =(1+\tau)^{2} \ddot{a}_{p; \ell, m}-2 p(1+\tau) \dot{a}_{p; \ell, m}+p(p+1) a_{p; \ell,m}. \nonumber \\
 \end{align}
 Therefore, one can compute $\mathcal{N}^{+}_{1,m}$ as
 \begin{align}\label{NP1_precomputation}
-  & \mathcal{N}^{+}_{1,m}= \lim_{\substack{\rho \to \rho_{\star} \\ \tau \to 1}} (\boldsymbol{e}^{+})^2(\phi_{1m}) = \sum_{p=1}^{\infty}\frac{1}{p!}\rho_{\star}^{p-2}Q^{1}_{p,1,m}|_{\mathscr{I}^{+}} =  (1+\tau)^{-4} \sum_{p=0}^{\infty} \frac{1}{p !} Q_{p l, m}^{1}(\tau) \rho^{p} = \nonumber \\
+  & \mathcal{N}^{+}_{1,m}= \lim_{\substack{\rho \to \rho_{\star} \\ \tau \to 1}} (\boldsymbol{e}^{+})^2(\phi_{1m}) = \sum_{p=1}^{\infty}\frac{1}{p!}\rho_{\star}^{p-2}Q^{1}_{p,1,m}|_{\mathscr{I}^{+}} =  (1+\tau)^{-4} \sum_{p=0}^{\infty} \frac{1}{p !} Q_{p \ell, m}^{1}(\tau) \rho^{p} = \nonumber \\
   & = (1+\tau)^{-4}\left(\sum_{p=0}^{1} \frac{1}{p !} \rho^{p-2} Q_{p; 1, m}^{1}\cdot(\tau)+\sum_{p=2}^{2} \frac{1}{p !} \rho^{0} Q_{p, 1, m}^{1}\cdot(\tau)+\sum_{p=3}^{\infty} \frac{1}{p !} \rho^{p-2} A_{p, 1, m}^{1}\cdot{(\tau)}\right) = \nonumber \\
   & = \lim _{\substack{\rho \rightarrow 0 \\ \tau \rightarrow 1}} 2^{-4}\big\{\rho^{-2} Q_{0,1, m}^{1}\cdot(\tau)+\rho^{-1} Q_{1,1, m}^{1}\cdot(\tau)\big\}+\lim_{\substack{\rho \rightarrow 0 \\ \tau \rightarrow 1}} 2^{-4} \frac{1}{2 !} Q^{1}_{2, 1, m}\cdot(\tau). 
 \end{align}
@@ -830,7 +828,7 @@ Direct evaluation leads to:
   \mathcal{N}^{+}_{1,m}=3A_{21m}.
 \end{align}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{The $i^0$-cylinder logarithmic NP constants}
+\section{The $i^0$ cylinder logarithmic NP constants}
 \label{sec:LogarithmicNP_main}
 
 In section \ref{sec:classicalNP}, it was demonstrated that if the regularity condition stated in Remark \ref{Remark:logfreeRemark} is not satisfied, the classical NP constants are not well-defined. However, it has been found that analogous constants arise for polyhomogeneous formal expansions of the gravitational field (Weyl scalars) using the Newman-Penrose formalism [\cite{Val98}, \cite{Val99a}]. This leads to the natural question of whether there exists a choice of $f(\tilde{\rho})$ that allows the calculation of the associated modified NP constants (for the spin-0 field) without imposing the regularity condition. In this section, it will be shown that the constants $D_{p;\ell,m}$ that define the regularity condition precisely correspond to the $f(\tilde{\rho}) = \tilde{\rho}$-modified NP constants. \\
@@ -1134,7 +1132,7 @@ This subsection aims to consolidate the outcomes of the induction arguments from
 \begin{proof}
   By using equations \eqref{eq:classicalNP} and \eqref{eq:bmelplusonephilm}, we can express the $\mathscr{I}^+$ classical NP constant for the spin-0 field as follows:
   \begin{align}
-    \mathcal{N}^{+}_{\ell,m} = (\boldsymbol{e}^{+})^{\ell+1}\phi_{\ell m}|_{\mathcal{C}^{+}} = (2\Lambda_{+})^{2(\ell+1)}\sum_{p=\ell}^{\infty}\frac{1}{p!}Q^{\ell}_{p;\ell,m}(\tau)\rho^{p}|_{\mathcal{C}^{+}} = \sum_{p=\ell}^{\infty}\frac{1}{p!}\rho_{\star}^{p-(\ell+1)}Q^{\ell}_{p;\ell,m}|_{\mathscr{I}^{+}}.
+    \mathcal{N}^{+}_{\ell,m} = (\boldsymbol{e}^{+})^{\ell+1}\phi_{\ell m}|_{{C}^{+}} = (2\Lambda_{+})^{2(\ell+1)}\sum_{p=\ell}^{\infty}\frac{1}{p!}Q^{\ell}_{p;\ell,m}(\tau)\rho^{p}|_{{C}^{+}} = \sum_{p=\ell}^{\infty}\frac{1}{p!}\rho_{\star}^{p-(\ell+1)}Q^{\ell}_{p;\ell,m}|_{\mathscr{I}^{+}}.
   \end{align}
   Under the assumption that the regularity condition is satisfied and the NP constants are well-defined, evaluating the above expression at the critical set $I^{+}$ yields:
   \begin{align}
@@ -1159,7 +1157,7 @@ This subsection aims to consolidate the outcomes of the induction arguments from
 \begin{proof}             
     By employing equations \eqref{eq:DefModifiedNP} and \eqref{eq:bmelplusonephilm}, we obtain the following expression:
     \begin{align}
-      {}^{\tilde{\rho}}\mathcal{N}^{+}_{\ell,m}= \tilde{\rho}L(\boldsymbol{e}^{+})^{\ell}\phi_{\ell m}|_{\mathcal{C}^{+}}= \varkappa^{-1}(2\Lambda_+)^{-2}(\boldsymbol{e}^{+})^{\ell+1}\phi_{\ell m}|_{\mathcal{C}^{+}} =\sum_{p=\ell}^{\infty}\frac{1}{p!}\rho_{\star}^{p-\ell}(\varkappa^{-1}Q^{\ell}_{p;\ell,m})|_{\mathscr{I}^{+}}
+      {}^{\tilde{\rho}}\mathcal{N}^{+}_{\ell,m}= \tilde{\rho}L(\boldsymbol{e}^{+})^{\ell}\phi_{\ell m}|_{{C}^{+}}= \varkappa^{-1}(2\Lambda_+)^{-2}(\boldsymbol{e}^{+})^{\ell+1}\phi_{\ell m}|_{{C}^{+}} =\sum_{p=\ell}^{\infty}\frac{1}{p!}\rho_{\star}^{p-\ell}(\varkappa^{-1}Q^{\ell}_{p;\ell,m})|_{\mathscr{I}^{+}}
     \end{align}
     Assuming the well-definedness of the $i^0$-cylinder logarithmic NP constants, their evaluation at the critical set $I^{+}$ yields the following:
     \begin{align}
@@ -1190,7 +1188,7 @@ By making minimal adjustments and employing Proposition \ref{Prop:NPtoFgauge}, a
    if the $f(\tilde{\rho})=\tilde{\rho}$ modified NP constants at $\mathscr{I}^-$ are well-defined, then they are solely determined by the initial data parameter $D_{\ell,\ell,m}$.
 \end{proposition}
 
-The summary of this section can be presented as follows: The $i^0$-cylinder NP constants at $\mathscr{I}^{\pm}$ are well-defined and they depend only on specific initial data parameters. At $\mathscr{I}^{+}$, the classical NP constants depend solely on $A_{\ell+1, \ell, m}$, while at $\mathscr{I}^{-}$, they depend only on $B_{\ell+1, \ell, m}$. These results have been derived from the analysis of the modified NP constants and their relations to the initial data parameters.
+The summary of this section can be presented as follows: The $i^0$ cylinder NP constants at $\mathscr{I}^{\pm}$ are well-defined and they depend only on specific initial data parameters. At $\mathscr{I}^{+}$, the classical NP constants depend solely on $A_{\ell+1, \ell, m}$, while at $\mathscr{I}^{-}$, they depend only on $B_{\ell+1, \ell, m}$. These results have been derived from the analysis of the modified NP constants and their relations to the initial data parameters.
 
 \begin{corollary}
   Consider a spin-0 field $\tilde{\phi}$ propagating in Minkowski spacetime with analytic initial data close to the point $i^0$, which can be described using \eqref{eq:ID_field}:
@@ -1212,16 +1210,16 @@ The summary of this section can be presented as follows: The $i^0$-cylinder NP c
 \section{Conclusions}
 \label{sec:conclusions}
 
-General relativity is a theory of gravitation that explains the force of gravity as a curvature of spacetime caused by mass and energy. Black holes, which are objects with such strong gravitational forces that nothing, not even light, can escape them, are an important aspect of this theory. When an object falls into a black hole, it is reduced to just three numbers, leading to the loss of a large amount of information, a problem known as the "information paradox." A recent theory called "soft hair" has been proposed to explain this paradox by positing that non-trivial distortions in clocks, sensitive to the black hole's consumption history, can provide an infinite number of properties for a black hole in certain limits. The Newman-Penrose (NP) constants are quantities defined on null-infinity in general relativity that obey conservation laws for asymptotically flat gravitational fields. These constants can be used to study the residual radiation present in spacetime after a black hole collision, and have been shown to be zero for stationary spacetimes such as the Schwarzschild and Kerr solutions. However, it is still an open question whether the NP constants are zero for all stationary spacetimes. \\
+General relativity is a theory of gravitation that explains the force of gravity as a curvature of spacetime caused by mass and energy. Black holes, which are objects with such strong gravitational forces that nothing, not even light, can escape them, are an important aspect of this theory. When an object falls into a black hole, it is reduced to just three numbers, leading to the loss of a large amount of information, a problem known as the "information paradox." A recent theory called "soft hair" has been proposed to explain this paradox by positing that non-trivial distortions in clocks, sensitive to the black hole's consumption history, can provide an infinite number of properties for a black hole in certain limits. The Newman-Penrose (NP) constants are quantities defined on null infinity in general relativity that obey conservation laws for asymptotically flat gravitational fields. These constants can be used to study the residual radiation present in spacetime after a black hole collision, and have been shown to be zero for stationary spacetimes such as the Schwarzschild and Kerr solutions. However, it is still an open question whether the NP constants are zero for all stationary spacetimes. \\
 
 In this thesis, we have computed the Newman-Penrose (NP) constants for a spin-0 field propagating near spatial and null infinity. The analysis was carried out using prescribed analytic initial data close to $i^0$ in Minkowski spacetime, and we discussed the infinite hierarchy of NP constants. \\
 
-To achieve this, we employed the concept of the $i^0$-cylinder framework. We investigated the relation between the NP constants at future and past null infinity by identifying the specific part of the initial data that determines these constants. It was noted that when analytic initial data is prescribed near $i^0$, the solution loses regularity at the critical sets $\mathcal{I}^{\pm}$, where $i^0$ and $\mathscr{I}$ meet. This loss of regularity is governed by a constant $D_{p;p,m}$ present in the parametrization of the initial data. When the regularity condition ($D_{p;p,m} = 0$) is not satisfied, the classical NP constants are not well-defined. \\
+To achieve this, we employed the concept of the $i^0$ cylinder framework. We investigated the relation between the NP constants at future and past null infinity by identifying the specific part of the initial data that determines these constants. It was noted that when analytic initial data is prescribed near $i^0$, the solution loses regularity at the critical sets $\mathcal{I}^{\pm}$, where $i^0$ and $\mathscr{I}$ meet. This loss of regularity is governed by a constant $D_{p;p,m}$ present in the parametrization of the initial data. When the regularity condition ($D_{p;p,m} = 0$) is not satisfied, the classical NP constants are not well-defined. \\
 
-However, in cases where the regularity condition is satisfied, we found that the classical NP constants at $\mathscr{I}^{\pm}$ arise from independent parts of the initial data. These parts are parametrized by the constants $A_{\ell+1,\ell,m}$ and $B_{\ell+1;\ell,m}$, respectively. As a result, there is no direct correspondence between the NP constants at future and past null infinity. \\
+However, in cases where the regularity condition is satisfied, we found that the classical NP constants at $\mathscr{I}^{\pm}$ arise from independent parts of the initial data. These parts are parametrized by the constants $A_{\ell+1;\ell,m}$ and $B_{\ell+1;\ell,m}$, respectively. As a result, there is no direct correspondence between the NP constants at future and past null infinity. \\
 
 Nevertheless, we also showed that utilizing the $f(\tilde{\rho})$-modified NP constants proposed in \cite{Keh21_a}, with $f(\tilde{\rho})=\tilde{\rho}$, yields conserved quantities that do not require the regularity condition. In fact, these modified constants precisely correspond to the terms in the initial data that control the regularity of the field: $D_{p;p,m}$. This offers a valuable alternative approach to studying the conservation properties of the system without relying on the regularity condition. \\
 
-In conclusion, it is evident that while the classical NP constants at $\mathscr{I}^{\pm}$ do not generally match, the \emph{$i^0$-cylinder NP constants} at $\mathscr{I}^{\pm}$ do coincide, up to a numerical factor. This remarkable alignment is a result of their origin from the same part of the initial data.
+In conclusion, it is evident that while the classical NP constants at $\mathscr{I}^{\pm}$ do not generally match, the \emph{$i^0$ cylinder NP constants} at $\mathscr{I}^{\pm}$ do coincide, up to a numerical factor. This remarkable alignment is a result of their origin from the same part of the initial data.
 
 
