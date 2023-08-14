@@ -5,6 +5,7 @@ The style file: abbrvunsrtnat.bst
 Database file #1: Thesis.bib
 Warning--string name "jmp" is undefined
 --line 899 of file Thesis.bib
+Warning--I didn't find a database entry for "Ste91"
 Too many commas in name 1 of "Bondi, H., Burg, M. G. J. v. d., Metzner, A. W. K." for entry BonBurMet62
 while executing---line 2465 of file abbrvunsrtnat.bst
 Too many commas in name 1 of "Bondi, H., Burg, M. G. J. v. d., Metzner, A. W. K." for entry BonBurMet62
@@ -28,7 +29,7 @@ Warning--empty journal in DuaFenGasHil22
 Warning--empty journal in Keh21_a
 You've used 36 entries,
             2481 wiz_defined-function locations,
-            824 strings with 10102 characters,
+            826 strings with 10112 characters,
 and the built_in function-call counts, 12684 in all, are:
 = -- 1141
 > -- 476

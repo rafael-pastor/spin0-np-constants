@@ -43,7 +43,47 @@ The geometric understanding of infinity also contributed to the development of g
 \end{equation}
 $\Xi$ is a smooth function that approaches zero as the distance from the source increases. This transformation, given by \eqref{eq:conftrans}, preserves angles, making it appropriate to describe it as conformal. H. Friedrich introduced the \textit{conformal Einstein field
 equations} (CEFE), a formulation designed that is in accordance with
-the approach of R. Penrose.
+the approach of R. Penrose.\\
+\noindent
+The application of conformal field equations presents a robust strategy for analyzing and building asymptotically simple spacetimes. In a broader context, these equations facilitate the conversion of problems associated with unbounded regions in the physical spacetime $(\tilde{\mathcal{M}}, \boldsymbol{\tilde{g}})$ into challenges confined within finite domains of the unphysical spacetime $({\mathcal{M}},\boldsymbol{g})$. Whose definition can be regarded as the following: \\
+\begin{mydefinition}\label{def:asymptoticallysimple}
+  \textit{(asymptotically simple spacetimes):} A spacetime $(\tilde{\mathcal{M}}, \boldsymbol{\tilde{g}})$ is considered to be asymptotically simple if there exists a smooth, oriented, time-oriented, and causal spacetime  $({\mathcal{M}},\boldsymbol{g})$ along with a smooth function $\Xi$ defined on $\mathcal{M}$ in such a way that:
+  \begin{enumerate}
+    \item[(i)] $\mathcal{M}$ is a manifold with boundary $\mathcal{I} \equiv \partial \mathcal{M}$;
+    \item[(ii)] $\Xi > 0$ on $\mathcal{M} \setminus \mathcal{I}$, and $\Xi = 0$, $\boldsymbol{d}\Xi \neq 0$ on $\mathcal{I}$;
+    \item[(iii)] there exists an embedding $\phi: \mathcal{\tilde{M}} \rightarrow \mathcal{M}$ such that $\phi(\tilde{\mathcal{M}}) = \mathcal{M}\setminus \mathcal{I}$ and $\phi^{*}\boldsymbol{g} = \Xi^{2}\boldsymbol{\tilde{g}}$;
+    \item[(iv)] each null geodesic of $(\mathcal{\tilde{M}}, \boldsymbol{\tilde{g}})$ acquires two distinct endpoints on $\mathcal{I}$.
+  \end{enumerate}
+\end{mydefinition}
+
+\begin{mydefinition}\label{def:weaklyasymptoticallysimple}
+  A spacetime $(\tilde{\mathcal{M}}, \boldsymbol{\tilde{g}})$ is termed \textit{weakly asymptotically simple} if there exists a smooth, oriented, time-oriented, and causal spacetime $(\mathcal{M}, \boldsymbol{g})$ along with a smooth function $\Xi$ defined on $M$ satisfying the following conditions:
+  \begin{enumerate}
+    \item[(i)] $\tilde{\mathcal{M}}$ possesses a smooth conformal boundary $\tilde{\mathcal{I}} \equiv \partial \tilde{\mathcal{M}}$;
+    \item[(ii)] $ \boldsymbol{\tilde{g}}$ is defined on $\tilde{\mathcal{M}}$;
+    \item[(iii)] $\Xi > 0$ on $\mathcal{M} \setminus \mathcal{I}$, and $\Xi = 0$, $\boldsymbol{d}\Xi \neq 0$ on $\mathcal{I}$;
+    \item[(iv)] The following conditions are satisfied by $\Xi^{2}\boldsymbol{g}$:
+     \subitem(a) $\Xi^{2}\boldsymbol{g}$ is a solution of the (CEFE) on $\mathcal{M}$;
+     \subitem (b) $\Xi^{2}\boldsymbol{g}$ is asymptotically flat on $\mathcal{M}$;
+     \subitem (c)  $\Xi^{2}\boldsymbol{g}$ is globally hyperbolic on $\mathcal{M}$;
+     \subitem (d)  $\Xi^{2}\boldsymbol{g}$ is maximal on $\mathcal{M}$.
+  \end{enumerate}
+\end{mydefinition}
+In essence, a weakly asymptotically simple spacetime represents a spacetime that asymptotically approaches a simpler form in such a way that these specified conditions are satisfied.\\
+
+Asymptotically Simple Spacetimes and Weakly Asymptotically Simple Spacetimes are important concepts in general relativity that play a crucial role in understanding the behavior of spacetime near infinity and its relevance to black holes.\\
+\noindent
+An asymptotically simple spacetime is defined by its properties as it extends towards infinity. It possesses a well-defined conformal boundary at infinity, often represented as $\mathcal{I}$, where past and future null infinities intersect. In such spacetimes, the metric approaches that of a flat Minkowski metric as you move towards infinity. Moreover, conserved quantities like energy, momentum, and angular momentum are well-defined and conserved at infinity. These spacetimes are particularly important in understanding the radiative behavior of isolated systems like binary star systems and collapsing stars. They provide a structured framework for studying gravitational radiation and energy transport.\\
+\noindent
+Weakly asymptotically simple spacetimes encompass a wider range of behaviors as you approach infinity. They also possess a conformal boundary at infinity, but the behavior of the metric and physical quantities is more general. Unlike asymptotically simple spacetimes, the metric doesn't necessarily converge to a flat Minkowski metric at infinity, and the behavior of physical quantities might not be as well-defined. These spacetimes are relevant for scenarios involving strong gravitational fields near black holes, where deviations from idealized behaviors can occur due to intense gravitational interactions.
+Both asymptotically simple and weakly asymptotically simple spacetimes are significant in the context of black holes.\\
+\noindent
+Asymptotically simple spacetimes provide a structured framework for understanding radiation and fields at infinity, making them valuable for analyzing the radiative properties of isolated systems and their gravitational interactions.\\
+\noindent
+Weakly asymptotically simple spacetimes are particularly useful for exploring situations involving strong gravitational fields around black holes, where deviations from idealized behaviors are more likely to occur.
+
+In conclusion, these concepts collectively enhance our understanding of spacetime behavior near infinity and its implications for black holes. Asymptotically simple spacetimes offer a more well-defined framework, while weakly asymptotically simple spacetimes encompass a broader range of possibilities, including scenarios involving intense gravitational fields near black holes.
+  
 \medskip
 
 A prototypical example is the conformal extension of the Minkowski spacetime which will be discussed in the following.  One starts with the Minkowski metric line-element,
@@ -93,22 +133,12 @@ The visual representation of this is a Penrose Diagram, depicted in Fig.1
       black lines.}
 \end{figure}
 \\
-Additionally, H. Friedrich proposed another conformal representation of Minkowski spacetime specifically adapted for spatial infinity, which will be one used in this work. By applying the following change of coordinates $\tilde{t} = \frac{\tau}{\rho(1-\tau^{2})}$, \enspace $\tilde{\rho} = \frac{1}{\rho(1-\tau^{2})}$ we arrive at this representation. Therefore,
-$$ \gamma=-d \tau^2+\frac{\left(1-\tau^2\right)}{\rho^2} d\rho^2-\frac{\tau}{\rho}(d \rho d \tau+d \tau d \rho)+d \Omega^2 $$
-We are now in the position to say that the conformal factor $\Theta$ is given by,
-\begin{equation}\label{eq:gamma}
-	\gamma = \Theta^2 \tilde{\eta}.
-\end{equation}
-\begin{equation}\label{eq:conf-factor}
-	\Theta = \rho(1-\tau^2).
-\end{equation}
-The range of the $\tau$ coordinate is,  
-$$ -1 \le \tau \le 1 $$ 
-with $\rho$ > 0. Therefore, light travels towards infinity to the places where $\tau = \pm 1$ in the conformal extension. So, in this representation,
-$$ \mathscr{I}^+ \equiv \{ \tau = 1 \}, \enspace \mathscr{I}^- \equiv \{ \tau = -1 \}.$$
-The sets where future and past null-infinities touch spatial infinity are named the critical sets and are given by,
-$$ {I}^+ = \{ \tau = 1, \enspace \rho = 0\}, \enspace {I}^- = \{ \tau = -1, \enspace \rho = 0\}$$
+In this representation we can see that the spatial infinity, $i^0$, is mapped to the origin and $\mathscr{I}^{\pm}$ and to the future/past null cone through the origin.\\
 
+\begin{figure}[h]
+	\centering \includegraphics[width =0.3\textwidth]{spatial infinity.pdf}
+    \caption{Representation of spatial infinity, $i^0$, in the Penrose Diagram.\\ Taken from \cite{Ste91}.}
+\end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Newman-Penrose constants}
 \label{section:Newman-Penrose Constants}
