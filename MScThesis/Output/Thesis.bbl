@@ -1,4 +1,4 @@
-\begin{thebibliography}{36}
+\begin{thebibliography}{37}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -21,6 +21,11 @@ S.~Dain and J.~A. Valiente-Kroon.
 J.-A. Valiente-Kroon.
 \newblock \emph{Conformal Methods in General Relativity}.
 \newblock Cambridge University Press, Cambridge, 2016.
+
+\bibitem[Stewart(1991)]{Ste91}
+J.~Stewart.
+\newblock \emph{Advanced general relativity}.
+\newblock Cambridge University Press, 1991.
 
 \bibitem[Newman and Penrose(1968)]{NewPen68}
 E.~T. Newman and R.~Penrose.

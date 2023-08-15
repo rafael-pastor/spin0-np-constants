@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex Output/Thesis"] 1692014921 "Output/Thesis.aux" "Output/Thesis.bbl" "Output/Thesis" 1692014921
+["bibtex Output/Thesis"] 1692111993 "Output/Thesis.aux" "Output/Thesis.bbl" "Output/Thesis" 1692112110
   "./abbrvunsrtnat.bst" 1677235004 25589 eef0178ea67f0d61ba813e74e17f1fb1 ""
-  "Output/Thesis.aux" 1692014920 19940 85fc53e804af96b8d7b69056a7e6b486 "pdflatex"
-  "Thesis.bib" 1692014915 18282 e608d4c529350ddb4235872575d7b062 ""
+  "Output/Thesis.aux" 1692112109 20193 78cd8c7a97ea006bb8ff718483053b3f "pdflatex"
+  "Thesis.bib" 1692109889 18455 deb8a6379fcc69b51262e0753805f282 ""
   (generated)
   "Output/Thesis.bbl"
   "Output/Thesis.blg"
-["pdflatex"] 1692014916 "/Users/rafaelpastor/Library/CloudStorage/OneDrive-UniversidadedeLisboa/MEFT/spin0-np-constants/MScThesis/Thesis.tex" "Output/Thesis.pdf" "Thesis" 1692014916
+["pdflatex"] 1692112107 "/Users/rafaelpastor/Library/CloudStorage/OneDrive-UniversidadedeLisboa/MEFT/spin0-np-constants/MScThesis/Thesis.tex" "Output/Thesis.pdf" "Thesis" 1692112110
   "/Users/rafaelpastor/Library/CloudStorage/OneDrive-UniversidadedeLisboa/MEFT/spin0-np-constants/MScThesis/Thesis.tex" 1690888210 11567 93e41a26f189b904d2b7f2b45c8bf417 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
@@ -199,18 +199,18 @@
   "Modules/FrontCover.tex" 1691413784 2035 485aae64b3b5112351807b91db588cd4 ""
   "Modules/Preamble.tex" 1692010680 23827 c1f7a44d8e71141599cff49e291757c5 ""
   "Modules/Resumo.tex" 1691412895 2493 8e9d582958b14c24e628ec254386cb8f ""
-  "Output/Thesis.aux" 1692014377 19983 5bd15d4d0cfa5a13ba167f00758f3970 "pdflatex"
-  "Output/Thesis.bbl" 1692014916 9875 111b6e77706b84751b60f8372b4e4b86 "bibtex Output/Thesis"
-  "Output/Thesis.lof" 1692014377 1012 f9fce31d5c140501b99907bd6941bb08 "pdflatex"
-  "Output/Thesis.out" 1692014377 4429 cafeb2a7dcefc47054a610e5acb81416 "pdflatex"
-  "Output/Thesis.toc" 1692014377 1909 8ad0c6fbb5a9b8734dd4885c2682da7c "pdflatex"
+  "Output/Thesis.aux" 1692112109 20193 78cd8c7a97ea006bb8ff718483053b3f "pdflatex"
+  "Output/Thesis.bbl" 1692111993 10009 1179b2ffabe5fa08790145f8ac7134b3 "bibtex Output/Thesis"
+  "Output/Thesis.lof" 1692112109 1012 9c29a725e10bfb4508e53a0c2ff6963e "pdflatex"
+  "Output/Thesis.out" 1692112109 4429 cafeb2a7dcefc47054a610e5acb81416 "pdflatex"
+  "Output/Thesis.toc" 1692112109 1909 67c3445333ad89909c94baa2456741c6 "pdflatex"
   "Penrose diagram.pdf" 1673710865 31351 388d662e25a78698c1e089f347b0acd4 ""
-  "Sections/1_Introduction.tex" 1692014370 120950 c1dc3b05aee52f815124bb256185e08f ""
+  "Sections/1_Introduction.tex" 1692112106 121815 fdf79c4566b95ffeefead28e6e510153 ""
   "Thesis.tex" 1690888210 11567 93e41a26f189b904d2b7f2b45c8bf417 ""
   "friedrich cylinder.pdf" 1672409247 18449 fc7be99ae9d2c0923bab0e38e804f32f ""
   "glossary.sty" 1677235004 37079 0dca9b8673b1bcdb5bd8a3309d591fee ""
   "penrose constants.png" 1690277069 197440 9903b05a1330f5f09054bf26fbab544c ""
-  "spatial infinity.pdf" 1692013666 32655 4127ab18e46c6c1bb68cb22c1a174d68 ""
+  "spatial infinity.jpeg" 1692109489 182654 ed921db52e7be93cd12176236798b2d6 ""
   (generated)
   "Output/Thesis.aux"
   "Output/Thesis.glo"

@@ -5,7 +5,6 @@ The style file: abbrvunsrtnat.bst
 Database file #1: Thesis.bib
 Warning--string name "jmp" is undefined
 --line 899 of file Thesis.bib
-Warning--I didn't find a database entry for "Ste91"
 Too many commas in name 1 of "Bondi, H., Burg, M. G. J. v. d., Metzner, A. W. K." for entry BonBurMet62
 while executing---line 2465 of file abbrvunsrtnat.bst
 Too many commas in name 1 of "Bondi, H., Burg, M. G. J. v. d., Metzner, A. W. K." for entry BonBurMet62
@@ -27,45 +26,45 @@ while executing---line 2629 of file abbrvunsrtnat.bst
 Warning--empty journal in FriKan00
 Warning--empty journal in DuaFenGasHil22
 Warning--empty journal in Keh21_a
-You've used 36 entries,
+You've used 37 entries,
             2481 wiz_defined-function locations,
-            826 strings with 10112 characters,
-and the built_in function-call counts, 12684 in all, are:
-= -- 1141
-> -- 476
-< -- 30
-+ -- 206
-- -- 134
-* -- 945
-:= -- 2032
-add.period$ -- 140
-call.type$ -- 36
-change.case$ -- 68
-chr.to.int$ -- 36
-cite$ -- 39
-duplicate$ -- 663
-empty$ -- 1235
-format.name$ -- 194
-if$ -- 2708
+            829 strings with 10153 characters,
+and the built_in function-call counts, 12942 in all, are:
+= -- 1161
+> -- 483
+< -- 31
++ -- 210
+- -- 136
+* -- 956
+:= -- 2074
+add.period$ -- 143
+call.type$ -- 37
+change.case$ -- 69
+chr.to.int$ -- 37
+cite$ -- 40
+duplicate$ -- 682
+empty$ -- 1265
+format.name$ -- 197
+if$ -- 2764
 int.to.chr$ -- 1
-int.to.str$ -- 37
-missing$ -- 37
-newline$ -- 220
-num.names$ -- 108
-pop$ -- 260
+int.to.str$ -- 38
+missing$ -- 39
+newline$ -- 225
+num.names$ -- 111
+pop$ -- 272
 preamble$ -- 1
-purify$ -- 36
+purify$ -- 37
 quote$ -- 0
-skip$ -- 395
+skip$ -- 405
 stack$ -- 0
-substring$ -- 547
-swap$ -- 82
+substring$ -- 549
+swap$ -- 84
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 240
+type$ -- 244
 warning$ -- 3
-while$ -- 102
+while$ -- 104
 width$ -- 0
-write$ -- 531
+write$ -- 543
 (There were 9 error messages)

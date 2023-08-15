@@ -47,7 +47,7 @@ the approach of R. Penrose.\\
 \noindent
 The application of conformal field equations presents a robust strategy for analyzing and building asymptotically simple spacetimes. In a broader context, these equations facilitate the conversion of problems associated with unbounded regions in the physical spacetime $(\tilde{\mathcal{M}}, \boldsymbol{\tilde{g}})$ into challenges confined within finite domains of the unphysical spacetime $({\mathcal{M}},\boldsymbol{g})$. Whose definition can be regarded as the following: \\
 \begin{mydefinition}\label{def:asymptoticallysimple}
-  \textit{(asymptotically simple spacetimes):} A spacetime $(\tilde{\mathcal{M}}, \boldsymbol{\tilde{g}})$ is considered to be asymptotically simple if there exists a smooth, oriented, time-oriented, and causal spacetime  $({\mathcal{M}},\boldsymbol{g})$ along with a smooth function $\Xi$ defined on $\mathcal{M}$ in such a way that:
+  \textit{(asymptotically simple spacetimes):} A spacetime $(\tilde{\mathcal{M}}, \boldsymbol{\tilde{g}})$ is considered to be asymptotically simple if there exists a smooth, oriented, time-oriented, and causal spacetime  $({\mathcal{M}},\boldsymbol{g})$ along with a smooth function $\Xi$ defined on $\mathcal{M}$ in such a way that \cite{Ste91}:
   \begin{enumerate}
     \item[(i)] $\mathcal{M}$ is a manifold with boundary $\mathcal{I} \equiv \partial \mathcal{M}$;
     \item[(ii)] $\Xi > 0$ on $\mathcal{M} \setminus \mathcal{I}$, and $\Xi = 0$, $\boldsymbol{d}\Xi \neq 0$ on $\mathcal{I}$;
@@ -136,7 +136,7 @@ The visual representation of this is a Penrose Diagram, depicted in Fig.1
 In this representation we can see that the spatial infinity, $i^0$, is mapped to the origin and $\mathscr{I}^{\pm}$ and to the future/past null cone through the origin.\\
 
 \begin{figure}[h]
-	\centering \includegraphics[width =0.3\textwidth]{spatial infinity.pdf}
+	\centering \includegraphics[width =0.3\textwidth]{spatial infinity.jpeg}
     \caption{Representation of spatial infinity, $i^0$, in the Penrose Diagram.\\ Taken from \cite{Ste91}.}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -194,18 +194,26 @@ From \eqref{eq:Maxtensor} we can see that $\Phi_{0}$, $\Phi_{1}$ and $\Phi_{2}$ 
 \end{align}
 Where $\dh$ is given by $$\dh \eta = -(\sin \theta)^{s}\Biggl(\frac{\partial}{\partial \theta} + \frac{i}{\sin \theta}\frac{\partial}{\partial \phi}\Biggr)\{(\sin \theta)^{-s}\eta\},$$ where $s$ represents the spin weight.
 \\
+Using this notation, it becomes easy to establish a set of orthogonal functions that achieve completeness on the sphere and also function as eigenfunctions of the operator $\dh \overline{\dh}$. The conventional spherical harmonics are denoted as $Y_{\ell m}(\theta, \phi)$. The spin-weighted spherical harmonics can be defined in the following manner \cite{Ste91}:
+\begin{equation}\label{eq:sphericalharmonics}
+  { }_0 Y_{l m}(\theta, \phi)=Y_{l m}(\theta, \phi),
+\end{equation}
+\begin{equation}\label{eq:spinweightSH}
+  { }_s Y_{l m}(\theta, \phi)= \begin{cases}(-1)^s R^s\left[2^s \frac{(l-s) !}{(l+s) !}\right]^{1 / 2} \dh^s Y_{l m}(\theta, \phi) & 0 \leq s \leq l \\ R^{-s}\left[2^{-s} \frac{(l+s) !}{(l-s) !}\right]^{1 / 2} \overline{\dh}^{-s} Y_{l m}(\theta, \phi) & 0 \geq s \geq-l \\ 0 & \text { otherwise. }\end{cases}
+\end{equation}
+\\
 Our focus lies on solutions that fulfill a suitable asymptotic boundary condition. This condition allows for all sufficiently smooth retarded fields and includes fields with incoming waves that decay appropriately. We employ the integer $N$ to gauge the degree of smoothness needed, and our requirement is as follows:
 \begin{equation}\label{eq:MaxwellAnsatz}
-  \phi_{0}=\sum_{n=0}^{N}\frac{\phi_{0}^{n}(u,\theta,\phi)}{r^{3+n}}+\o(r^{-3-N}),
+  \phi_{0}=\sum_{n=0}^{N}\frac{\phi_{0}^{n}(u,\theta,\phi)}{r^{3+n}}+o(r^{-3-N}),
 \end{equation}
 we must assume that the derivatives $r$, $\theta$, $\phi$ and $u$ of \eqref{eq:MaxwellAnsatz} hold. Then, \eqref{eq:MaxwellAnsatz} also controls the behavior of $\Phi_{1}$ and $\Phi_{2}$.\\
 Once equations (1.12) and (1.13) are integrated, they yield
 \begin{equation}\label{eq:Phi1}
-  \Phi_{1} = \frac{\Phi_{1}^{0}}{r^2} + \sum_{n=0}^{N}\frac{\overline{\dh} \phi_{0}^{n}}{(n+1)r^{3+n}}+\o(r^{-3-N}),
+  \Phi_{1} = \frac{\Phi_{1}^{0}}{r^2} + \sum_{n=0}^{N}\frac{\overline{\dh} \phi_{0}^{n}}{(n+1)r^{3+n}}+o(r^{-3-N}),
 \end{equation}
 
 \begin{equation}\label{eq:Phi2}
-  \Phi_{2} = \frac{\Phi_{2}^{0}}{r} + \frac{1}{r^2}\overline{\dh} \Phi_{1}^{0} + \sum_{n=0}^{N}\frac{\overline{\dh}^2 \phi_{0}^{n}}{(n+1)(n+2)r^{3+n}}+\o(r^{-3-N}).
+  \Phi_{2} = \frac{\Phi_{2}^{0}}{r} + \frac{1}{r^2}\overline{\dh} \Phi_{1}^{0} + \sum_{n=0}^{N}\frac{\overline{\dh}^2 \phi_{0}^{n}}{(n+1)(n+2)r^{3+n}}+o(r^{-3-N}).
 \end{equation}
 Substituting into equations (1.14) and (1.15), we obtain the following
 \begin{equation}\label{eq:Phi0}
