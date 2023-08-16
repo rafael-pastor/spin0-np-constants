@@ -428,16 +428,58 @@ t=\frac{\tilde{t}}{\tilde{\rho}^2-\tilde{t}^2}, \quad \rho=\frac{\tilde{\rho}}{\
 \end{equation}
 By expressing the physical Minkowski metric $\tilde{\eta}$ in terms of the unphysical spherical polar coordinates $(t, \rho, \vartheta^A)$, one can easily recognize the \textit{inversion} conformal representation of the Minkowski spacetime $(\mathbb{R}^4, \eta)$, where:
 \begin{equation}\label{eq:metricRelation}
-  \boldsymbol{\eta} = \Xi^2 \boldsymbol{\tilde{\eta}},
+  \boldsymbol{\eta} = \Xi^2 \boldsymbol{\tilde{\eta}}.
+\end{equation}
+Substituting $t$ and $\rho$ into $\Xi$ yields,
+\begin{equation}\label{eq:Xi}
+  \Xi= \rho^2 - t^2 = \left(\frac{\tilde{\rho}}{\tilde{\rho}^2-\tilde{t}^2}\right)^2 - \left(\frac{\tilde{t}}{\tilde{\rho}^2-\tilde{t}^2}\right)^2 = \frac{\tilde{\rho}^2 - \tilde{t}^2}{(\tilde{\rho}^2-\tilde{t}^2)^2} = \frac{1}{\tilde{\rho}^2 - \tilde{t}^2},
+\end{equation}
+substituting $\Xi$ into \eqref{eq:metricRelation} yields:
+\begin{equation}\label{eq:Unphysicalspacetimemetric}
+  \boldsymbol{\eta} = \left(\frac{1}{\tilde{\rho}^2 - \tilde{t}^2}\right)^2 (-\mathbf{d} \tilde{t} \otimes \mathbf{d} \tilde{t}+\mathbf{d} \tilde{\rho} \otimes \mathbf{d} \tilde{\rho}+\tilde{\rho}^2 \boldsymbol{\sigma}) = \frac{1}{(\tilde{\rho}^2 - \tilde{t}^2)^2} (-\mathbf{d} \tilde{t} \otimes \mathbf{d} \tilde{t}+\mathbf{d} \tilde{\rho} \otimes \mathbf{d} \tilde{\rho}+\tilde{\rho}^2 \boldsymbol{\sigma})
 \end{equation}
 with
-\begin{equation}\label{eq:Unphysicalspacetimemetric}
-  \boldsymbol{\eta}=-\mathbf{d} t \otimes \mathbf{d} t+\mathbf{d} \rho \otimes \mathbf{d} \rho+\rho^2 \boldsymbol{\sigma}, \quad \Xi=\rho^2-t^2
+\begin{equation}\label{eq:Unphysicalspacetimemetric1}
+  \boldsymbol{\eta}=-\mathbf{d} t \otimes \mathbf{d} t+\mathbf{d} \rho \otimes \mathbf{d} \rho+\rho^2 \boldsymbol{\sigma},
 \end{equation}
+plugging \eqref{eq:Unphysicalspacetimemetric1} into \eqref{eq:Unphysicalspacetimemetric} yields:
+\begin{align}\label{eq:Unphysicalspacetimemetric2}
+  & \boldsymbol{\eta} = -\mathbf{d} \left(\frac{\tilde{t}}{\tilde{\rho}^2-\tilde{t}^2}\right) \otimes \mathbf{d} \left(\frac{\tilde{t}}{\tilde{\rho}^2-\tilde{t}^2}\right) + \mathbf{d} \left(\frac{\tilde{\rho}}{\tilde{\rho}^2-\tilde{t}^2}\right) \otimes \mathbf{d} \left(\frac{\tilde{\rho}}{\tilde{\rho}^2-\tilde{t}^2}\right) + \left(\frac{\tilde{\rho}}{\tilde{\rho}^2-\tilde{t}^2}\right)^2 \boldsymbol{\sigma} \nonumber \\
+  & = -\frac{\mathbf{d} \tilde{t} \otimes \mathbf{d} \tilde{t}}{(\tilde{\rho}^2-\tilde{t}^2)^2}+\frac{\mathbf{d} \tilde{\rho} \otimes \mathbf{d} \tilde{\rho}}{(\tilde{\rho}^2-\tilde{t}^2)^2}+\frac{\tilde{\rho}^2}{(\tilde{\rho}^2-\tilde{t}^2)^2} \boldsymbol{\sigma} \nonumber \\
+  & = -\frac{1}{\tilde{\rho}^2-\tilde{t}^2} (\mathbf{d} \tilde{t} \otimes \mathbf{d} \tilde{t}-\mathbf{d} \tilde{\rho} \otimes \mathbf{d} \tilde{\rho}+\tilde{\rho}^2 \boldsymbol{\sigma}).
+\end{align}
+By comparing the result with the expression \eqref{eq:metricRelation}, we see that they are equal:
+\begin{equation}\label{eq:UnphysicalMetricFinal}
+  \boldsymbol{\eta} = -\frac{1}{\tilde{\rho}^2-\tilde{t}^2} (\mathbf{d} \tilde{t} \otimes \mathbf{d} \tilde{t}-\mathbf{d} \tilde{\rho} \otimes \mathbf{d} \tilde{\rho}+\tilde{\rho}^2 \boldsymbol{\sigma}) = \boldsymbol{\tilde{\eta}}.
+\end{equation}
+Hence, the equation \eqref{eq:metricRelation} is equivalent to the given expression for \(\boldsymbol{\eta}\) with the provided expressions for \(t\) and \(\rho\).
 In this conformal representation, where $t \in (-\infty, \infty)$, $\rho \in [0, \infty)$, the spatial infinity and the origin undergo an interchange. This implies that $i^0$ is represented by the point $(t = 0, \rho = 0)$ in $(\mathbb{R}^4, \eta)$. Introducing the coordinates $(\tau, \rho, \vartheta^A)$, where $t = \rho \tau$, and considering the conformal metric $\boldsymbol{g} = \rho^{-2} \boldsymbol{\eta}$, we obtain:
-\begin{equation}\label{eq:unphysicalmetricMink}
-\boldsymbol{g}=-\mathbf{d} \tau \otimes \mathbf{d} \tau+\frac{\left(1-\tau^2\right)}{\rho^2} \mathbf{d} \rho \otimes \mathbf{d} \rho-\frac{\tau}{\rho} \mathbf{d} \rho \otimes \mathbf{d} \tau-\frac{\tau}{\rho} \mathbf{d} \tau \otimes \mathbf{d} \rho+\boldsymbol{\sigma}
+\begin{align}\label{eq:unphysicalmetricMink}
+  & \boldsymbol{g} = \rho^{-2} \boldsymbol{\eta} = \rho^{-2}(-\rho^{2}\mathbf{d} \tau \otimes \mathbf{d} \tau + \mathbf{d} \rho \otimes \mathbf{d} \rho + \rho^2 \boldsymbol{\sigma}) \equiv \nonumber \\
+  & \boldsymbol{g} = -\mathbf{d} \tau \otimes \mathbf{d} \tau + \frac{1}{\rho^2} \mathbf{d} \rho \otimes \mathbf{d} \rho + \boldsymbol{\sigma}.
+\end{align}
+Expressing $\frac{1}{\rho^2} \mathbf{d} \rho \otimes \mathbf{d} \rho$ in terms of $\tau$ and $\rho$:
+\begin{equation}\label{eq:drhotimesdrho}
+  \frac{1}{\rho^2} \mathbf{d} \rho \otimes \mathbf{d} \rho = \frac{\left(1-\tau^2\right)}{\rho^2} \mathbf{d} \rho \otimes \mathbf{d} \rho .
 \end{equation}
+Combining terms with $\frac{1}{\rho^2} \mathbf{d} \rho \otimes \mathbf{d} \rho$ and $\frac{\tau}{\rho} \mathbf{d} \rho \otimes \mathbf{d} \tau$:
+\begin{equation}\label{eq:drhotimesdtau}
+  \frac{1}{\rho^2} \mathbf{d} \rho \otimes \mathbf{d} \rho + \frac{\tau}{\rho} \mathbf{d} \rho \otimes \mathbf{d} \tau = \frac{1}{\rho^2} \left(1 - \tau^2 - \tau\right) \mathbf{d} \rho \otimes \mathbf{d} \rho .
+\end{equation}
+Expressing $\frac{\tau}{\rho} \mathbf{d} \tau \otimes \mathbf{d} \rho$ in terms of $\rho$ and $\tau$:
+\begin{equation}\label{eq:dtautimesdrho}
+  \frac{\tau}{\rho} \mathbf{d} \tau \otimes \mathbf{d} \rho = -\frac{\tau}{\rho} \mathbf{d} \rho \otimes \mathbf{d} \tau .
+\end{equation}
+Combine the expressions obtained in \eqref{eq:drhotimesdtau} and \eqref{eq:dtautimesdrho} yelds:
+\begin{equation}\label{eq:drhotimesdrho1}
+  \frac{1}{\rho^2} \left(1 - \tau^2 - \tau\right) \mathbf{d} \rho \otimes \mathbf{d} \rho -\frac{\tau}{\rho} \mathbf{d} \rho \otimes \mathbf{d} \tau = -\frac{\tau}{\rho} \left(\mathbf{d} \rho \otimes \mathbf{d} \tau + \mathbf{d} \tau \otimes \mathbf{d} \rho\right).
+\end{equation}
+Substitute the expressions obtained in \eqref{eq:drhotimesdrho} and \eqref{eq:drhotimesdrho1} into \eqref{eq:unphysicalmetricMink} gives,
+\begin{align}\label{eq:unphysicalmetricMinkFinal}
+  & \boldsymbol{g} = -\mathbf{d} \tau \otimes \mathbf{d} \tau + \frac{1}{\rho^2} \left(1 - \tau^2 - \tau\right) \mathbf{d} \rho \otimes \mathbf{d} \rho -\frac{\tau}{\rho} \left(\mathbf{d} \rho \otimes \mathbf{d} \tau + \mathbf{d} \tau \otimes \mathbf{d} \rho\right) + \boldsymbol{\sigma} \nonumber \\
+  & = -\mathbf{d} \tau \otimes \mathbf{d} \tau + \frac{1 - \tau^2}{\rho^2} \mathbf{d} \rho \otimes \mathbf{d} \rho -\frac{\tau}{\rho} \left(\mathbf{d} \rho \otimes \mathbf{d} \tau + \mathbf{d} \rho \otimes \mathbf{d} \tau\right) + \boldsymbol{\sigma} \equiv \nonumber \\
+  & \boldsymbol{g}=-\mathbf{d} \tau \otimes \mathbf{d} \tau+\frac{\left(1-\tau^2\right)}{\rho^2} \mathbf{d} \rho \otimes \mathbf{d} \rho-\frac{\tau}{\rho} \mathbf{d} \rho \otimes \mathbf{d} \tau-\frac{\tau}{\rho} \mathbf{d} \tau \otimes \mathbf{d} \rho+\boldsymbol{\sigma}.
+\end{align}
 In this context the \textit{unphyical metric $\boldsymbol{g}$} is related to the physical metric through the following relationship:
 \begin{equation}\label{eq:gandtheta}
 \boldsymbol{g}=\Theta^2 \tilde{\boldsymbol{\eta}}, \quad \text { where } \quad \Theta:=\frac{\Xi}{\rho}=\rho\left(1-\tau^2\right).
@@ -540,7 +582,7 @@ in this equation, $\tilde{\phi}_{A B}$ represents a symmetric spinor known as th
 In \cite{NewPen68}, the NP constants were originally defined within the linear framework for spin-1 and spin-2 fields, as well as within the nonlinear setting for the Einstein field equations formulated in the Newman-Penrose formalism.
 While the spin-2 field is often employed in curvature-oriented formulations, wave equations are better suited for metric formulations. In the case of linearized gravity, for instance, the standard formulation, as described in [\cite{Mag07a}, \cite{Wal84a}], typically follows an approach that resembles the hyperbolic reduction of the Einstein field equations in harmonic gauge. In this formulation, the final expression takes the form of a wave equation for the metric components. \\
 
-Scalar fields that satisfy these wave equations can be referred to as spin-0 fields. In this section, we will express the physical wave equation in flat spacetime as a wave equation for an unphysical field propagating in the $i^0$ cylinder background. A method to solve the resulting equation, following a similar approach to that used for spin-1 and spin-2 fields in [\cite{Val07}, \cite{GasKro16d}], has been outlined in [\cite{MinMacKro22}], \cite{GasPin23}.
+Scalar fields that satisfy these wave equations can be referred to as spin-0 fields. In this section, we will express the physical wave equation in flat spacetime as a wave equation for an unphysical field propagating in the $i^0$ cylinder background. A method to solve the resulting equation, following a similar approach to that used for spin-1 and spin-2 fields in \cite{Val07}, \cite{GasKro16d}, has been outlined in \cite{MinMacKro22}, \cite{GasPin23}.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Spin-0 fields close to $i^0$ and $\mathscr{I}$}
 \label{sec:Spin0FieldsCloseToI0AndI}
@@ -817,8 +859,8 @@ gives
 \end{remark}
 Thus, based on the insights provided by Remark \ref{rem:l0} and assuming the regularity condition is fulfilled, we can conclude that:
 \begin{align}
-  &\mathcal{N}^{+}_{0,0}= \sum_{p=0}^{\infty} \frac{1}{p!}\rho^{p-1}_{\star}Q^{0}_{p;0,0}|_{\mathscr{I}^{+}} = \sum_{p=0}^{\infty} \frac{1}{p !}(1+\tau)^{-2} \rho^{p-1} Q_{p; 0,0}^{0}(\tau) = \sum_{p=0}^{\infty} \frac{1}{p !} 2^{-2} \rho^{p-1} Q_{p; 0,0}^{0}(1) \nonumber \\
-  & \left[\frac{2^{-2}}{0 !} \rho^{-1} A_{0;0,0} +\frac{2^{-2}}{\rho !} \rho^{0} A_{1;0,0} +\sum_{p=2}^{\infty} \frac{2^{-2}}{p !} \rho^{p-1} A_{p;0,0}\right] = -A_{100}.
+  &\mathcal{N}^{+}_{0,0}= \sum_{p=0}^{\infty} \frac{1}{p!}\rho^{p-1}_{\star}Q^{0}_{p;0,0}|_{\mathscr{I}^{+}} = \lim_{\substack{\rho \to \rho_{\star} \\ \tau \to 1}} \sum_{p=0}^{\infty} \frac{1}{p !}(1+\tau)^{-2} \rho_{\star}^{p-1} Q_{p; 0,0}^{0}(\tau) = \lim_{\substack{\rho \to \rho_{\star} \\ \tau \to 1}}\sum_{p=0}^{\infty} \frac{1}{p !} 2^{-2} \rho_{\star}^{p-1} Q_{p; 0,0}^{0}(\tau) = \nonumber \\
+  & = \lim_{\substack{\rho \to 0 \\ \tau \to 1}}\left[\frac{2^{-2}}{0 !} \rho^{-1} A_{0;0,0} +\frac{2^{-2}}{\rho !} \rho^{0} A_{1;0,0} +\sum_{p=2}^{\infty} \frac{2^{-2}}{p !} \rho^{p-1} A_{p;0,0}(1-\tau)^{p-1}\right] = -A_{100}.
 \end{align}
 
 It is expected that the regularity condition must be imposed to ensure well-defined classical NP constants, as a similar observation holds for the spin-1 and spin-2 cases in \cite{GasVal20} (see also \cite{Val98, Val99a}). Additionally, Remark \ref{rem:l0} demonstrates that only the term with $p=1$ contributes to the calculation. This aligns with the "constancy" of the NP constants, indicating that their value does not depend on the chosen cut \cite{NewPen68}. In other words, if we assume that the NP constants are well-defined, the specific form of the expressions in Remark \ref{rem:l0} is not necessary to determine the contribution of the initial data parameters from Lemma \ref{Lemma:Sol_Jacobi_and_Logs} to $\mathcal{N}^{+}_{0,0}$. As long as only the parameter $A_{p;\ell,m}$ (and not $B_{p;\ell,m}$) appears in Equation \ref{rem:l0:eq2}, the value of $\mathcal{N}^{+}_{0,0}$ can be determined. 
@@ -863,13 +905,13 @@ Similar to the previous case, we have the following:
 By observing Remark \ref{rem:l1}, it becomes apparent that only the term with $p=2$ in equation \eqref{NP1_precomputation} contributes to the overall sum. \\
 Direct evaluation leads to:
 \begin{align}
-  \mathcal{N}^{+}_{1,m}=3A_{21m}.
+  \mathcal{N}^{+}_{1,m} = \lim _{\substack{\rho \rightarrow 0 \\ \tau \rightarrow 1}}2^{-4} \frac{1}{2 !} Q^{1}_{2, 1, m}\cdot(\tau) = \lim _{\substack{\rho \rightarrow 0 \\ \tau \rightarrow 1}}2^{-4}\left(2^{2-2}(2-1)2(2+1)A_{2,1,m}(1-\tau)^{2-2}\right) = 3A_{21m}.
 \end{align}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{The $i^0$ cylinder logarithmic NP constants}
 \label{sec:LogarithmicNP_main}
 
-In section \ref{sec:classicalNP}, it was demonstrated that if the regularity condition stated in Remark \ref{Remark:logfreeRemark} is not satisfied, the classical NP constants are not well-defined. However, it has been found that analogous constants arise for polyhomogeneous formal expansions of the gravitational field (Weyl scalars) using the Newman-Penrose formalism [\cite{Val98}, \cite{Val99a}]. This leads to the natural question of whether there exists a choice of $f(\tilde{\rho})$ that allows the calculation of the associated modified NP constants (for the spin-0 field) without imposing the regularity condition. In this section, it will be shown that the constants $D_{p;\ell,m}$ that define the regularity condition precisely correspond to the $f(\tilde{\rho}) = \tilde{\rho}$-modified NP constants. \\
+In section \ref{sec:classicalNP}, it was demonstrated that if the regularity condition stated in Remark \ref{Remark:logfreeRemark} is not satisfied, the classical NP constants are not well-defined. However, it has been found that analogous constants arise for polyhomogeneous formal expansions of the gravitational field (Weyl scalars) using the Newman-Penrose formalism \cite{Val98}, \cite{Val99a}. This leads to the natural question of whether there exists a choice of $f(\tilde{\rho})$ that allows the calculation of the associated modified NP constants (for the spin-0 field) without imposing the regularity condition. In this section, it will be shown that the constants $D_{p;\ell,m}$ that define the regularity condition precisely correspond to the $f(\tilde{\rho}) = \tilde{\rho}$-modified NP constants. \\
 In this section, we will compute the $\ell=0$ and $\ell=1$ modified NP constants ${}^{f}\mathcal{N}^{+}_{\ell,m}$ for the spin-0 field with $f(\tilde{\rho})=\tilde{\rho}$. By employing Proposition \ref{Prop:NPtoFgauge} to express the derivatives in terms of the $F$-coordinates, we obtain:
 \begin{align}
   \tilde{\rho}L (\phi_{\ell m})= \varkappa^{-1}\boldsymbol{e} (\phi_{\ell m}) = \frac{(1-\tau)}{(1+\tau)}\sum_{p=0}^{\infty}[(1+\tau)\partial_{\tau}-\rho\partial_{\rho}](a_{p;\ell,m}(\tau)\rho^p) = \frac{(1-\tau)}{(1+\tau)}\sum_{p=0}^{\infty}Q^{0}_{p;\ell,m}(\tau)\rho^p.
@@ -897,9 +939,11 @@ in the last equality, we have used equations \eqref{eq:defQ1} and \eqref{eq:DefQ
 Using Remark \ref{rem:l1} and evaluating at the critical set $I^{+}$, we obtain:
 \begin{align}
   & \mathcal{}^{\tilde{\rho}}\mathcal{N}^{+}_{1,m} = \lim_{\substack{\rho \to \rho_{\star} \\ \tau \to 1}} \; \varkappa^{-1}\boldsymbol{e} (\boldsymbol{e}^{+}) \phi_{1m} = \nonumber \\
-  & = \varkappa^{-1}\biggl\{\ddot{a}_{1;1,m}(\tau)+\frac{1}{2}\rho \ddot{a}_{2;1,m}(\tau) - (1+\tau)^{-1}\dot{a}_{1;1,m}(\tau)+(1+\tau)^{-1}\rho \dot{a}_{2;1,m}(\tau)-\frac{1}{2}\rho(1+\tau)^{-1}\dot{a}_{2;1,m}(\tau)-(1+\tau)^{-2}\rho a_{2;1,m}(\tau)\biggr\} + O(\rho^{3}) = \nonumber \\
-  & = \varkappa^{-1} \biggl\{\frac{1}{16}(\tau-1)^{-1}(1+\tau)^{-2}\bigl[16D_{11m}+7A_{21m}\rho - B_{21m}\rho + 16D_{11m}\tau - 16A_{21m}\rho\tau - 8B_{21m}\rho\tau - 6A_{21m}\rho\tau^{2} - 6B_{21m}\rho\tau^{2} + \nonumber \\
-  & + 8A_{21m}\rho\tau^{3} + 8B_{21m}\rho\tau^{3} + 7A_{21m}\rho\tau^{4} + 7B_{21m}\rho\tau^{4} - 32C_{11m}(\tau^{2}-1) - 8D_{11m}(\tau^{2}-1)\ln\Biggl(\frac{1+\tau}{1-\tau}\Biggr)\bigr]\biggr\} = - \frac{1}{4}D_{11m}.
+  & = \lim_{\substack{\rho \to \rho_{\star} \\ \tau \to 1}} \varkappa^{-1}\biggl\{\ddot{a}_{1;1,m}(\tau)+\frac{1}{2}\rho \ddot{a}_{2;1,m}(\tau) - (1+\tau)^{-1}\dot{a}_{1;1,m}(\tau)+(1+\tau)^{-1}\rho \dot{a}_{2;1,m}(\tau)- \nonumber \\
+  & - \frac{1}{2}\rho(1+\tau)^{-1}\dot{a}_{2;1,m}(\tau)-(1+\tau)^{-2}\rho a_{2;1,m}(\tau)\biggr\} + O(\rho^{3}) = \nonumber \\
+  & = \lim_{\substack{\rho \to \rho_{\star} \\ \tau \to 1}} \frac{(1-\tau)}{(1+\tau)} \biggl\{\frac{1}{16}(\tau-1)^{-1}(1+\tau)^{-2}\bigl[16D_{11m}+7A_{21m}\rho - B_{21m}\rho + 16D_{11m}\tau - 16A_{21m}\rho\tau - 8B_{21m}\rho\tau - \nonumber \\
+  & - 6A_{21m}\rho\tau^{2} - 6B_{21m}\rho\tau^{2} + 8A_{21m}\rho\tau^{3} + 8B_{21m}\rho\tau^{3} + 7A_{21m}\rho\tau^{4} + 7B_{21m}\rho\tau^{4} - 32C_{11m}(\tau^{2}-1) - \nonumber \\
+  & - 8D_{11m}(\tau^{2}-1)\ln\Biggl(\frac{1+\tau}{1-\tau}\Biggr)\bigr]\biggr\} + O(\rho^{3}) = - \frac{1}{4}D_{11m}.
 \end{align}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1159,11 +1203,8 @@ This subsection aims to consolidate the outcomes of the induction arguments from
 \begin{proposition}
   Consider a spin-0 field $\tilde{\phi}$ propagating in Minkowski spacetime, characterized by analytic initial data close to $i^0$ as given by equation \eqref{eq:ID_field}. Assuming that the regularity condition is satisfied, i.e., $D_{p;p,m}=0$, and that the classical NP constants at $\mathscr{I}^+$ are well-defined, then we have the following relationship:
    \begin{align}
-     \mathcal{N}^{+}_{\ell,m}=q^{+}(\ell) \;A_{\ell+1,\ell,m},
+     \mathcal{N}^{+}_{\ell,m}=q^{+}(\ell) \;A_{\ell+1,\ell,m}.
    \end{align}
-   Upon further examination, we find that the expression simplifies to:
-
-   \[ q^{+}(\ell) = \frac{{\mathcal{N}^{+}_{\ell, m}}}{{A_{\ell+1, \ell, m}}}, \]
    Consequently, the $\mathscr{I}^+$ classical NP constants are solely dependent on the initial data parameter $A_{\ell+1, \ell, m}$, with $q^{+}(\ell)$ representing a numerical factor.
 \end{proposition}
 

@@ -11,14 +11,14 @@
 \contentsline {section}{\numberline {1.5}The Newman-Penrose gauge}{14}{section.1.5}%
 \contentsline {chapter}{\numberline {2}Cylinder at $i^0$}{16}{chapter.2}%
 \contentsline {section}{\numberline {2.1}The $i^0$ cylinder representation in Minkowski spacetime}{16}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Linear model equations}{19}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Spin-0 fields close to $i^0$ and $\mathscr {I}$}{20}{section.2.3}%
-\contentsline {chapter}{\numberline {3}The NP-constants for the spin-0 fields close to $i^0$ \& $\mathscr {I}$}{23}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Conservation Laws}{23}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Definition of NP constants}{26}{section.3.2}%
-\contentsline {section}{\numberline {3.3}The classical NP constants}{26}{section.3.3}%
-\contentsline {section}{\numberline {3.4}The $i^0$ cylinder logarithmic NP constants}{29}{section.3.4}%
-\contentsline {section}{\numberline {3.5}The general case: Induction proof}{30}{section.3.5}%
-\contentsline {section}{\numberline {3.6}The NP constants in terms of initial data}{36}{section.3.6}%
+\contentsline {section}{\numberline {2.2}Linear model equations}{20}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Spin-0 fields close to $i^0$ and $\mathscr {I}$}{21}{section.2.3}%
+\contentsline {chapter}{\numberline {3}The NP-constants for the spin-0 fields close to $i^0$ \& $\mathscr {I}$}{24}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Conservation Laws}{24}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Definition of NP constants}{27}{section.3.2}%
+\contentsline {section}{\numberline {3.3}The classical NP constants}{27}{section.3.3}%
+\contentsline {section}{\numberline {3.4}The $i^0$ cylinder logarithmic NP constants}{30}{section.3.4}%
+\contentsline {section}{\numberline {3.5}The general case: Induction proof}{31}{section.3.5}%
+\contentsline {section}{\numberline {3.6}The NP constants in terms of initial data}{37}{section.3.6}%
 \contentsline {section}{\numberline {3.7}Conclusions}{39}{section.3.7}%
 \contentsline {chapter}{Bibliography}{41}{section*.7}%

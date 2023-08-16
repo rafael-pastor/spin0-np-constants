@@ -1312,6 +1312,11 @@ INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/fourier-mlit.t
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/fourier-ml.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futr8r.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futri8r.tfm
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/vf/public/fourier/futmiib.vf
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/fourier-mlitb.tfm
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/fourier-mlb.tfm
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futb8r.tfm
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futbi8r.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futri8t.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futr8t.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futr8t.tfm
@@ -1333,11 +1338,6 @@ INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futmi.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/fourier-bb.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/fourier-bb.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futri8t.tfm
-INPUT /usr/local/texlive/2022/texmf-dist/fonts/vf/public/fourier/futmiib.vf
-INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/fourier-mlitb.tfm
-INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/fourier-mlb.tfm
-INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futb8r.tfm
-INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futbi8r.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futb8t.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futb8t.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futb8t.tfm
